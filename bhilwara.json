@@ -1,0 +1,7458 @@
+[
+  {
+    "sub_district_name": "Asind",
+    "areas": [
+      {
+        "area_name": "Asind",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Praton Ka Chaura",
+        "mdds_plcn": "94558"
+      },
+      {
+        "area_name": "Kemariya",
+        "mdds_plcn": "94559"
+      },
+      {
+        "area_name": "Kansya",
+        "mdds_plcn": "94560"
+      },
+      {
+        "area_name": "Bhadsi",
+        "mdds_plcn": "94561"
+      },
+      {
+        "area_name": "Sohanpura",
+        "mdds_plcn": "94562"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "94563"
+      },
+      {
+        "area_name": "Banki Kankar",
+        "mdds_plcn": "94564"
+      },
+      {
+        "area_name": "Samel",
+        "mdds_plcn": "94565"
+      },
+      {
+        "area_name": "Bhojpura",
+        "mdds_plcn": "94566"
+      },
+      {
+        "area_name": "Gowaliya",
+        "mdds_plcn": "94567"
+      },
+      {
+        "area_name": "Khedela",
+        "mdds_plcn": "94568"
+      },
+      {
+        "area_name": "Badnor",
+        "mdds_plcn": "94569"
+      },
+      {
+        "area_name": "Barachh",
+        "mdds_plcn": "94570"
+      },
+      {
+        "area_name": "Bichchhu Dara",
+        "mdds_plcn": "94571"
+      },
+      {
+        "area_name": "Singhpura",
+        "mdds_plcn": "94572"
+      },
+      {
+        "area_name": "Laxmipura @ Kotra",
+        "mdds_plcn": "94573"
+      },
+      {
+        "area_name": "Bhairoo Pura",
+        "mdds_plcn": "94574"
+      },
+      {
+        "area_name": "Sawaipura",
+        "mdds_plcn": "94575"
+      },
+      {
+        "area_name": "Chatarpura",
+        "mdds_plcn": "94576"
+      },
+      {
+        "area_name": "Karnipura",
+        "mdds_plcn": "94577"
+      },
+      {
+        "area_name": "Masinghpura",
+        "mdds_plcn": "94578"
+      },
+      {
+        "area_name": "Gobindpura",
+        "mdds_plcn": "94579"
+      },
+      {
+        "area_name": "Gariya Khera",
+        "mdds_plcn": "94580"
+      },
+      {
+        "area_name": "Pratapura",
+        "mdds_plcn": "94581"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "94582"
+      },
+      {
+        "area_name": "Kachhiya Ka Badiya",
+        "mdds_plcn": "94583"
+      },
+      {
+        "area_name": "Rampura",
+        "mdds_plcn": "94584"
+      },
+      {
+        "area_name": "Jodhgarh",
+        "mdds_plcn": "94585"
+      },
+      {
+        "area_name": "Sapola",
+        "mdds_plcn": "94586"
+      },
+      {
+        "area_name": "Jawanpura",
+        "mdds_plcn": "94587"
+      },
+      {
+        "area_name": "Sawaigarh",
+        "mdds_plcn": "94588"
+      },
+      {
+        "area_name": "Motras",
+        "mdds_plcn": "94589"
+      },
+      {
+        "area_name": "Genpura",
+        "mdds_plcn": "94590"
+      },
+      {
+        "area_name": "Akhegarh",
+        "mdds_plcn": "94591"
+      },
+      {
+        "area_name": "Patan",
+        "mdds_plcn": "94592"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "94593"
+      },
+      {
+        "area_name": "Lachhman Garh",
+        "mdds_plcn": "94594"
+      },
+      {
+        "area_name": "Ojiyana",
+        "mdds_plcn": "94595"
+      },
+      {
+        "area_name": "Karma Ka Badiya",
+        "mdds_plcn": "94596"
+      },
+      {
+        "area_name": "Mothi",
+        "mdds_plcn": "94597"
+      },
+      {
+        "area_name": "Fatehgarh @ Mawla",
+        "mdds_plcn": "94598"
+      },
+      {
+        "area_name": "Mogar",
+        "mdds_plcn": "94599"
+      },
+      {
+        "area_name": "Jaisinghpura",
+        "mdds_plcn": "94600"
+      },
+      {
+        "area_name": "Gayatri Nagar",
+        "mdds_plcn": "94601"
+      },
+      {
+        "area_name": "Kishanpura @ Ratedi",
+        "mdds_plcn": "94602"
+      },
+      {
+        "area_name": "Jhardoo Ka Khera",
+        "mdds_plcn": "94603"
+      },
+      {
+        "area_name": "Gaylon Ka Khera",
+        "mdds_plcn": "94604"
+      },
+      {
+        "area_name": "Kolpura",
+        "mdds_plcn": "94605"
+      },
+      {
+        "area_name": "Balev",
+        "mdds_plcn": "94606"
+      },
+      {
+        "area_name": "Thoomiya",
+        "mdds_plcn": "94607"
+      },
+      {
+        "area_name": "Bala Ka Bariya",
+        "mdds_plcn": "94608"
+      },
+      {
+        "area_name": "Girdharpura",
+        "mdds_plcn": "94609"
+      },
+      {
+        "area_name": "Dhawariya",
+        "mdds_plcn": "94610"
+      },
+      {
+        "area_name": "Chainpura",
+        "mdds_plcn": "94611"
+      },
+      {
+        "area_name": "Bhawanipura",
+        "mdds_plcn": "94612"
+      },
+      {
+        "area_name": "Semla Ka Bariya",
+        "mdds_plcn": "94613"
+      },
+      {
+        "area_name": "Suraj",
+        "mdds_plcn": "94614"
+      },
+      {
+        "area_name": "Surajmal Ji Ka Khera",
+        "mdds_plcn": "94615"
+      },
+      {
+        "area_name": "Garwai",
+        "mdds_plcn": "94616"
+      },
+      {
+        "area_name": "Harmada",
+        "mdds_plcn": "94617"
+      },
+      {
+        "area_name": "Bajunda",
+        "mdds_plcn": "94618"
+      },
+      {
+        "area_name": "Ranawaton Ka Khera",
+        "mdds_plcn": "94619"
+      },
+      {
+        "area_name": "Gorandiya",
+        "mdds_plcn": "94620"
+      },
+      {
+        "area_name": "Chotiyas",
+        "mdds_plcn": "94621"
+      },
+      {
+        "area_name": "Para",
+        "mdds_plcn": "94622"
+      },
+      {
+        "area_name": "Indrapura",
+        "mdds_plcn": "94623"
+      },
+      {
+        "area_name": "Parasoli",
+        "mdds_plcn": "94624"
+      },
+      {
+        "area_name": "Jagpura",
+        "mdds_plcn": "94625"
+      },
+      {
+        "area_name": "Jeewar",
+        "mdds_plcn": "94626"
+      },
+      {
+        "area_name": "Dulhepura",
+        "mdds_plcn": "94627"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "94628"
+      },
+      {
+        "area_name": "Balapura",
+        "mdds_plcn": "94629"
+      },
+      {
+        "area_name": "Akarsada",
+        "mdds_plcn": "94630"
+      },
+      {
+        "area_name": "Gajsinghpura",
+        "mdds_plcn": "94631"
+      },
+      {
+        "area_name": "Sangram Garh",
+        "mdds_plcn": "94632"
+      },
+      {
+        "area_name": "Rughnath Garh",
+        "mdds_plcn": "94633"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "94634"
+      },
+      {
+        "area_name": "Antali",
+        "mdds_plcn": "94635"
+      },
+      {
+        "area_name": "Gulabpura",
+        "mdds_plcn": "94636"
+      },
+      {
+        "area_name": "Bhairoo Khera",
+        "mdds_plcn": "94637"
+      },
+      {
+        "area_name": "Barni",
+        "mdds_plcn": "94638"
+      },
+      {
+        "area_name": "Jainagar",
+        "mdds_plcn": "94639"
+      },
+      {
+        "area_name": "Shambhoo Garh",
+        "mdds_plcn": "94640"
+      },
+      {
+        "area_name": "Sagani",
+        "mdds_plcn": "94641"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "94642"
+      },
+      {
+        "area_name": "Daulatpura Ki Dhani",
+        "mdds_plcn": "94643"
+      },
+      {
+        "area_name": "Barsani",
+        "mdds_plcn": "94644"
+      },
+      {
+        "area_name": "Koli Khera",
+        "mdds_plcn": "94645"
+      },
+      {
+        "area_name": "Ambesar",
+        "mdds_plcn": "94646"
+      },
+      {
+        "area_name": "Malaseri",
+        "mdds_plcn": "94647"
+      },
+      {
+        "area_name": "Mokhampura",
+        "mdds_plcn": "94648"
+      },
+      {
+        "area_name": "Kanwlas",
+        "mdds_plcn": "94649"
+      },
+      {
+        "area_name": "Kanpura",
+        "mdds_plcn": "94650"
+      },
+      {
+        "area_name": "Bathera",
+        "mdds_plcn": "94651"
+      },
+      {
+        "area_name": "Kesarpura",
+        "mdds_plcn": "94652"
+      },
+      {
+        "area_name": "Chitoriya",
+        "mdds_plcn": "94653"
+      },
+      {
+        "area_name": "Kana Ka Khera",
+        "mdds_plcn": "94654"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "94655"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "94656"
+      },
+      {
+        "area_name": "Gangaram Ka Khera",
+        "mdds_plcn": "94657"
+      },
+      {
+        "area_name": "Dola Ka Khera",
+        "mdds_plcn": "94658"
+      },
+      {
+        "area_name": "Hatan",
+        "mdds_plcn": "94659"
+      },
+      {
+        "area_name": "Rayra",
+        "mdds_plcn": "94660"
+      },
+      {
+        "area_name": "Keriya Khera",
+        "mdds_plcn": "94661"
+      },
+      {
+        "area_name": "Sopura",
+        "mdds_plcn": "94662"
+      },
+      {
+        "area_name": "Darawat",
+        "mdds_plcn": "94663"
+      },
+      {
+        "area_name": "Pratappura",
+        "mdds_plcn": "94664"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "94665"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "94666"
+      },
+      {
+        "area_name": "Ajeetpura",
+        "mdds_plcn": "94667"
+      },
+      {
+        "area_name": "Bhairoo Khera",
+        "mdds_plcn": "94668"
+      },
+      {
+        "area_name": "Bara Khera",
+        "mdds_plcn": "94669"
+      },
+      {
+        "area_name": "Bamni",
+        "mdds_plcn": "94670"
+      },
+      {
+        "area_name": "Arjun Pura",
+        "mdds_plcn": "94671"
+      },
+      {
+        "area_name": "Baghmal",
+        "mdds_plcn": "94672"
+      },
+      {
+        "area_name": "Indrapura",
+        "mdds_plcn": "94673"
+      },
+      {
+        "area_name": "Bar Nagar",
+        "mdds_plcn": "94674"
+      },
+      {
+        "area_name": "Borela",
+        "mdds_plcn": "94675"
+      },
+      {
+        "area_name": "Doodiya",
+        "mdds_plcn": "94676"
+      },
+      {
+        "area_name": "Sangani",
+        "mdds_plcn": "94677"
+      },
+      {
+        "area_name": "Mechon Ka Bariya",
+        "mdds_plcn": "94678"
+      },
+      {
+        "area_name": "Jamron Ka Bariya",
+        "mdds_plcn": "94679"
+      },
+      {
+        "area_name": "Katar",
+        "mdds_plcn": "94680"
+      },
+      {
+        "area_name": "Dhaneri",
+        "mdds_plcn": "94681"
+      },
+      {
+        "area_name": "Naya Talab Ka Bariya",
+        "mdds_plcn": "94682"
+      },
+      {
+        "area_name": "Phooldeh Ka Bariya",
+        "mdds_plcn": "94683"
+      },
+      {
+        "area_name": "Sakar Ka Bariya",
+        "mdds_plcn": "94684"
+      },
+      {
+        "area_name": "Jhalra",
+        "mdds_plcn": "94685"
+      },
+      {
+        "area_name": "Mefaliyas",
+        "mdds_plcn": "94686"
+      },
+      {
+        "area_name": "Negariya",
+        "mdds_plcn": "94687"
+      },
+      {
+        "area_name": "Barethpura",
+        "mdds_plcn": "94688"
+      },
+      {
+        "area_name": "Khokulon Ka Khera",
+        "mdds_plcn": "94689"
+      },
+      {
+        "area_name": "Dantra",
+        "mdds_plcn": "94690"
+      },
+      {
+        "area_name": "Deori",
+        "mdds_plcn": "94691"
+      },
+      {
+        "area_name": "Mansinghji Ka Khera",
+        "mdds_plcn": "94692"
+      },
+      {
+        "area_name": "Khatola",
+        "mdds_plcn": "94693"
+      },
+      {
+        "area_name": "Sabdara",
+        "mdds_plcn": "94694"
+      },
+      {
+        "area_name": "Mohro Ka Khera",
+        "mdds_plcn": "94695"
+      },
+      {
+        "area_name": "Nuwaliya",
+        "mdds_plcn": "94696"
+      },
+      {
+        "area_name": "Sulwara",
+        "mdds_plcn": "94697"
+      },
+      {
+        "area_name": "Hathisar",
+        "mdds_plcn": "94698"
+      },
+      {
+        "area_name": "Barana",
+        "mdds_plcn": "94699"
+      },
+      {
+        "area_name": "Aheeron Ka Khera",
+        "mdds_plcn": "94700"
+      },
+      {
+        "area_name": "Bhati Khera",
+        "mdds_plcn": "94701"
+      },
+      {
+        "area_name": "Deopura",
+        "mdds_plcn": "94702"
+      },
+      {
+        "area_name": "Jetpura",
+        "mdds_plcn": "94703"
+      },
+      {
+        "area_name": "Jabarkiya",
+        "mdds_plcn": "94704"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "94705"
+      },
+      {
+        "area_name": "Motipur",
+        "mdds_plcn": "94706"
+      },
+      {
+        "area_name": "Barla",
+        "mdds_plcn": "94707"
+      },
+      {
+        "area_name": "Kaliyas",
+        "mdds_plcn": "94708"
+      },
+      {
+        "area_name": "Dholi",
+        "mdds_plcn": "94709"
+      },
+      {
+        "area_name": "Palri",
+        "mdds_plcn": "94710"
+      },
+      {
+        "area_name": "Bahadurpura",
+        "mdds_plcn": "94711"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "94712"
+      },
+      {
+        "area_name": "Beran",
+        "mdds_plcn": "94713"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "94714"
+      },
+      {
+        "area_name": "Daulat Garh",
+        "mdds_plcn": "94715"
+      },
+      {
+        "area_name": "Papariya",
+        "mdds_plcn": "94716"
+      },
+      {
+        "area_name": "Jalariya",
+        "mdds_plcn": "94717"
+      },
+      {
+        "area_name": "Bhanas",
+        "mdds_plcn": "94718"
+      },
+      {
+        "area_name": "Bagata Kakhera",
+        "mdds_plcn": "94719"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "94720"
+      },
+      {
+        "area_name": "Marewara",
+        "mdds_plcn": "94721"
+      },
+      {
+        "area_name": "Pandroo",
+        "mdds_plcn": "94722"
+      },
+      {
+        "area_name": "Tiloli",
+        "mdds_plcn": "94723"
+      },
+      {
+        "area_name": "Karan Garh",
+        "mdds_plcn": "94724"
+      },
+      {
+        "area_name": "Nagpura",
+        "mdds_plcn": "94725"
+      },
+      {
+        "area_name": "Malnas",
+        "mdds_plcn": "94726"
+      },
+      {
+        "area_name": "Sojika Khera",
+        "mdds_plcn": "94727"
+      },
+      {
+        "area_name": "Jali",
+        "mdds_plcn": "94728"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "94729"
+      },
+      {
+        "area_name": "Lachhura",
+        "mdds_plcn": "94730"
+      },
+      {
+        "area_name": "Bagmali",
+        "mdds_plcn": "94731"
+      },
+      {
+        "area_name": "Charon Ka Khera",
+        "mdds_plcn": "94732"
+      },
+      {
+        "area_name": "Kurachhon Ka Khera",
+        "mdds_plcn": "94733"
+      },
+      {
+        "area_name": "Madanpura",
+        "mdds_plcn": "94734"
+      },
+      {
+        "area_name": "Marwon Ka Khera",
+        "mdds_plcn": "94735"
+      },
+      {
+        "area_name": "Hadwon Ka Khera",
+        "mdds_plcn": "94736"
+      },
+      {
+        "area_name": "Sareri",
+        "mdds_plcn": "94737"
+      },
+      {
+        "area_name": "Kornas",
+        "mdds_plcn": "94738"
+      },
+      {
+        "area_name": "Narainpura",
+        "mdds_plcn": "94739"
+      },
+      {
+        "area_name": "Karjaliya",
+        "mdds_plcn": "94740"
+      },
+      {
+        "area_name": "Dota",
+        "mdds_plcn": "94741"
+      },
+      {
+        "area_name": "Chena Ka Khera",
+        "mdds_plcn": "94742"
+      },
+      {
+        "area_name": "Udaliyas",
+        "mdds_plcn": "94743"
+      },
+      {
+        "area_name": "Moti Bor Ka Khera",
+        "mdds_plcn": "94744"
+      },
+      {
+        "area_name": "Kariyala",
+        "mdds_plcn": "94745"
+      },
+      {
+        "area_name": "Khardi",
+        "mdds_plcn": "94746"
+      },
+      {
+        "area_name": "Jodhras",
+        "mdds_plcn": "94747"
+      },
+      {
+        "area_name": "Khalson Ka Khera",
+        "mdds_plcn": "94748"
+      },
+      {
+        "area_name": "Iras",
+        "mdds_plcn": "94749"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "94750"
+      },
+      {
+        "area_name": "Kharda",
+        "mdds_plcn": "94751"
+      },
+      {
+        "area_name": "Patiyon Ka Khera",
+        "mdds_plcn": "94752"
+      },
+      {
+        "area_name": "Khumanpura",
+        "mdds_plcn": "94753"
+      },
+      {
+        "area_name": "Ganglas",
+        "mdds_plcn": "94754"
+      },
+      {
+        "area_name": "Udalpura",
+        "mdds_plcn": "94755"
+      },
+      {
+        "area_name": "Dulhepura",
+        "mdds_plcn": "94756"
+      },
+      {
+        "area_name": "Mor Ka Nimbahera",
+        "mdds_plcn": "94757"
+      },
+      {
+        "area_name": "Brahmpuri",
+        "mdds_plcn": "94758"
+      },
+      {
+        "area_name": "Salarmala",
+        "mdds_plcn": "94759"
+      },
+      {
+        "area_name": "Malka Khera",
+        "mdds_plcn": "94760"
+      },
+      {
+        "area_name": "Jeewaliya",
+        "mdds_plcn": "94761"
+      },
+      {
+        "area_name": "Dulhepura @ Bari Ka Khera",
+        "mdds_plcn": "94762"
+      },
+      {
+        "area_name": "Pratappura",
+        "mdds_plcn": "94763"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "94764"
+      },
+      {
+        "area_name": "Jaitgarh",
+        "mdds_plcn": "94765"
+      },
+      {
+        "area_name": "Bhairoo Khera",
+        "mdds_plcn": "94766"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Banera",
+    "areas": [
+      {
+        "area_name": "Banera",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Vijaypur",
+        "mdds_plcn": "95015"
+      },
+      {
+        "area_name": "Kasoriya",
+        "mdds_plcn": "95016"
+      },
+      {
+        "area_name": "Jasoriya",
+        "mdds_plcn": "95017"
+      },
+      {
+        "area_name": "Dabla",
+        "mdds_plcn": "95018"
+      },
+      {
+        "area_name": "Gharta",
+        "mdds_plcn": "95019"
+      },
+      {
+        "area_name": "Baldarkha",
+        "mdds_plcn": "95020"
+      },
+      {
+        "area_name": "Bhatera",
+        "mdds_plcn": "95021"
+      },
+      {
+        "area_name": "Mandi",
+        "mdds_plcn": "95022"
+      },
+      {
+        "area_name": "Dagas",
+        "mdds_plcn": "95023"
+      },
+      {
+        "area_name": "Kotri",
+        "mdds_plcn": "95024"
+      },
+      {
+        "area_name": "Jaliya Khera",
+        "mdds_plcn": "95025"
+      },
+      {
+        "area_name": "Kundiya Khurd",
+        "mdds_plcn": "95026"
+      },
+      {
+        "area_name": "Kundiya Kalan",
+        "mdds_plcn": "95027"
+      },
+      {
+        "area_name": "Gora Ka Khera",
+        "mdds_plcn": "95028"
+      },
+      {
+        "area_name": "Theekariya",
+        "mdds_plcn": "95029"
+      },
+      {
+        "area_name": "Rayla",
+        "mdds_plcn": "95030"
+      },
+      {
+        "area_name": "Dhamaniya",
+        "mdds_plcn": "95031"
+      },
+      {
+        "area_name": "Somsyas",
+        "mdds_plcn": "95032"
+      },
+      {
+        "area_name": "Lotiyas",
+        "mdds_plcn": "95033"
+      },
+      {
+        "area_name": "Sadas",
+        "mdds_plcn": "95034"
+      },
+      {
+        "area_name": "Nimbahera Kalan",
+        "mdds_plcn": "95035"
+      },
+      {
+        "area_name": "Nimbahera Khurd",
+        "mdds_plcn": "95036"
+      },
+      {
+        "area_name": "Jhatal",
+        "mdds_plcn": "95037"
+      },
+      {
+        "area_name": "Musha",
+        "mdds_plcn": "95038"
+      },
+      {
+        "area_name": "Amargarh",
+        "mdds_plcn": "95039"
+      },
+      {
+        "area_name": "Mushi",
+        "mdds_plcn": "95040"
+      },
+      {
+        "area_name": "Pratappura",
+        "mdds_plcn": "95041"
+      },
+      {
+        "area_name": "Upreda",
+        "mdds_plcn": "95042"
+      },
+      {
+        "area_name": "Nola Ka Khera",
+        "mdds_plcn": "95043"
+      },
+      {
+        "area_name": "Moriya Khera",
+        "mdds_plcn": "95044"
+      },
+      {
+        "area_name": "Khatan Kheri",
+        "mdds_plcn": "95045"
+      },
+      {
+        "area_name": "Beskalai",
+        "mdds_plcn": "95046"
+      },
+      {
+        "area_name": "Meghras",
+        "mdds_plcn": "95047"
+      },
+      {
+        "area_name": "Lambia Khurd",
+        "mdds_plcn": "95048"
+      },
+      {
+        "area_name": "Lambia Kalan",
+        "mdds_plcn": "95049"
+      },
+      {
+        "area_name": "Naya Khera",
+        "mdds_plcn": "95050"
+      },
+      {
+        "area_name": "Roopaheli Khurd",
+        "mdds_plcn": "95051"
+      },
+      {
+        "area_name": "Kanwaliya",
+        "mdds_plcn": "95052"
+      },
+      {
+        "area_name": "Dodwaniyon Ka Khera",
+        "mdds_plcn": "95053"
+      },
+      {
+        "area_name": "Ali Nagar",
+        "mdds_plcn": "95054"
+      },
+      {
+        "area_name": "Beran",
+        "mdds_plcn": "95055"
+      },
+      {
+        "area_name": "Samelpura",
+        "mdds_plcn": "95056"
+      },
+      {
+        "area_name": "Jaswantpura",
+        "mdds_plcn": "95057"
+      },
+      {
+        "area_name": "Surajpura",
+        "mdds_plcn": "95058"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95059"
+      },
+      {
+        "area_name": "Sardarpura",
+        "mdds_plcn": "95060"
+      },
+      {
+        "area_name": "Salriya Kalan",
+        "mdds_plcn": "95061"
+      },
+      {
+        "area_name": "Rakshi",
+        "mdds_plcn": "95062"
+      },
+      {
+        "area_name": "Khari Khera",
+        "mdds_plcn": "95063"
+      },
+      {
+        "area_name": "Lamba",
+        "mdds_plcn": "95064"
+      },
+      {
+        "area_name": "Onkarpura",
+        "mdds_plcn": "95065"
+      },
+      {
+        "area_name": "Bamniya",
+        "mdds_plcn": "95066"
+      },
+      {
+        "area_name": "Jorawarpura",
+        "mdds_plcn": "95067"
+      },
+      {
+        "area_name": "Sardarnagar",
+        "mdds_plcn": "95068"
+      },
+      {
+        "area_name": "Bhempura",
+        "mdds_plcn": "95069"
+      },
+      {
+        "area_name": "Kodlai",
+        "mdds_plcn": "95070"
+      },
+      {
+        "area_name": "Kharoliya Khera",
+        "mdds_plcn": "95071"
+      },
+      {
+        "area_name": "Sultan Garh",
+        "mdds_plcn": "95072"
+      },
+      {
+        "area_name": "Dhola Danta",
+        "mdds_plcn": "95073"
+      },
+      {
+        "area_name": "Dudla",
+        "mdds_plcn": "95074"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "95075"
+      },
+      {
+        "area_name": "Hataipura",
+        "mdds_plcn": "95076"
+      },
+      {
+        "area_name": "Baran",
+        "mdds_plcn": "95077"
+      },
+      {
+        "area_name": "Balesariya",
+        "mdds_plcn": "95078"
+      },
+      {
+        "area_name": "Rampuriya @ Payra",
+        "mdds_plcn": "95079"
+      },
+      {
+        "area_name": "Danta Nilawari",
+        "mdds_plcn": "95080"
+      },
+      {
+        "area_name": "Raisinghpura",
+        "mdds_plcn": "95081"
+      },
+      {
+        "area_name": "Eklingpura",
+        "mdds_plcn": "95082"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "95083"
+      },
+      {
+        "area_name": "Kajlodiya",
+        "mdds_plcn": "95084"
+      },
+      {
+        "area_name": "Kilpuriya",
+        "mdds_plcn": "95085"
+      },
+      {
+        "area_name": "Chamanpura",
+        "mdds_plcn": "95086"
+      },
+      {
+        "area_name": "Chhatri Khera",
+        "mdds_plcn": "95087"
+      },
+      {
+        "area_name": "Raneegpura",
+        "mdds_plcn": "95088"
+      },
+      {
+        "area_name": "Mahuwa Khurd",
+        "mdds_plcn": "95089"
+      },
+      {
+        "area_name": "Kamalpura",
+        "mdds_plcn": "95090"
+      },
+      {
+        "area_name": "Nanodiya",
+        "mdds_plcn": "95091"
+      },
+      {
+        "area_name": "Banera",
+        "mdds_plcn": "95092"
+      },
+      {
+        "area_name": "Kishanpuriya",
+        "mdds_plcn": "95093"
+      },
+      {
+        "area_name": "Mahtab Sagar",
+        "mdds_plcn": "95094"
+      },
+      {
+        "area_name": "Sangrampura",
+        "mdds_plcn": "95095"
+      },
+      {
+        "area_name": "Lasadiya",
+        "mdds_plcn": "95096"
+      },
+      {
+        "area_name": "Kunwar",
+        "mdds_plcn": "95097"
+      },
+      {
+        "area_name": "Kankoliya",
+        "mdds_plcn": "95098"
+      },
+      {
+        "area_name": "Babrana",
+        "mdds_plcn": "95099"
+      },
+      {
+        "area_name": "Amli",
+        "mdds_plcn": "95100"
+      },
+      {
+        "area_name": "Lapiya",
+        "mdds_plcn": "95101"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "95102"
+      },
+      {
+        "area_name": "Kherliya",
+        "mdds_plcn": "95103"
+      },
+      {
+        "area_name": "Lakshmipura",
+        "mdds_plcn": "95104"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "95105"
+      },
+      {
+        "area_name": "Daulatpura",
+        "mdds_plcn": "95106"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Beejoliya",
+    "areas": [
+      {
+        "area_name": "Beejoliya",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Amarpura",
+        "mdds_plcn": "96271"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "96272"
+      },
+      {
+        "area_name": "Barodiya",
+        "mdds_plcn": "96273"
+      },
+      {
+        "area_name": "Jalindri",
+        "mdds_plcn": "96274"
+      },
+      {
+        "area_name": "Banka",
+        "mdds_plcn": "96275"
+      },
+      {
+        "area_name": "Lorda",
+        "mdds_plcn": "96276"
+      },
+      {
+        "area_name": "Bhopatpura",
+        "mdds_plcn": "96277"
+      },
+      {
+        "area_name": "Uttamnagar",
+        "mdds_plcn": "96278"
+      },
+      {
+        "area_name": "Soonthi",
+        "mdds_plcn": "96279"
+      },
+      {
+        "area_name": "Kherariya",
+        "mdds_plcn": "96280"
+      },
+      {
+        "area_name": "Chhatri Khera",
+        "mdds_plcn": "96281"
+      },
+      {
+        "area_name": "Gordhanpura",
+        "mdds_plcn": "96282"
+      },
+      {
+        "area_name": "Chenpuriya",
+        "mdds_plcn": "96283"
+      },
+      {
+        "area_name": "Laxshmi Khera",
+        "mdds_plcn": "96284"
+      },
+      {
+        "area_name": "Kishanpuriya",
+        "mdds_plcn": "96285"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "96286"
+      },
+      {
+        "area_name": "Kesuvilas",
+        "mdds_plcn": "96287"
+      },
+      {
+        "area_name": "Ramrda",
+        "mdds_plcn": "96288"
+      },
+      {
+        "area_name": "Manpura",
+        "mdds_plcn": "96289"
+      },
+      {
+        "area_name": "Jawda",
+        "mdds_plcn": "96290"
+      },
+      {
+        "area_name": "Tharoda",
+        "mdds_plcn": "96291"
+      },
+      {
+        "area_name": "Danta @ Chota Thadoda",
+        "mdds_plcn": "96292"
+      },
+      {
+        "area_name": "Teekhi",
+        "mdds_plcn": "96293"
+      },
+      {
+        "area_name": "Phoolan",
+        "mdds_plcn": "96294"
+      },
+      {
+        "area_name": "Bijoliyan Khurd",
+        "mdds_plcn": "96295"
+      },
+      {
+        "area_name": "Mangarh",
+        "mdds_plcn": "96296"
+      },
+      {
+        "area_name": "Patiyal",
+        "mdds_plcn": "96297"
+      },
+      {
+        "area_name": "Kasya Sani",
+        "mdds_plcn": "96298"
+      },
+      {
+        "area_name": "Nayanagar",
+        "mdds_plcn": "96299"
+      },
+      {
+        "area_name": "Fatehnagar",
+        "mdds_plcn": "96300"
+      },
+      {
+        "area_name": "Lalpura",
+        "mdds_plcn": "96301"
+      },
+      {
+        "area_name": "Chhatri Khera",
+        "mdds_plcn": "96302"
+      },
+      {
+        "area_name": "Brindawan",
+        "mdds_plcn": "96303"
+      },
+      {
+        "area_name": "Kaner",
+        "mdds_plcn": "96304"
+      },
+      {
+        "area_name": "Karlao",
+        "mdds_plcn": "96305"
+      },
+      {
+        "area_name": "Sukhpura",
+        "mdds_plcn": "96306"
+      },
+      {
+        "area_name": "Kharipur",
+        "mdds_plcn": "96307"
+      },
+      {
+        "area_name": "Golam Garh",
+        "mdds_plcn": "96308"
+      },
+      {
+        "area_name": "Jaleri",
+        "mdds_plcn": "96309"
+      },
+      {
+        "area_name": "Bilona Bari",
+        "mdds_plcn": "96310"
+      },
+      {
+        "area_name": "Rampuriya @ Chopra",
+        "mdds_plcn": "96311"
+      },
+      {
+        "area_name": "Rasadpura",
+        "mdds_plcn": "96312"
+      },
+      {
+        "area_name": "Aroli",
+        "mdds_plcn": "96313"
+      },
+      {
+        "area_name": "Shopura",
+        "mdds_plcn": "96314"
+      },
+      {
+        "area_name": "Jhadoli",
+        "mdds_plcn": "96315"
+      },
+      {
+        "area_name": "Gopalniwas",
+        "mdds_plcn": "96316"
+      },
+      {
+        "area_name": "Salawatiya",
+        "mdds_plcn": "96317"
+      },
+      {
+        "area_name": "Berisal",
+        "mdds_plcn": "96318"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "96319"
+      },
+      {
+        "area_name": "Lakshmi Niwas",
+        "mdds_plcn": "96320"
+      },
+      {
+        "area_name": "Gordhan Niwas",
+        "mdds_plcn": "96321"
+      },
+      {
+        "area_name": "Chandji Ki Kheri",
+        "mdds_plcn": "96322"
+      },
+      {
+        "area_name": "Rakholi",
+        "mdds_plcn": "96323"
+      },
+      {
+        "area_name": "Girdharpura",
+        "mdds_plcn": "96324"
+      },
+      {
+        "area_name": "Bhopi Ki Ret",
+        "mdds_plcn": "96325"
+      },
+      {
+        "area_name": "Pachyanpura",
+        "mdds_plcn": "96326"
+      },
+      {
+        "area_name": "Neemri Gawa",
+        "mdds_plcn": "96327"
+      },
+      {
+        "area_name": "Paparbar",
+        "mdds_plcn": "96328"
+      },
+      {
+        "area_name": "Indrapura",
+        "mdds_plcn": "96329"
+      },
+      {
+        "area_name": "Jolas",
+        "mdds_plcn": "96330"
+      },
+      {
+        "area_name": "Cheeta Bara",
+        "mdds_plcn": "96331"
+      },
+      {
+        "area_name": "Choona Ki Bhati",
+        "mdds_plcn": "96332"
+      },
+      {
+        "area_name": "Amritpuriya",
+        "mdds_plcn": "96333"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "96334"
+      },
+      {
+        "area_name": "Manji Sahab Ka Khera",
+        "mdds_plcn": "96335"
+      },
+      {
+        "area_name": "Naya Gaon",
+        "mdds_plcn": "96336"
+      },
+      {
+        "area_name": "Fatehpur",
+        "mdds_plcn": "96337"
+      },
+      {
+        "area_name": "Purohition Ka Khera",
+        "mdds_plcn": "96338"
+      },
+      {
+        "area_name": "Veekam Pura",
+        "mdds_plcn": "96339"
+      },
+      {
+        "area_name": "Kishanniwas",
+        "mdds_plcn": "96340"
+      },
+      {
+        "area_name": "Lachhmanpura",
+        "mdds_plcn": "96341"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "96342"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "96343"
+      },
+      {
+        "area_name": "Udpuriya",
+        "mdds_plcn": "96344"
+      },
+      {
+        "area_name": "Umaji Ka Khera",
+        "mdds_plcn": "96345"
+      },
+      {
+        "area_name": "Govind Niwas",
+        "mdds_plcn": "96346"
+      },
+      {
+        "area_name": "Harji Pura",
+        "mdds_plcn": "96347"
+      },
+      {
+        "area_name": "Deroli",
+        "mdds_plcn": "96348"
+      },
+      {
+        "area_name": "Shikargah",
+        "mdds_plcn": "96349"
+      },
+      {
+        "area_name": "Barwa",
+        "mdds_plcn": "96350"
+      },
+      {
+        "area_name": "Brijpura",
+        "mdds_plcn": "96351"
+      },
+      {
+        "area_name": "Dobiya",
+        "mdds_plcn": "96352"
+      },
+      {
+        "area_name": "Koyala Kundi",
+        "mdds_plcn": "96353"
+      },
+      {
+        "area_name": "Kanwarpura",
+        "mdds_plcn": "96354"
+      },
+      {
+        "area_name": "Tilaswan",
+        "mdds_plcn": "96355"
+      },
+      {
+        "area_name": "Suthiyal",
+        "mdds_plcn": "96356"
+      },
+      {
+        "area_name": "Kasya",
+        "mdds_plcn": "96357"
+      },
+      {
+        "area_name": "Mahupura",
+        "mdds_plcn": "96358"
+      },
+      {
+        "area_name": "Debiniwas",
+        "mdds_plcn": "96359"
+      },
+      {
+        "area_name": "Shambhoopura",
+        "mdds_plcn": "96360"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "96361"
+      },
+      {
+        "area_name": "Amarniwas",
+        "mdds_plcn": "96362"
+      },
+      {
+        "area_name": "Bhooti",
+        "mdds_plcn": "96363"
+      },
+      {
+        "area_name": "Kama",
+        "mdds_plcn": "96364"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "96365"
+      },
+      {
+        "area_name": "Mandol",
+        "mdds_plcn": "96366"
+      },
+      {
+        "area_name": "Ummedramji Ka Khera",
+        "mdds_plcn": "96367"
+      },
+      {
+        "area_name": "Sarki Kudi",
+        "mdds_plcn": "96368"
+      },
+      {
+        "area_name": "Kachhi Pura",
+        "mdds_plcn": "96369"
+      },
+      {
+        "area_name": "Deogarh",
+        "mdds_plcn": "96370"
+      },
+      {
+        "area_name": "Deonagar",
+        "mdds_plcn": "96371"
+      },
+      {
+        "area_name": "Sadaramji Ka Khera",
+        "mdds_plcn": "96372"
+      },
+      {
+        "area_name": "Makreri",
+        "mdds_plcn": "96373"
+      },
+      {
+        "area_name": "Motipura",
+        "mdds_plcn": "96374"
+      },
+      {
+        "area_name": "Hemniwas",
+        "mdds_plcn": "96375"
+      },
+      {
+        "area_name": "Bahadur Ji Ka Khera",
+        "mdds_plcn": "96376"
+      },
+      {
+        "area_name": "Mogarwasa",
+        "mdds_plcn": "96377"
+      },
+      {
+        "area_name": "Baniyon Ka Talab",
+        "mdds_plcn": "96378"
+      },
+      {
+        "area_name": "Kantwara",
+        "mdds_plcn": "96379"
+      },
+      {
+        "area_name": "Kerkhera",
+        "mdds_plcn": "96380"
+      },
+      {
+        "area_name": "Surajbilas",
+        "mdds_plcn": "96381"
+      },
+      {
+        "area_name": "Haripura",
+        "mdds_plcn": "96382"
+      },
+      {
+        "area_name": "Ant",
+        "mdds_plcn": "96383"
+      },
+      {
+        "area_name": "Satkundiya",
+        "mdds_plcn": "96384"
+      },
+      {
+        "area_name": "Bheroopura",
+        "mdds_plcn": "96385"
+      },
+      {
+        "area_name": "Resunda",
+        "mdds_plcn": "96386"
+      },
+      {
+        "area_name": "Kalighati",
+        "mdds_plcn": "96387"
+      },
+      {
+        "area_name": "Jhalon Ka Dhoondha",
+        "mdds_plcn": "96388"
+      },
+      {
+        "area_name": "Danpura",
+        "mdds_plcn": "96389"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "96390"
+      },
+      {
+        "area_name": "Anti",
+        "mdds_plcn": "96391"
+      },
+      {
+        "area_name": "Gudha",
+        "mdds_plcn": "96392"
+      },
+      {
+        "area_name": "Beejoliya Kalan (CT)",
+        "mdds_plcn": "96393"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Bhilwara",
+    "areas": [
+      {
+        "area_name": "Bhilwara",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Bhilwara",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Kalsans",
+        "mdds_plcn": "95521"
+      },
+      {
+        "area_name": "Iras",
+        "mdds_plcn": "95522"
+      },
+      {
+        "area_name": "Keeratpura",
+        "mdds_plcn": "95523"
+      },
+      {
+        "area_name": "Kotri",
+        "mdds_plcn": "95524"
+      },
+      {
+        "area_name": "Dariba",
+        "mdds_plcn": "95525"
+      },
+      {
+        "area_name": "Samori",
+        "mdds_plcn": "95526"
+      },
+      {
+        "area_name": "Salampura",
+        "mdds_plcn": "95527"
+      },
+      {
+        "area_name": "Pansal",
+        "mdds_plcn": "95528"
+      },
+      {
+        "area_name": "Malola",
+        "mdds_plcn": "95529"
+      },
+      {
+        "area_name": "Dhool Khera",
+        "mdds_plcn": "95530"
+      },
+      {
+        "area_name": "Jeepiya",
+        "mdds_plcn": "95531"
+      },
+      {
+        "area_name": "Jodhras",
+        "mdds_plcn": "95532"
+      },
+      {
+        "area_name": "Palri",
+        "mdds_plcn": "95533"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "95534"
+      },
+      {
+        "area_name": "Teli Khera",
+        "mdds_plcn": "95535"
+      },
+      {
+        "area_name": "Bhadali Khera",
+        "mdds_plcn": "95536"
+      },
+      {
+        "area_name": "Arjiya",
+        "mdds_plcn": "95537"
+      },
+      {
+        "area_name": "Taswariya",
+        "mdds_plcn": "95538"
+      },
+      {
+        "area_name": "Chhapri",
+        "mdds_plcn": "95539"
+      },
+      {
+        "area_name": "Hooniya Khera",
+        "mdds_plcn": "95540"
+      },
+      {
+        "area_name": "Reechhra",
+        "mdds_plcn": "95541"
+      },
+      {
+        "area_name": "Gadri Khera",
+        "mdds_plcn": "95542"
+      },
+      {
+        "area_name": "Gordhanpura",
+        "mdds_plcn": "95543"
+      },
+      {
+        "area_name": "Parliya Khera",
+        "mdds_plcn": "95544"
+      },
+      {
+        "area_name": "Khayra",
+        "mdds_plcn": "95545"
+      },
+      {
+        "area_name": "Sakariya Khera",
+        "mdds_plcn": "95546"
+      },
+      {
+        "area_name": "Mahuwa Kalan",
+        "mdds_plcn": "95547"
+      },
+      {
+        "area_name": "Seedriyas",
+        "mdds_plcn": "95548"
+      },
+      {
+        "area_name": "Gokalpura",
+        "mdds_plcn": "95549"
+      },
+      {
+        "area_name": "Shri Nagar",
+        "mdds_plcn": "95550"
+      },
+      {
+        "area_name": "Kodu Kota",
+        "mdds_plcn": "95551"
+      },
+      {
+        "area_name": "Akola",
+        "mdds_plcn": "95552"
+      },
+      {
+        "area_name": "Eras",
+        "mdds_plcn": "95553"
+      },
+      {
+        "area_name": "Suwana",
+        "mdds_plcn": "95554"
+      },
+      {
+        "area_name": "Agarpura",
+        "mdds_plcn": "95555"
+      },
+      {
+        "area_name": "Dhoomras",
+        "mdds_plcn": "95556"
+      },
+      {
+        "area_name": "Pondras",
+        "mdds_plcn": "95557"
+      },
+      {
+        "area_name": "Roopaheli",
+        "mdds_plcn": "95558"
+      },
+      {
+        "area_name": "Danthal",
+        "mdds_plcn": "95559"
+      },
+      {
+        "area_name": "Haled",
+        "mdds_plcn": "95560"
+      },
+      {
+        "area_name": "Sabalpura",
+        "mdds_plcn": "95561"
+      },
+      {
+        "area_name": "Bholi",
+        "mdds_plcn": "95562"
+      },
+      {
+        "area_name": "Madhopur",
+        "mdds_plcn": "95563"
+      },
+      {
+        "area_name": "Atoon",
+        "mdds_plcn": "95564"
+      },
+      {
+        "area_name": "Borda",
+        "mdds_plcn": "95565"
+      },
+      {
+        "area_name": "Kumariya Khera",
+        "mdds_plcn": "95566"
+      },
+      {
+        "area_name": "Rajola",
+        "mdds_plcn": "95567"
+      },
+      {
+        "area_name": "Deoli",
+        "mdds_plcn": "95568"
+      },
+      {
+        "area_name": "Thala Ka Khera",
+        "mdds_plcn": "95569"
+      },
+      {
+        "area_name": "Nogawan",
+        "mdds_plcn": "95570"
+      },
+      {
+        "area_name": "Mujras",
+        "mdds_plcn": "95571"
+      },
+      {
+        "area_name": "Sundarpura",
+        "mdds_plcn": "95572"
+      },
+      {
+        "area_name": "Kochriya",
+        "mdds_plcn": "95573"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95574"
+      },
+      {
+        "area_name": "Mandpiya",
+        "mdds_plcn": "95575"
+      },
+      {
+        "area_name": "Gundli",
+        "mdds_plcn": "95576"
+      },
+      {
+        "area_name": "Bansra",
+        "mdds_plcn": "95577"
+      },
+      {
+        "area_name": "Dadiya",
+        "mdds_plcn": "95578"
+      },
+      {
+        "area_name": "Sangwa",
+        "mdds_plcn": "95579"
+      },
+      {
+        "area_name": "Tiloli",
+        "mdds_plcn": "95580"
+      },
+      {
+        "area_name": "Chhapari",
+        "mdds_plcn": "95581"
+      },
+      {
+        "area_name": "Ekling Pura",
+        "mdds_plcn": "95582"
+      },
+      {
+        "area_name": "Amba Kheri",
+        "mdds_plcn": "95583"
+      },
+      {
+        "area_name": "Ojhagar",
+        "mdds_plcn": "95584"
+      },
+      {
+        "area_name": "Rugnathpura",
+        "mdds_plcn": "95585"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "95586"
+      },
+      {
+        "area_name": "Rayra",
+        "mdds_plcn": "95587"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "95588"
+      },
+      {
+        "area_name": "Gurla",
+        "mdds_plcn": "95589"
+      },
+      {
+        "area_name": "Teela Ka Khera",
+        "mdds_plcn": "95590"
+      },
+      {
+        "area_name": "Kalyan Pura",
+        "mdds_plcn": "95591"
+      },
+      {
+        "area_name": "Karoi Kalan",
+        "mdds_plcn": "95592"
+      },
+      {
+        "area_name": "Parwati Pura",
+        "mdds_plcn": "95593"
+      },
+      {
+        "area_name": "Karoi Khurd",
+        "mdds_plcn": "95594"
+      },
+      {
+        "area_name": "Momi",
+        "mdds_plcn": "95595"
+      },
+      {
+        "area_name": "Sopura",
+        "mdds_plcn": "95596"
+      },
+      {
+        "area_name": "Kesharpura",
+        "mdds_plcn": "95597"
+      },
+      {
+        "area_name": "Sethooriya",
+        "mdds_plcn": "95598"
+      },
+      {
+        "area_name": "Chainpura",
+        "mdds_plcn": "95599"
+      },
+      {
+        "area_name": "Danta",
+        "mdds_plcn": "95600"
+      },
+      {
+        "area_name": "Gonwaliya",
+        "mdds_plcn": "95601"
+      },
+      {
+        "area_name": "Tagariya",
+        "mdds_plcn": "95602"
+      },
+      {
+        "area_name": "Kanpura",
+        "mdds_plcn": "95603"
+      },
+      {
+        "area_name": "Pabunagar",
+        "mdds_plcn": "95604"
+      },
+      {
+        "area_name": "Jagdari",
+        "mdds_plcn": "95605"
+      },
+      {
+        "area_name": "Chavanderi",
+        "mdds_plcn": "95606"
+      },
+      {
+        "area_name": "Bhopalgarh @ Gandarmala",
+        "mdds_plcn": "95607"
+      },
+      {
+        "area_name": "Dholiya Khera",
+        "mdds_plcn": "95608"
+      },
+      {
+        "area_name": "Dudiya",
+        "mdds_plcn": "95609"
+      },
+      {
+        "area_name": "Shivpura",
+        "mdds_plcn": "95610"
+      },
+      {
+        "area_name": "Jawasiya",
+        "mdds_plcn": "95611"
+      },
+      {
+        "area_name": "Mohanpura",
+        "mdds_plcn": "95612"
+      },
+      {
+        "area_name": "Sayla",
+        "mdds_plcn": "95613"
+      },
+      {
+        "area_name": "Khet Hazariya",
+        "mdds_plcn": "95614"
+      },
+      {
+        "area_name": "Bardod",
+        "mdds_plcn": "95615"
+      },
+      {
+        "area_name": "Kanya Kheri",
+        "mdds_plcn": "95616"
+      },
+      {
+        "area_name": "Sagat Puriya",
+        "mdds_plcn": "95617"
+      },
+      {
+        "area_name": "Amli Purawatan",
+        "mdds_plcn": "95618"
+      },
+      {
+        "area_name": "Chhachheri",
+        "mdds_plcn": "95619"
+      },
+      {
+        "area_name": "Ojyara",
+        "mdds_plcn": "95620"
+      },
+      {
+        "area_name": "Takhat Pura",
+        "mdds_plcn": "95621"
+      },
+      {
+        "area_name": "Biharipura",
+        "mdds_plcn": "95622"
+      },
+      {
+        "area_name": "Amli (Garh Pachhli)",
+        "mdds_plcn": "95623"
+      },
+      {
+        "area_name": "Kabra",
+        "mdds_plcn": "95624"
+      },
+      {
+        "area_name": "Keeron Ki Jhonpariya",
+        "mdds_plcn": "95625"
+      },
+      {
+        "area_name": "Barathiya",
+        "mdds_plcn": "95626"
+      },
+      {
+        "area_name": "Darri",
+        "mdds_plcn": "95627"
+      },
+      {
+        "area_name": "Swaroopganj",
+        "mdds_plcn": "95628"
+      },
+      {
+        "area_name": "Narayanpura",
+        "mdds_plcn": "95629"
+      },
+      {
+        "area_name": "Biliya Kalan",
+        "mdds_plcn": "95630"
+      },
+      {
+        "area_name": "Khaira Bad",
+        "mdds_plcn": "95631"
+      },
+      {
+        "area_name": "Bhainsa Kundal",
+        "mdds_plcn": "95632"
+      },
+      {
+        "area_name": "Nathadiyas",
+        "mdds_plcn": "95633"
+      },
+      {
+        "area_name": "Kanoli",
+        "mdds_plcn": "95634"
+      },
+      {
+        "area_name": "Guwardi",
+        "mdds_plcn": "95635"
+      },
+      {
+        "area_name": "Gatheela Khera",
+        "mdds_plcn": "95636"
+      },
+      {
+        "area_name": "Mandpiya",
+        "mdds_plcn": "95637"
+      },
+      {
+        "area_name": "Salariya",
+        "mdds_plcn": "95638"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "95639"
+      },
+      {
+        "area_name": "Phaagnon Ka Khera",
+        "mdds_plcn": "95640"
+      },
+      {
+        "area_name": "Kacholiya",
+        "mdds_plcn": "95641"
+      },
+      {
+        "area_name": "Dantajati",
+        "mdds_plcn": "95642"
+      },
+      {
+        "area_name": "Kumhariya",
+        "mdds_plcn": "95643"
+      },
+      {
+        "area_name": "Patliyas",
+        "mdds_plcn": "95644"
+      },
+      {
+        "area_name": "Brahmpuri",
+        "mdds_plcn": "95645"
+      },
+      {
+        "area_name": "Jitya Kheri",
+        "mdds_plcn": "95646"
+      },
+      {
+        "area_name": "Batakhon Ka Khera",
+        "mdds_plcn": "95647"
+      },
+      {
+        "area_name": "Govindsingh Ji Ka Khera",
+        "mdds_plcn": "95648"
+      },
+      {
+        "area_name": "Dadiya",
+        "mdds_plcn": "95649"
+      },
+      {
+        "area_name": "Kanda",
+        "mdds_plcn": "95650"
+      },
+      {
+        "area_name": "Dhangras",
+        "mdds_plcn": "95651"
+      },
+      {
+        "area_name": "Mahesh Pura",
+        "mdds_plcn": "95652"
+      },
+      {
+        "area_name": "Kalundiya",
+        "mdds_plcn": "95653"
+      },
+      {
+        "area_name": "Hansiyas",
+        "mdds_plcn": "95654"
+      },
+      {
+        "area_name": "Patniya",
+        "mdds_plcn": "95655"
+      },
+      {
+        "area_name": "Barsoliya",
+        "mdds_plcn": "95656"
+      },
+      {
+        "area_name": "Jhopariya",
+        "mdds_plcn": "95657"
+      },
+      {
+        "area_name": "Mangrop",
+        "mdds_plcn": "95658"
+      },
+      {
+        "area_name": "Ratan Pura",
+        "mdds_plcn": "95659"
+      },
+      {
+        "area_name": "Siyar",
+        "mdds_plcn": "95660"
+      },
+      {
+        "area_name": "Peepli",
+        "mdds_plcn": "95661"
+      },
+      {
+        "area_name": "Dalelsingh Ji Ka Khera",
+        "mdds_plcn": "95662"
+      },
+      {
+        "area_name": "Roopaliya",
+        "mdds_plcn": "95663"
+      },
+      {
+        "area_name": "Kaliyas",
+        "mdds_plcn": "95664"
+      },
+      {
+        "area_name": "Hameer Garh (CT)",
+        "mdds_plcn": "95665"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Hurda",
+    "areas": [
+      {
+        "area_name": "Hurda",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Kaniya",
+        "mdds_plcn": "94767"
+      },
+      {
+        "area_name": "Nahargarh",
+        "mdds_plcn": "94768"
+      },
+      {
+        "area_name": "Bheemlat",
+        "mdds_plcn": "94769"
+      },
+      {
+        "area_name": "Garwar",
+        "mdds_plcn": "94770"
+      },
+      {
+        "area_name": "Murayla",
+        "mdds_plcn": "94771"
+      },
+      {
+        "area_name": "Khedi",
+        "mdds_plcn": "94772"
+      },
+      {
+        "area_name": "Khejri",
+        "mdds_plcn": "94773"
+      },
+      {
+        "area_name": "Laxmipura (Dantra)",
+        "mdds_plcn": "94774"
+      },
+      {
+        "area_name": "Dantra",
+        "mdds_plcn": "94775"
+      },
+      {
+        "area_name": "Jalampura",
+        "mdds_plcn": "94776"
+      },
+      {
+        "area_name": "Chhapiya Khera",
+        "mdds_plcn": "94777"
+      },
+      {
+        "area_name": "Gagera",
+        "mdds_plcn": "94778"
+      },
+      {
+        "area_name": "Rudrapura",
+        "mdds_plcn": "94779"
+      },
+      {
+        "area_name": "Shiv Nagar",
+        "mdds_plcn": "94780"
+      },
+      {
+        "area_name": "Patiyon Ka Khera",
+        "mdds_plcn": "94781"
+      },
+      {
+        "area_name": "Lamba",
+        "mdds_plcn": "94782"
+      },
+      {
+        "area_name": "Gulabpura (Rural)",
+        "mdds_plcn": "94783"
+      },
+      {
+        "area_name": "Hurda Magra",
+        "mdds_plcn": "94784"
+      },
+      {
+        "area_name": "Hurda Seja",
+        "mdds_plcn": "94785"
+      },
+      {
+        "area_name": "Bavlon Ka Khera",
+        "mdds_plcn": "94786"
+      },
+      {
+        "area_name": "Anandipura",
+        "mdds_plcn": "94787"
+      },
+      {
+        "area_name": "Lachhmipura",
+        "mdds_plcn": "94788"
+      },
+      {
+        "area_name": "Kotri",
+        "mdds_plcn": "94789"
+      },
+      {
+        "area_name": "Moon Ji Ka Khera",
+        "mdds_plcn": "94790"
+      },
+      {
+        "area_name": "Agoocha",
+        "mdds_plcn": "94791"
+      },
+      {
+        "area_name": "Bhairoon Khera",
+        "mdds_plcn": "94792"
+      },
+      {
+        "area_name": "Bhairoon Khera",
+        "mdds_plcn": "94793"
+      },
+      {
+        "area_name": "Amartiya",
+        "mdds_plcn": "94794"
+      },
+      {
+        "area_name": "Urja Ka Kheda",
+        "mdds_plcn": "94795"
+      },
+      {
+        "area_name": "Barantiya",
+        "mdds_plcn": "94796"
+      },
+      {
+        "area_name": "Lachhmangarh",
+        "mdds_plcn": "94797"
+      },
+      {
+        "area_name": "Balapura",
+        "mdds_plcn": "94798"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "94799"
+      },
+      {
+        "area_name": "Jaisinghpura",
+        "mdds_plcn": "94800"
+      },
+      {
+        "area_name": "Deopura",
+        "mdds_plcn": "94801"
+      },
+      {
+        "area_name": "Gajsinghpura",
+        "mdds_plcn": "94802"
+      },
+      {
+        "area_name": "Sultanpura",
+        "mdds_plcn": "94803"
+      },
+      {
+        "area_name": "Barla",
+        "mdds_plcn": "94804"
+      },
+      {
+        "area_name": "Chatarpura",
+        "mdds_plcn": "94805"
+      },
+      {
+        "area_name": "Balwantpura",
+        "mdds_plcn": "94806"
+      },
+      {
+        "area_name": "Chainpuriya",
+        "mdds_plcn": "94807"
+      },
+      {
+        "area_name": "Bhojras",
+        "mdds_plcn": "94808"
+      },
+      {
+        "area_name": "Lachhmanpura",
+        "mdds_plcn": "94809"
+      },
+      {
+        "area_name": "Apaliyas",
+        "mdds_plcn": "94810"
+      },
+      {
+        "area_name": "Roopaheli",
+        "mdds_plcn": "94811"
+      },
+      {
+        "area_name": "Haripura",
+        "mdds_plcn": "94812"
+      },
+      {
+        "area_name": "Adarsh Nagar",
+        "mdds_plcn": "94813"
+      },
+      {
+        "area_name": "Taswariya",
+        "mdds_plcn": "94814"
+      },
+      {
+        "area_name": "Atalpura",
+        "mdds_plcn": "94815"
+      },
+      {
+        "area_name": "Madera",
+        "mdds_plcn": "94816"
+      },
+      {
+        "area_name": "Jooni Khera",
+        "mdds_plcn": "94817"
+      },
+      {
+        "area_name": "Madanpura",
+        "mdds_plcn": "94818"
+      },
+      {
+        "area_name": "Kushalpura",
+        "mdds_plcn": "94819"
+      },
+      {
+        "area_name": "Ukhaliya",
+        "mdds_plcn": "94820"
+      },
+      {
+        "area_name": "Phalamada",
+        "mdds_plcn": "94821"
+      },
+      {
+        "area_name": "Hajiyas",
+        "mdds_plcn": "94822"
+      },
+      {
+        "area_name": "Bharliyas",
+        "mdds_plcn": "94823"
+      },
+      {
+        "area_name": "Kanpura",
+        "mdds_plcn": "94824"
+      },
+      {
+        "area_name": "Bakhtawarpura",
+        "mdds_plcn": "94825"
+      },
+      {
+        "area_name": "Deoriya",
+        "mdds_plcn": "94826"
+      },
+      {
+        "area_name": "Tonkarwad",
+        "mdds_plcn": "94827"
+      },
+      {
+        "area_name": "Shivpura Gopalpura",
+        "mdds_plcn": "94828"
+      },
+      {
+        "area_name": "Amerpura",
+        "mdds_plcn": "94829"
+      },
+      {
+        "area_name": "Jal Khera",
+        "mdds_plcn": "94830"
+      },
+      {
+        "area_name": "Nangaji Ka Khera",
+        "mdds_plcn": "94831"
+      },
+      {
+        "area_name": "Garoliya Khera",
+        "mdds_plcn": "94832"
+      },
+      {
+        "area_name": "Kanwaliyas",
+        "mdds_plcn": "94833"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "94834"
+      },
+      {
+        "area_name": "Bhawanipura",
+        "mdds_plcn": "94835"
+      },
+      {
+        "area_name": "Sanodiya",
+        "mdds_plcn": "94836"
+      },
+      {
+        "area_name": "Ramnagar",
+        "mdds_plcn": "94837"
+      },
+      {
+        "area_name": "Bor Khera",
+        "mdds_plcn": "94838"
+      },
+      {
+        "area_name": "Dhanpura",
+        "mdds_plcn": "94839"
+      },
+      {
+        "area_name": "Suras",
+        "mdds_plcn": "94840"
+      },
+      {
+        "area_name": "Sodar",
+        "mdds_plcn": "94841"
+      },
+      {
+        "area_name": "Inani Khera",
+        "mdds_plcn": "94842"
+      },
+      {
+        "area_name": "Pardodas",
+        "mdds_plcn": "94843"
+      },
+      {
+        "area_name": "Garhwalon Ka Khera",
+        "mdds_plcn": "94844"
+      },
+      {
+        "area_name": "Jalimpura",
+        "mdds_plcn": "94845"
+      },
+      {
+        "area_name": "Sareri",
+        "mdds_plcn": "94846"
+      },
+      {
+        "area_name": "Baga Ka Khera",
+        "mdds_plcn": "94847"
+      },
+      {
+        "area_name": "Dhuwaliya",
+        "mdds_plcn": "94848"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Jahazpur",
+    "areas": [
+      {
+        "area_name": "Jahazpur",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Teetori",
+        "mdds_plcn": "95846"
+      },
+      {
+        "area_name": "Teetora Mafi",
+        "mdds_plcn": "95847"
+      },
+      {
+        "area_name": "Maganpura",
+        "mdds_plcn": "95848"
+      },
+      {
+        "area_name": "Bheempura",
+        "mdds_plcn": "95849"
+      },
+      {
+        "area_name": "Gandher",
+        "mdds_plcn": "95850"
+      },
+      {
+        "area_name": "Jagolai",
+        "mdds_plcn": "95851"
+      },
+      {
+        "area_name": "Bihara",
+        "mdds_plcn": "95852"
+      },
+      {
+        "area_name": "Khjooriya Khera",
+        "mdds_plcn": "95853"
+      },
+      {
+        "area_name": "Jeera",
+        "mdds_plcn": "95854"
+      },
+      {
+        "area_name": "Balapura",
+        "mdds_plcn": "95855"
+      },
+      {
+        "area_name": "Hathodiya",
+        "mdds_plcn": "95856"
+      },
+      {
+        "area_name": "Akhepura",
+        "mdds_plcn": "95857"
+      },
+      {
+        "area_name": "Takhatpura",
+        "mdds_plcn": "95858"
+      },
+      {
+        "area_name": "Gangithala",
+        "mdds_plcn": "95859"
+      },
+      {
+        "area_name": "Navratanpura",
+        "mdds_plcn": "95860"
+      },
+      {
+        "area_name": "Ram Mohanpura",
+        "mdds_plcn": "95861"
+      },
+      {
+        "area_name": "Motipura",
+        "mdds_plcn": "95862"
+      },
+      {
+        "area_name": "Kala Bhata",
+        "mdds_plcn": "95863"
+      },
+      {
+        "area_name": "Udapuriya",
+        "mdds_plcn": "95864"
+      },
+      {
+        "area_name": "Kesho Bilas",
+        "mdds_plcn": "95865"
+      },
+      {
+        "area_name": "Dhunwala",
+        "mdds_plcn": "95866"
+      },
+      {
+        "area_name": "Munshipura",
+        "mdds_plcn": "95867"
+      },
+      {
+        "area_name": "Barla Polya",
+        "mdds_plcn": "95868"
+      },
+      {
+        "area_name": "Morlan",
+        "mdds_plcn": "95869"
+      },
+      {
+        "area_name": "Khema Ka Khera",
+        "mdds_plcn": "95870"
+      },
+      {
+        "area_name": "Uncha",
+        "mdds_plcn": "95871"
+      },
+      {
+        "area_name": "Ambedkar Colony",
+        "mdds_plcn": "95872"
+      },
+      {
+        "area_name": "Hanumannagar",
+        "mdds_plcn": "95873"
+      },
+      {
+        "area_name": "Kuchalwara Kalan",
+        "mdds_plcn": "95874"
+      },
+      {
+        "area_name": "Kesarpura",
+        "mdds_plcn": "95875"
+      },
+      {
+        "area_name": "Teekar",
+        "mdds_plcn": "95876"
+      },
+      {
+        "area_name": "Kuchalwara Khurd",
+        "mdds_plcn": "95877"
+      },
+      {
+        "area_name": "Haripura",
+        "mdds_plcn": "95878"
+      },
+      {
+        "area_name": "Hampura",
+        "mdds_plcn": "95879"
+      },
+      {
+        "area_name": "Mayla Polya",
+        "mdds_plcn": "95880"
+      },
+      {
+        "area_name": "Baradpura",
+        "mdds_plcn": "95881"
+      },
+      {
+        "area_name": "Amarwasi",
+        "mdds_plcn": "95882"
+      },
+      {
+        "area_name": "Asan",
+        "mdds_plcn": "95883"
+      },
+      {
+        "area_name": "Ramnagar",
+        "mdds_plcn": "95884"
+      },
+      {
+        "area_name": "Gadoli",
+        "mdds_plcn": "95885"
+      },
+      {
+        "area_name": "Khana Ka Khohala",
+        "mdds_plcn": "95886"
+      },
+      {
+        "area_name": "Goram Garh",
+        "mdds_plcn": "95887"
+      },
+      {
+        "area_name": "Kuradiya",
+        "mdds_plcn": "95888"
+      },
+      {
+        "area_name": "Kheradiya Mataji Ka Khera",
+        "mdds_plcn": "95889"
+      },
+      {
+        "area_name": "Luhari Khurd",
+        "mdds_plcn": "95890"
+      },
+      {
+        "area_name": "Manohargarh",
+        "mdds_plcn": "95891"
+      },
+      {
+        "area_name": "Chandadand",
+        "mdds_plcn": "95892"
+      },
+      {
+        "area_name": "Intunda",
+        "mdds_plcn": "95893"
+      },
+      {
+        "area_name": "Talab Ka Jhupda",
+        "mdds_plcn": "95894"
+      },
+      {
+        "area_name": "Uda Ka Khera",
+        "mdds_plcn": "95895"
+      },
+      {
+        "area_name": "Bhan Ka Gurha",
+        "mdds_plcn": "95896"
+      },
+      {
+        "area_name": "Khohran Khurd",
+        "mdds_plcn": "95897"
+      },
+      {
+        "area_name": "Bijetha",
+        "mdds_plcn": "95898"
+      },
+      {
+        "area_name": "Bhuwar",
+        "mdds_plcn": "95899"
+      },
+      {
+        "area_name": "Luhari Kalan",
+        "mdds_plcn": "95900"
+      },
+      {
+        "area_name": "Chhaga Ka Jhoopara",
+        "mdds_plcn": "95901"
+      },
+      {
+        "area_name": "Lunda Ka Jhoopara",
+        "mdds_plcn": "95902"
+      },
+      {
+        "area_name": "Chhjelon Ka Khera",
+        "mdds_plcn": "95903"
+      },
+      {
+        "area_name": "Dhandhola",
+        "mdds_plcn": "95904"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "95905"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "95906"
+      },
+      {
+        "area_name": "Laxmipura",
+        "mdds_plcn": "95907"
+      },
+      {
+        "area_name": "Bindi",
+        "mdds_plcn": "95908"
+      },
+      {
+        "area_name": "Jalampura",
+        "mdds_plcn": "95909"
+      },
+      {
+        "area_name": "Rughnathpura Khurd",
+        "mdds_plcn": "95910"
+      },
+      {
+        "area_name": "Shakarpura",
+        "mdds_plcn": "95911"
+      },
+      {
+        "area_name": "Badanpura",
+        "mdds_plcn": "95912"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "95913"
+      },
+      {
+        "area_name": "Rampura",
+        "mdds_plcn": "95914"
+      },
+      {
+        "area_name": "Pander",
+        "mdds_plcn": "95915"
+      },
+      {
+        "area_name": "Jaswantpura",
+        "mdds_plcn": "95916"
+      },
+      {
+        "area_name": "Gokulpura",
+        "mdds_plcn": "95917"
+      },
+      {
+        "area_name": "Dhagariya",
+        "mdds_plcn": "95918"
+      },
+      {
+        "area_name": "Bheelri",
+        "mdds_plcn": "95919"
+      },
+      {
+        "area_name": "Gulabpura",
+        "mdds_plcn": "95920"
+      },
+      {
+        "area_name": "Taswariya",
+        "mdds_plcn": "95921"
+      },
+      {
+        "area_name": "Jhalra",
+        "mdds_plcn": "95922"
+      },
+      {
+        "area_name": "Narana",
+        "mdds_plcn": "95923"
+      },
+      {
+        "area_name": "Sheopura",
+        "mdds_plcn": "95924"
+      },
+      {
+        "area_name": "Beri",
+        "mdds_plcn": "95925"
+      },
+      {
+        "area_name": "Akhepura",
+        "mdds_plcn": "95926"
+      },
+      {
+        "area_name": "Ropan",
+        "mdds_plcn": "95927"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95928"
+      },
+      {
+        "area_name": "Indokiya",
+        "mdds_plcn": "95929"
+      },
+      {
+        "area_name": "Sihana",
+        "mdds_plcn": "95930"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "95931"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "95932"
+      },
+      {
+        "area_name": "Phalasiya",
+        "mdds_plcn": "95933"
+      },
+      {
+        "area_name": "Kanjar Colony",
+        "mdds_plcn": "95934"
+      },
+      {
+        "area_name": "Hadola Chak",
+        "mdds_plcn": "95935"
+      },
+      {
+        "area_name": "Jagannath Pura",
+        "mdds_plcn": "95936"
+      },
+      {
+        "area_name": "Sarsiya Charanan",
+        "mdds_plcn": "95937"
+      },
+      {
+        "area_name": "Mandachar",
+        "mdds_plcn": "95938"
+      },
+      {
+        "area_name": "Deora",
+        "mdds_plcn": "95939"
+      },
+      {
+        "area_name": "Bagoodar",
+        "mdds_plcn": "95940"
+      },
+      {
+        "area_name": "Bharni Kalan",
+        "mdds_plcn": "95941"
+      },
+      {
+        "area_name": "Odiya Khera",
+        "mdds_plcn": "95942"
+      },
+      {
+        "area_name": "Jamoli",
+        "mdds_plcn": "95943"
+      },
+      {
+        "area_name": "Rawat Khera",
+        "mdds_plcn": "95944"
+      },
+      {
+        "area_name": "Bhuwana Teja Ka Barda",
+        "mdds_plcn": "95945"
+      },
+      {
+        "area_name": "Chhabariya",
+        "mdds_plcn": "95946"
+      },
+      {
+        "area_name": "Bhawanipura",
+        "mdds_plcn": "95947"
+      },
+      {
+        "area_name": "Ganeshpura @ Viyasji Ji Ka Khera",
+        "mdds_plcn": "95948"
+      },
+      {
+        "area_name": "Runiya Barda",
+        "mdds_plcn": "95949"
+      },
+      {
+        "area_name": "Sarsiya",
+        "mdds_plcn": "95950"
+      },
+      {
+        "area_name": "Beeramata",
+        "mdds_plcn": "95951"
+      },
+      {
+        "area_name": "Biletha",
+        "mdds_plcn": "95952"
+      },
+      {
+        "area_name": "Khohra Kalan",
+        "mdds_plcn": "95953"
+      },
+      {
+        "area_name": "Mediyan",
+        "mdds_plcn": "95954"
+      },
+      {
+        "area_name": "Shivgarh",
+        "mdds_plcn": "95955"
+      },
+      {
+        "area_name": "Tola",
+        "mdds_plcn": "95956"
+      },
+      {
+        "area_name": "Chand Kheri",
+        "mdds_plcn": "95957"
+      },
+      {
+        "area_name": "Khaneriya",
+        "mdds_plcn": "95958"
+      },
+      {
+        "area_name": "Jheekali",
+        "mdds_plcn": "95959"
+      },
+      {
+        "area_name": "Goga Ka Khera",
+        "mdds_plcn": "95960"
+      },
+      {
+        "area_name": "Subhas Nagar",
+        "mdds_plcn": "95961"
+      },
+      {
+        "area_name": "Peeploond",
+        "mdds_plcn": "95962"
+      },
+      {
+        "area_name": "Deopura",
+        "mdds_plcn": "95963"
+      },
+      {
+        "area_name": "Pacchanpura",
+        "mdds_plcn": "95964"
+      },
+      {
+        "area_name": "Ramgarh",
+        "mdds_plcn": "95965"
+      },
+      {
+        "area_name": "Tarniya Khera",
+        "mdds_plcn": "95966"
+      },
+      {
+        "area_name": "Mandapiya",
+        "mdds_plcn": "95967"
+      },
+      {
+        "area_name": "Bharni Khurd",
+        "mdds_plcn": "95968"
+      },
+      {
+        "area_name": "Kesharpura",
+        "mdds_plcn": "95969"
+      },
+      {
+        "area_name": "Bhainroon Khera",
+        "mdds_plcn": "95970"
+      },
+      {
+        "area_name": "Abhaipur",
+        "mdds_plcn": "95971"
+      },
+      {
+        "area_name": "Madhopur",
+        "mdds_plcn": "95972"
+      },
+      {
+        "area_name": "Bahadarpura Ka Jhonpada",
+        "mdds_plcn": "95973"
+      },
+      {
+        "area_name": "Bahadarpura",
+        "mdds_plcn": "95974"
+      },
+      {
+        "area_name": "Naya Nagar",
+        "mdds_plcn": "95975"
+      },
+      {
+        "area_name": "Amalda",
+        "mdds_plcn": "95976"
+      },
+      {
+        "area_name": "Jalampura",
+        "mdds_plcn": "95977"
+      },
+      {
+        "area_name": "Rajwas",
+        "mdds_plcn": "95978"
+      },
+      {
+        "area_name": "Bagwasa",
+        "mdds_plcn": "95979"
+      },
+      {
+        "area_name": "Fatehpur",
+        "mdds_plcn": "95980"
+      },
+      {
+        "area_name": "Chhatiya",
+        "mdds_plcn": "95981"
+      },
+      {
+        "area_name": "Gurha",
+        "mdds_plcn": "95982"
+      },
+      {
+        "area_name": "Rampur (Mataji)",
+        "mdds_plcn": "95983"
+      },
+      {
+        "area_name": "Rojri",
+        "mdds_plcn": "95984"
+      },
+      {
+        "area_name": "Godam Dag Ka Bara",
+        "mdds_plcn": "95985"
+      },
+      {
+        "area_name": "Shrinagar Chanwari",
+        "mdds_plcn": "95986"
+      },
+      {
+        "area_name": "Gopipura",
+        "mdds_plcn": "95987"
+      },
+      {
+        "area_name": "Sabalpura",
+        "mdds_plcn": "95988"
+      },
+      {
+        "area_name": "Mana Ka Barada",
+        "mdds_plcn": "95989"
+      },
+      {
+        "area_name": "Nathoon",
+        "mdds_plcn": "95990"
+      },
+      {
+        "area_name": "Babaji Ka Khera",
+        "mdds_plcn": "95991"
+      },
+      {
+        "area_name": "Dhor",
+        "mdds_plcn": "95992"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "95993"
+      },
+      {
+        "area_name": "Bheem Ka Khera",
+        "mdds_plcn": "95994"
+      },
+      {
+        "area_name": "Shivpura",
+        "mdds_plcn": "95995"
+      },
+      {
+        "area_name": "Taloda",
+        "mdds_plcn": "95996"
+      },
+      {
+        "area_name": "Baroda",
+        "mdds_plcn": "95997"
+      },
+      {
+        "area_name": "Deo Nagar",
+        "mdds_plcn": "95998"
+      },
+      {
+        "area_name": "Kabri",
+        "mdds_plcn": "95999"
+      },
+      {
+        "area_name": "Nathadand",
+        "mdds_plcn": "96000"
+      },
+      {
+        "area_name": "Rama Ka Khera",
+        "mdds_plcn": "96001"
+      },
+      {
+        "area_name": "Kishanpura",
+        "mdds_plcn": "96002"
+      },
+      {
+        "area_name": "Laxmipura",
+        "mdds_plcn": "96003"
+      },
+      {
+        "area_name": "Lal Ka Khera",
+        "mdds_plcn": "96004"
+      },
+      {
+        "area_name": "Khema Ka Khera",
+        "mdds_plcn": "96005"
+      },
+      {
+        "area_name": "Bakhera",
+        "mdds_plcn": "96006"
+      },
+      {
+        "area_name": "Brij Ki Doongri",
+        "mdds_plcn": "96007"
+      },
+      {
+        "area_name": "Shakkar Garh",
+        "mdds_plcn": "96008"
+      },
+      {
+        "area_name": "Devi Singhji Ka Khera",
+        "mdds_plcn": "96009"
+      },
+      {
+        "area_name": "Balapura",
+        "mdds_plcn": "96010"
+      },
+      {
+        "area_name": "Jhojhar",
+        "mdds_plcn": "96011"
+      },
+      {
+        "area_name": "Panna Ka Khera",
+        "mdds_plcn": "96012"
+      },
+      {
+        "area_name": "Bhopalpura",
+        "mdds_plcn": "96013"
+      },
+      {
+        "area_name": "Mal Ka Khera",
+        "mdds_plcn": "96014"
+      },
+      {
+        "area_name": "Chaturbhujpura",
+        "mdds_plcn": "96015"
+      },
+      {
+        "area_name": "Bei",
+        "mdds_plcn": "96016"
+      },
+      {
+        "area_name": "Sundargarh",
+        "mdds_plcn": "96017"
+      },
+      {
+        "area_name": "Danpura",
+        "mdds_plcn": "96018"
+      },
+      {
+        "area_name": "Ulela",
+        "mdds_plcn": "96019"
+      },
+      {
+        "area_name": "Melwa",
+        "mdds_plcn": "96020"
+      },
+      {
+        "area_name": "Sawaipura",
+        "mdds_plcn": "96021"
+      },
+      {
+        "area_name": "Ranawaton Ka Khera",
+        "mdds_plcn": "96022"
+      },
+      {
+        "area_name": "Garh Bodiya",
+        "mdds_plcn": "96023"
+      },
+      {
+        "area_name": "Jheekari",
+        "mdds_plcn": "96024"
+      },
+      {
+        "area_name": "Kanawaton Ka Khera",
+        "mdds_plcn": "96025"
+      },
+      {
+        "area_name": "Fatta Ka Khera",
+        "mdds_plcn": "96026"
+      },
+      {
+        "area_name": "Manpura",
+        "mdds_plcn": "96027"
+      },
+      {
+        "area_name": "Lariji Ka Khera",
+        "mdds_plcn": "96028"
+      },
+      {
+        "area_name": "Manoharpura",
+        "mdds_plcn": "96029"
+      },
+      {
+        "area_name": "Harsalon Ka Khera",
+        "mdds_plcn": "96030"
+      },
+      {
+        "area_name": "Padampura",
+        "mdds_plcn": "96031"
+      },
+      {
+        "area_name": "Hansera",
+        "mdds_plcn": "96032"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "96033"
+      },
+      {
+        "area_name": "Dhanirada",
+        "mdds_plcn": "96034"
+      },
+      {
+        "area_name": "Chhitarpura",
+        "mdds_plcn": "96035"
+      },
+      {
+        "area_name": "Bhagunagar",
+        "mdds_plcn": "96036"
+      },
+      {
+        "area_name": "Sadapur",
+        "mdds_plcn": "96037"
+      },
+      {
+        "area_name": "Jawanpura",
+        "mdds_plcn": "96038"
+      },
+      {
+        "area_name": "Jagmohanpura",
+        "mdds_plcn": "96039"
+      },
+      {
+        "area_name": "Amargarh",
+        "mdds_plcn": "96040"
+      },
+      {
+        "area_name": "Meghpura",
+        "mdds_plcn": "96041"
+      },
+      {
+        "area_name": "Joraji Ka Khera",
+        "mdds_plcn": "96042"
+      },
+      {
+        "area_name": "Bekli",
+        "mdds_plcn": "96043"
+      },
+      {
+        "area_name": "Mewasa",
+        "mdds_plcn": "96044"
+      },
+      {
+        "area_name": "Kankariya Khera",
+        "mdds_plcn": "96045"
+      },
+      {
+        "area_name": "Bhojgarh",
+        "mdds_plcn": "96046"
+      },
+      {
+        "area_name": "Khajoori",
+        "mdds_plcn": "96047"
+      },
+      {
+        "area_name": "Chhachhiya Badola",
+        "mdds_plcn": "96048"
+      },
+      {
+        "area_name": "Kishangarh",
+        "mdds_plcn": "96049"
+      },
+      {
+        "area_name": "Jaigarh",
+        "mdds_plcn": "96050"
+      },
+      {
+        "area_name": "Utharna",
+        "mdds_plcn": "96051"
+      },
+      {
+        "area_name": "Bheempura",
+        "mdds_plcn": "96052"
+      },
+      {
+        "area_name": "Harsalon Ki Jhonpariya",
+        "mdds_plcn": "96053"
+      },
+      {
+        "area_name": "Kansya",
+        "mdds_plcn": "96054"
+      },
+      {
+        "area_name": "Bankra",
+        "mdds_plcn": "96055"
+      },
+      {
+        "area_name": "Bag Ki Jhoonpariya",
+        "mdds_plcn": "96056"
+      },
+      {
+        "area_name": "Motipura",
+        "mdds_plcn": "96057"
+      },
+      {
+        "area_name": "Nrisinghgarh",
+        "mdds_plcn": "96058"
+      },
+      {
+        "area_name": "Kabri",
+        "mdds_plcn": "96059"
+      },
+      {
+        "area_name": "Sujanpura",
+        "mdds_plcn": "96060"
+      },
+      {
+        "area_name": "Chak Chhambar",
+        "mdds_plcn": "96061"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "96062"
+      },
+      {
+        "area_name": "Godpuriya",
+        "mdds_plcn": "96063"
+      },
+      {
+        "area_name": "Mukandpura",
+        "mdds_plcn": "96064"
+      },
+      {
+        "area_name": "Rampura",
+        "mdds_plcn": "96065"
+      },
+      {
+        "area_name": "Akheramji Ka Khera",
+        "mdds_plcn": "96066"
+      },
+      {
+        "area_name": "Mohanpura",
+        "mdds_plcn": "96067"
+      },
+      {
+        "area_name": "Ratangarh",
+        "mdds_plcn": "96068"
+      },
+      {
+        "area_name": "Dalpura",
+        "mdds_plcn": "96069"
+      },
+      {
+        "area_name": "Urna",
+        "mdds_plcn": "96070"
+      },
+      {
+        "area_name": "Sherpura",
+        "mdds_plcn": "96071"
+      },
+      {
+        "area_name": "Galiya",
+        "mdds_plcn": "96072"
+      },
+      {
+        "area_name": "Kheroona",
+        "mdds_plcn": "96073"
+      },
+      {
+        "area_name": "Teethoda (Jageer)",
+        "mdds_plcn": "96074"
+      },
+      {
+        "area_name": "Shobhaji Ka Khera",
+        "mdds_plcn": "96075"
+      },
+      {
+        "area_name": "Ekalmeri",
+        "mdds_plcn": "96076"
+      },
+      {
+        "area_name": "Jora Ji Ka Khera",
+        "mdds_plcn": "96077"
+      },
+      {
+        "area_name": "Tahla",
+        "mdds_plcn": "96078"
+      },
+      {
+        "area_name": "Adimalji Ka Khera",
+        "mdds_plcn": "96079"
+      },
+      {
+        "area_name": "Mewasa",
+        "mdds_plcn": "96080"
+      },
+      {
+        "area_name": "Karar Kheri",
+        "mdds_plcn": "96081"
+      },
+      {
+        "area_name": "Baori",
+        "mdds_plcn": "96082"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Kotri",
+    "areas": [
+      {
+        "area_name": "Kotri",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Bilaspura",
+        "mdds_plcn": "95666"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "95667"
+      },
+      {
+        "area_name": "Agariya",
+        "mdds_plcn": "95668"
+      },
+      {
+        "area_name": "Boonti",
+        "mdds_plcn": "95669"
+      },
+      {
+        "area_name": "Kheri",
+        "mdds_plcn": "95670"
+      },
+      {
+        "area_name": "Deo Kheri",
+        "mdds_plcn": "95671"
+      },
+      {
+        "area_name": "Bishniya",
+        "mdds_plcn": "95672"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "95673"
+      },
+      {
+        "area_name": "Kesarpura",
+        "mdds_plcn": "95674"
+      },
+      {
+        "area_name": "Chawand Khera",
+        "mdds_plcn": "95675"
+      },
+      {
+        "area_name": "Mataji Ka Khera (Maliyon Ka Jhonpara)",
+        "mdds_plcn": "95676"
+      },
+      {
+        "area_name": "Paroli",
+        "mdds_plcn": "95677"
+      },
+      {
+        "area_name": "Meera Nagar",
+        "mdds_plcn": "95678"
+      },
+      {
+        "area_name": "Bhainroo Khera",
+        "mdds_plcn": "95679"
+      },
+      {
+        "area_name": "Amarpura",
+        "mdds_plcn": "95680"
+      },
+      {
+        "area_name": "Dhanwara",
+        "mdds_plcn": "95681"
+      },
+      {
+        "area_name": "Asawari",
+        "mdds_plcn": "95682"
+      },
+      {
+        "area_name": "Bedunda",
+        "mdds_plcn": "95683"
+      },
+      {
+        "area_name": "Chhitarsingh Ji Ka Khera",
+        "mdds_plcn": "95684"
+      },
+      {
+        "area_name": "Golbari",
+        "mdds_plcn": "95685"
+      },
+      {
+        "area_name": "Sara Ka Khera",
+        "mdds_plcn": "95686"
+      },
+      {
+        "area_name": "Kanti",
+        "mdds_plcn": "95687"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "95688"
+      },
+      {
+        "area_name": "Gudliya",
+        "mdds_plcn": "95689"
+      },
+      {
+        "area_name": "Kothaj",
+        "mdds_plcn": "95690"
+      },
+      {
+        "area_name": "Dantra",
+        "mdds_plcn": "95691"
+      },
+      {
+        "area_name": "Asop",
+        "mdds_plcn": "95692"
+      },
+      {
+        "area_name": "Onkarpura",
+        "mdds_plcn": "95693"
+      },
+      {
+        "area_name": "Borda",
+        "mdds_plcn": "95694"
+      },
+      {
+        "area_name": "Fatehpura",
+        "mdds_plcn": "95695"
+      },
+      {
+        "area_name": "Takhtatpura",
+        "mdds_plcn": "95696"
+      },
+      {
+        "area_name": "Eklinghpura",
+        "mdds_plcn": "95697"
+      },
+      {
+        "area_name": "Dhandh Ka Khera",
+        "mdds_plcn": "95698"
+      },
+      {
+        "area_name": "Raser",
+        "mdds_plcn": "95699"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "95700"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95701"
+      },
+      {
+        "area_name": "Phalaser",
+        "mdds_plcn": "95702"
+      },
+      {
+        "area_name": "Gadri Khera",
+        "mdds_plcn": "95703"
+      },
+      {
+        "area_name": "Kanwaliyas",
+        "mdds_plcn": "95704"
+      },
+      {
+        "area_name": "Narsingh Ka Jhopra",
+        "mdds_plcn": "95705"
+      },
+      {
+        "area_name": "Sankhra",
+        "mdds_plcn": "95706"
+      },
+      {
+        "area_name": "Chhaprel",
+        "mdds_plcn": "95707"
+      },
+      {
+        "area_name": "Deotalai",
+        "mdds_plcn": "95708"
+      },
+      {
+        "area_name": "Deo Khera",
+        "mdds_plcn": "95709"
+      },
+      {
+        "area_name": "Meena Ka Khera",
+        "mdds_plcn": "95710"
+      },
+      {
+        "area_name": "Belwa",
+        "mdds_plcn": "95711"
+      },
+      {
+        "area_name": "Modiya Khera",
+        "mdds_plcn": "95712"
+      },
+      {
+        "area_name": "Bagra",
+        "mdds_plcn": "95713"
+      },
+      {
+        "area_name": "Bagri",
+        "mdds_plcn": "95714"
+      },
+      {
+        "area_name": "Manakpura",
+        "mdds_plcn": "95715"
+      },
+      {
+        "area_name": "Sodiyas",
+        "mdds_plcn": "95716"
+      },
+      {
+        "area_name": "Sola Ka Khera @ Ratanpur",
+        "mdds_plcn": "95717"
+      },
+      {
+        "area_name": "Khejri",
+        "mdds_plcn": "95718"
+      },
+      {
+        "area_name": "Sagatpuriya",
+        "mdds_plcn": "95719"
+      },
+      {
+        "area_name": "Birdhol",
+        "mdds_plcn": "95720"
+      },
+      {
+        "area_name": "Kalyan Pura",
+        "mdds_plcn": "95721"
+      },
+      {
+        "area_name": "Shivnagar",
+        "mdds_plcn": "95722"
+      },
+      {
+        "area_name": "Paplaj",
+        "mdds_plcn": "95723"
+      },
+      {
+        "area_name": "Gudar Khera @ Dookiyon Ka Khera",
+        "mdds_plcn": "95724"
+      },
+      {
+        "area_name": "Jharol",
+        "mdds_plcn": "95725"
+      },
+      {
+        "area_name": "Jaswantpura",
+        "mdds_plcn": "95726"
+      },
+      {
+        "area_name": "Gadari Khera",
+        "mdds_plcn": "95727"
+      },
+      {
+        "area_name": "Sarsari",
+        "mdds_plcn": "95728"
+      },
+      {
+        "area_name": "Harpura",
+        "mdds_plcn": "95729"
+      },
+      {
+        "area_name": "Hatoondi",
+        "mdds_plcn": "95730"
+      },
+      {
+        "area_name": "Chatarpura",
+        "mdds_plcn": "95731"
+      },
+      {
+        "area_name": "Udliyas",
+        "mdds_plcn": "95732"
+      },
+      {
+        "area_name": "Satola Ka Khera",
+        "mdds_plcn": "95733"
+      },
+      {
+        "area_name": "Somsyas",
+        "mdds_plcn": "95734"
+      },
+      {
+        "area_name": "Chawandiya",
+        "mdds_plcn": "95735"
+      },
+      {
+        "area_name": "Ban Ka Khera",
+        "mdds_plcn": "95736"
+      },
+      {
+        "area_name": "Kawaliyas Mafi",
+        "mdds_plcn": "95737"
+      },
+      {
+        "area_name": "Lasariya",
+        "mdds_plcn": "95738"
+      },
+      {
+        "area_name": "Satola",
+        "mdds_plcn": "95739"
+      },
+      {
+        "area_name": "Kheroona",
+        "mdds_plcn": "95740"
+      },
+      {
+        "area_name": "Fateh Garh",
+        "mdds_plcn": "95741"
+      },
+      {
+        "area_name": "Kodiya",
+        "mdds_plcn": "95742"
+      },
+      {
+        "area_name": "Reeth",
+        "mdds_plcn": "95743"
+      },
+      {
+        "area_name": "Mali Khera",
+        "mdds_plcn": "95744"
+      },
+      {
+        "area_name": "Jetpura",
+        "mdds_plcn": "95745"
+      },
+      {
+        "area_name": "Kotri",
+        "mdds_plcn": "95746"
+      },
+      {
+        "area_name": "Dhokliya",
+        "mdds_plcn": "95747"
+      },
+      {
+        "area_name": "Meena Ka Khera",
+        "mdds_plcn": "95748"
+      },
+      {
+        "area_name": "Lakhamaniyas",
+        "mdds_plcn": "95749"
+      },
+      {
+        "area_name": "Kakroliya Mafi",
+        "mdds_plcn": "95750"
+      },
+      {
+        "area_name": "Salriya",
+        "mdds_plcn": "95751"
+      },
+      {
+        "area_name": "Rugnathpura @ Gawardi",
+        "mdds_plcn": "95752"
+      },
+      {
+        "area_name": "Sablaji Ka Khera",
+        "mdds_plcn": "95753"
+      },
+      {
+        "area_name": "Redwas",
+        "mdds_plcn": "95754"
+      },
+      {
+        "area_name": "Bhagwan Pura",
+        "mdds_plcn": "95755"
+      },
+      {
+        "area_name": "Dhayalon Ka Khera",
+        "mdds_plcn": "95756"
+      },
+      {
+        "area_name": "Mansha",
+        "mdds_plcn": "95757"
+      },
+      {
+        "area_name": "Gula Ka Khera",
+        "mdds_plcn": "95758"
+      },
+      {
+        "area_name": "Singhji Ka Khera",
+        "mdds_plcn": "95759"
+      },
+      {
+        "area_name": "Beermiyas",
+        "mdds_plcn": "95760"
+      },
+      {
+        "area_name": "Gora Ka Khera",
+        "mdds_plcn": "95761"
+      },
+      {
+        "area_name": "Bharkiya @ Bithalpura",
+        "mdds_plcn": "95762"
+      },
+      {
+        "area_name": "Akhepur",
+        "mdds_plcn": "95763"
+      },
+      {
+        "area_name": "Thalera",
+        "mdds_plcn": "95764"
+      },
+      {
+        "area_name": "Hajiwas",
+        "mdds_plcn": "95765"
+      },
+      {
+        "area_name": "Onkarpura",
+        "mdds_plcn": "95766"
+      },
+      {
+        "area_name": "Gheoriya",
+        "mdds_plcn": "95767"
+      },
+      {
+        "area_name": "Chohli",
+        "mdds_plcn": "95768"
+      },
+      {
+        "area_name": "Kakroliya Ghati",
+        "mdds_plcn": "95769"
+      },
+      {
+        "area_name": "Hastina Pur",
+        "mdds_plcn": "95770"
+      },
+      {
+        "area_name": "Hastra",
+        "mdds_plcn": "95771"
+      },
+      {
+        "area_name": "Panderi",
+        "mdds_plcn": "95772"
+      },
+      {
+        "area_name": "Chodhariyas (Gega Ka Khera)",
+        "mdds_plcn": "95773"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "95774"
+      },
+      {
+        "area_name": "Jor",
+        "mdds_plcn": "95775"
+      },
+      {
+        "area_name": "Marda Ki Jhunpariya",
+        "mdds_plcn": "95776"
+      },
+      {
+        "area_name": "Bagal Ki Jhunpariya",
+        "mdds_plcn": "95777"
+      },
+      {
+        "area_name": "Ramnagar",
+        "mdds_plcn": "95778"
+      },
+      {
+        "area_name": "Nandrai",
+        "mdds_plcn": "95779"
+      },
+      {
+        "area_name": "Goojar Khera",
+        "mdds_plcn": "95780"
+      },
+      {
+        "area_name": "Gandheri",
+        "mdds_plcn": "95781"
+      },
+      {
+        "area_name": "Bara Khera",
+        "mdds_plcn": "95782"
+      },
+      {
+        "area_name": "Bhairoon Khera",
+        "mdds_plcn": "95783"
+      },
+      {
+        "area_name": "Berada Ki Jhonpariya",
+        "mdds_plcn": "95784"
+      },
+      {
+        "area_name": "Kesarpura",
+        "mdds_plcn": "95785"
+      },
+      {
+        "area_name": "Gehuli",
+        "mdds_plcn": "95786"
+      },
+      {
+        "area_name": "Itawa",
+        "mdds_plcn": "95787"
+      },
+      {
+        "area_name": "Parmeshwar Pura",
+        "mdds_plcn": "95788"
+      },
+      {
+        "area_name": "Jagpura",
+        "mdds_plcn": "95789"
+      },
+      {
+        "area_name": "Sangrampura @ Bor Ka Khera",
+        "mdds_plcn": "95790"
+      },
+      {
+        "area_name": "Jawal",
+        "mdds_plcn": "95791"
+      },
+      {
+        "area_name": "Gogas",
+        "mdds_plcn": "95792"
+      },
+      {
+        "area_name": "Kishangarh",
+        "mdds_plcn": "95793"
+      },
+      {
+        "area_name": "Dantra (Chhota)",
+        "mdds_plcn": "95794"
+      },
+      {
+        "area_name": "Gaphesara",
+        "mdds_plcn": "95795"
+      },
+      {
+        "area_name": "Shopura (Gega Ka Khera)",
+        "mdds_plcn": "95796"
+      },
+      {
+        "area_name": "Bor Khera",
+        "mdds_plcn": "95797"
+      },
+      {
+        "area_name": "Bordiyas",
+        "mdds_plcn": "95798"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "95799"
+      },
+      {
+        "area_name": "Deoli",
+        "mdds_plcn": "95800"
+      },
+      {
+        "area_name": "Sabal Pura",
+        "mdds_plcn": "95801"
+      },
+      {
+        "area_name": "Kanpura",
+        "mdds_plcn": "95802"
+      },
+      {
+        "area_name": "Baga Ka Khera",
+        "mdds_plcn": "95803"
+      },
+      {
+        "area_name": "Deoriya",
+        "mdds_plcn": "95804"
+      },
+      {
+        "area_name": "Purohiton Ka Khera",
+        "mdds_plcn": "95805"
+      },
+      {
+        "area_name": "Baliya Khera",
+        "mdds_plcn": "95806"
+      },
+      {
+        "area_name": "Gothra",
+        "mdds_plcn": "95807"
+      },
+      {
+        "area_name": "Jityas",
+        "mdds_plcn": "95808"
+      },
+      {
+        "area_name": "Kali Randiya",
+        "mdds_plcn": "95809"
+      },
+      {
+        "area_name": "Nohara",
+        "mdds_plcn": "95810"
+      },
+      {
+        "area_name": "Sawaipur",
+        "mdds_plcn": "95811"
+      },
+      {
+        "area_name": "Dhelana",
+        "mdds_plcn": "95812"
+      },
+      {
+        "area_name": "Khajeena",
+        "mdds_plcn": "95813"
+      },
+      {
+        "area_name": "Shopura (Sawaipura)",
+        "mdds_plcn": "95814"
+      },
+      {
+        "area_name": "Barla",
+        "mdds_plcn": "95815"
+      },
+      {
+        "area_name": "Peethas",
+        "mdds_plcn": "95816"
+      },
+      {
+        "area_name": "Solankiyon Ka Khera",
+        "mdds_plcn": "95817"
+      },
+      {
+        "area_name": "Amartiya",
+        "mdds_plcn": "95818"
+      },
+      {
+        "area_name": "Karer",
+        "mdds_plcn": "95819"
+      },
+      {
+        "area_name": "Bhakliya",
+        "mdds_plcn": "95820"
+      },
+      {
+        "area_name": "Adsipura",
+        "mdds_plcn": "95821"
+      },
+      {
+        "area_name": "Chandgarh",
+        "mdds_plcn": "95822"
+      },
+      {
+        "area_name": "Akola",
+        "mdds_plcn": "95823"
+      },
+      {
+        "area_name": "Holirada",
+        "mdds_plcn": "95824"
+      },
+      {
+        "area_name": "Hathipura",
+        "mdds_plcn": "95825"
+      },
+      {
+        "area_name": "Paroli Genta",
+        "mdds_plcn": "95826"
+      },
+      {
+        "area_name": "Shree Pura",
+        "mdds_plcn": "95827"
+      },
+      {
+        "area_name": "Gega Ka Khera",
+        "mdds_plcn": "95828"
+      },
+      {
+        "area_name": "Downi",
+        "mdds_plcn": "95829"
+      },
+      {
+        "area_name": "Jeewakhera",
+        "mdds_plcn": "95830"
+      },
+      {
+        "area_name": "Kharon Ka Khera",
+        "mdds_plcn": "95831"
+      },
+      {
+        "area_name": "Barliyas",
+        "mdds_plcn": "95832"
+      },
+      {
+        "area_name": "Singhpura",
+        "mdds_plcn": "95833"
+      },
+      {
+        "area_name": "Chodhriyas Suthera",
+        "mdds_plcn": "95834"
+      },
+      {
+        "area_name": "Jeetya",
+        "mdds_plcn": "95835"
+      },
+      {
+        "area_name": "Gendliya",
+        "mdds_plcn": "95836"
+      },
+      {
+        "area_name": "Ren",
+        "mdds_plcn": "95837"
+      },
+      {
+        "area_name": "Renwas",
+        "mdds_plcn": "95838"
+      },
+      {
+        "area_name": "Ama",
+        "mdds_plcn": "95839"
+      },
+      {
+        "area_name": "Beeramiyas",
+        "mdds_plcn": "95840"
+      },
+      {
+        "area_name": "Murliya",
+        "mdds_plcn": "95841"
+      },
+      {
+        "area_name": "Suthepa",
+        "mdds_plcn": "95842"
+      },
+      {
+        "area_name": "Udliyas Mafi",
+        "mdds_plcn": "95843"
+      },
+      {
+        "area_name": "Mankari",
+        "mdds_plcn": "95844"
+      },
+      {
+        "area_name": "Barla",
+        "mdds_plcn": "95845"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Mandal",
+    "areas": [
+      {
+        "area_name": "Mandal",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Jalariya",
+        "mdds_plcn": "95107"
+      },
+      {
+        "area_name": "Jeendras",
+        "mdds_plcn": "95108"
+      },
+      {
+        "area_name": "Jorawarpura",
+        "mdds_plcn": "95109"
+      },
+      {
+        "area_name": "Gomoka Badia",
+        "mdds_plcn": "95110"
+      },
+      {
+        "area_name": "Badi Ka Badiya",
+        "mdds_plcn": "95111"
+      },
+      {
+        "area_name": "Thana",
+        "mdds_plcn": "95112"
+      },
+      {
+        "area_name": "Neelva",
+        "mdds_plcn": "95113"
+      },
+      {
+        "area_name": "Unhali Ka Badiya",
+        "mdds_plcn": "95114"
+      },
+      {
+        "area_name": "Dhapra",
+        "mdds_plcn": "95115"
+      },
+      {
+        "area_name": "Shivpur",
+        "mdds_plcn": "95116"
+      },
+      {
+        "area_name": "Atholiya",
+        "mdds_plcn": "95117"
+      },
+      {
+        "area_name": "Gajuna",
+        "mdds_plcn": "95118"
+      },
+      {
+        "area_name": "Sadak Ka Badiya",
+        "mdds_plcn": "95119"
+      },
+      {
+        "area_name": "Kidimal",
+        "mdds_plcn": "95120"
+      },
+      {
+        "area_name": "Dhoraka Bariya",
+        "mdds_plcn": "95121"
+      },
+      {
+        "area_name": "Salya",
+        "mdds_plcn": "95122"
+      },
+      {
+        "area_name": "Kacholiya",
+        "mdds_plcn": "95123"
+      },
+      {
+        "area_name": "Nimbiya",
+        "mdds_plcn": "95124"
+      },
+      {
+        "area_name": "Rampuriya (Nareli)",
+        "mdds_plcn": "95125"
+      },
+      {
+        "area_name": "Nareli",
+        "mdds_plcn": "95126"
+      },
+      {
+        "area_name": "Chansen",
+        "mdds_plcn": "95127"
+      },
+      {
+        "area_name": "Khatanon Ka Bariya",
+        "mdds_plcn": "95128"
+      },
+      {
+        "area_name": "Gorana",
+        "mdds_plcn": "95129"
+      },
+      {
+        "area_name": "Richhi Ka Badiya",
+        "mdds_plcn": "95130"
+      },
+      {
+        "area_name": "Tikhi Ka Barna",
+        "mdds_plcn": "95131"
+      },
+      {
+        "area_name": "Gyangarh",
+        "mdds_plcn": "95132"
+      },
+      {
+        "area_name": "Tokran",
+        "mdds_plcn": "95133"
+      },
+      {
+        "area_name": "Mota Ka Khera",
+        "mdds_plcn": "95134"
+      },
+      {
+        "area_name": "Tagariya",
+        "mdds_plcn": "95135"
+      },
+      {
+        "area_name": "Kunwar",
+        "mdds_plcn": "95136"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95137"
+      },
+      {
+        "area_name": "Rughnathpura",
+        "mdds_plcn": "95138"
+      },
+      {
+        "area_name": "Bagjana",
+        "mdds_plcn": "95139"
+      },
+      {
+        "area_name": "Fakoliya",
+        "mdds_plcn": "95140"
+      },
+      {
+        "area_name": "Chitamba",
+        "mdds_plcn": "95141"
+      },
+      {
+        "area_name": "Sanjari Ka Bariya",
+        "mdds_plcn": "95142"
+      },
+      {
+        "area_name": "Dhuwala (Kareda)",
+        "mdds_plcn": "95143"
+      },
+      {
+        "area_name": "Kera Ka Khera",
+        "mdds_plcn": "95144"
+      },
+      {
+        "area_name": "Miya Falas Ka Khera",
+        "mdds_plcn": "95145"
+      },
+      {
+        "area_name": "Kartha",
+        "mdds_plcn": "95146"
+      },
+      {
+        "area_name": "Bhainroo Khera (Gorakhya)",
+        "mdds_plcn": "95147"
+      },
+      {
+        "area_name": "Danteri",
+        "mdds_plcn": "95148"
+      },
+      {
+        "area_name": "Saredi",
+        "mdds_plcn": "95149"
+      },
+      {
+        "area_name": "Gundali Khera",
+        "mdds_plcn": "95150"
+      },
+      {
+        "area_name": "Alagwas",
+        "mdds_plcn": "95151"
+      },
+      {
+        "area_name": "Bhabhana",
+        "mdds_plcn": "95152"
+      },
+      {
+        "area_name": "Heera Ka Bariya",
+        "mdds_plcn": "95153"
+      },
+      {
+        "area_name": "Sahnuda",
+        "mdds_plcn": "95154"
+      },
+      {
+        "area_name": "Kangson Ka Bariya",
+        "mdds_plcn": "95155"
+      },
+      {
+        "area_name": "Garway",
+        "mdds_plcn": "95156"
+      },
+      {
+        "area_name": "Gordhanpura",
+        "mdds_plcn": "95157"
+      },
+      {
+        "area_name": "Sooliya",
+        "mdds_plcn": "95158"
+      },
+      {
+        "area_name": "Baddoo",
+        "mdds_plcn": "95159"
+      },
+      {
+        "area_name": "Baliya Khera",
+        "mdds_plcn": "95160"
+      },
+      {
+        "area_name": "Amdala",
+        "mdds_plcn": "95161"
+      },
+      {
+        "area_name": "Ajeetpura",
+        "mdds_plcn": "95162"
+      },
+      {
+        "area_name": "Kameri",
+        "mdds_plcn": "95163"
+      },
+      {
+        "area_name": "Deothari",
+        "mdds_plcn": "95164"
+      },
+      {
+        "area_name": "Dahimatha",
+        "mdds_plcn": "95165"
+      },
+      {
+        "area_name": "Kesarpura",
+        "mdds_plcn": "95166"
+      },
+      {
+        "area_name": "Jalampura",
+        "mdds_plcn": "95167"
+      },
+      {
+        "area_name": "Reh",
+        "mdds_plcn": "95168"
+      },
+      {
+        "area_name": "Beliyon Ka Khera",
+        "mdds_plcn": "95169"
+      },
+      {
+        "area_name": "Karera",
+        "mdds_plcn": "95170"
+      },
+      {
+        "area_name": "Mewasa",
+        "mdds_plcn": "95171"
+      },
+      {
+        "area_name": "Bhenroo Khera @ Takhathpura",
+        "mdds_plcn": "95172"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "95173"
+      },
+      {
+        "area_name": "Manoharpura",
+        "mdds_plcn": "95174"
+      },
+      {
+        "area_name": "Saredi Khera",
+        "mdds_plcn": "95175"
+      },
+      {
+        "area_name": "Barawalon Ka Khera",
+        "mdds_plcn": "95176"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "95177"
+      },
+      {
+        "area_name": "Thikariya Khera",
+        "mdds_plcn": "95178"
+      },
+      {
+        "area_name": "Gorkhya",
+        "mdds_plcn": "95179"
+      },
+      {
+        "area_name": "Khumanpura",
+        "mdds_plcn": "95180"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "95181"
+      },
+      {
+        "area_name": "Udairamji Ka Gurha",
+        "mdds_plcn": "95182"
+      },
+      {
+        "area_name": "Surgati",
+        "mdds_plcn": "95183"
+      },
+      {
+        "area_name": "Chauhanon Ki Kameri",
+        "mdds_plcn": "95184"
+      },
+      {
+        "area_name": "Jagdish",
+        "mdds_plcn": "95185"
+      },
+      {
+        "area_name": "Umri",
+        "mdds_plcn": "95186"
+      },
+      {
+        "area_name": "Sora Ka Khera",
+        "mdds_plcn": "95187"
+      },
+      {
+        "area_name": "Dod Khera",
+        "mdds_plcn": "95188"
+      },
+      {
+        "area_name": "Chileshwar",
+        "mdds_plcn": "95189"
+      },
+      {
+        "area_name": "Sardarsingh Ji Ka Khera",
+        "mdds_plcn": "95190"
+      },
+      {
+        "area_name": "Sanwalaji Ka Khera",
+        "mdds_plcn": "95191"
+      },
+      {
+        "area_name": "Kanji Ka Khera",
+        "mdds_plcn": "95192"
+      },
+      {
+        "area_name": "Nimbahera Jatan",
+        "mdds_plcn": "95193"
+      },
+      {
+        "area_name": "Jaswantpura",
+        "mdds_plcn": "95194"
+      },
+      {
+        "area_name": "Bhopan Ki Kameri",
+        "mdds_plcn": "95195"
+      },
+      {
+        "area_name": "Sabal Pura",
+        "mdds_plcn": "95196"
+      },
+      {
+        "area_name": "Jarana",
+        "mdds_plcn": "95197"
+      },
+      {
+        "area_name": "Delas",
+        "mdds_plcn": "95198"
+      },
+      {
+        "area_name": "Kherimata",
+        "mdds_plcn": "95199"
+      },
+      {
+        "area_name": "Chawandiya",
+        "mdds_plcn": "95200"
+      },
+      {
+        "area_name": "Rmpuriya",
+        "mdds_plcn": "95201"
+      },
+      {
+        "area_name": "Dhaniya Somaniya",
+        "mdds_plcn": "95202"
+      },
+      {
+        "area_name": "Bemali",
+        "mdds_plcn": "95203"
+      },
+      {
+        "area_name": "Dhankpur",
+        "mdds_plcn": "95204"
+      },
+      {
+        "area_name": "Debipura",
+        "mdds_plcn": "95205"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "95206"
+      },
+      {
+        "area_name": "Shankar Pura@Kharoliya Khera",
+        "mdds_plcn": "95207"
+      },
+      {
+        "area_name": "Ladoowas",
+        "mdds_plcn": "95208"
+      },
+      {
+        "area_name": "Malas",
+        "mdds_plcn": "95209"
+      },
+      {
+        "area_name": "Garadiya",
+        "mdds_plcn": "95210"
+      },
+      {
+        "area_name": "Sodas",
+        "mdds_plcn": "95211"
+      },
+      {
+        "area_name": "Hatheepura",
+        "mdds_plcn": "95212"
+      },
+      {
+        "area_name": "Kabradiya",
+        "mdds_plcn": "95213"
+      },
+      {
+        "area_name": "Kishanpura",
+        "mdds_plcn": "95214"
+      },
+      {
+        "area_name": "Kishiramji Ki Kheri",
+        "mdds_plcn": "95215"
+      },
+      {
+        "area_name": "Fatehpura",
+        "mdds_plcn": "95216"
+      },
+      {
+        "area_name": "Chhajwon Ka Khera",
+        "mdds_plcn": "95217"
+      },
+      {
+        "area_name": "Bhenroo Khera",
+        "mdds_plcn": "95218"
+      },
+      {
+        "area_name": "Hisniya",
+        "mdds_plcn": "95219"
+      },
+      {
+        "area_name": "Gordhanpura",
+        "mdds_plcn": "95220"
+      },
+      {
+        "area_name": "Keriya",
+        "mdds_plcn": "95221"
+      },
+      {
+        "area_name": "Almas",
+        "mdds_plcn": "95222"
+      },
+      {
+        "area_name": "Sodanpura",
+        "mdds_plcn": "95223"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "95224"
+      },
+      {
+        "area_name": "Balanagar",
+        "mdds_plcn": "95225"
+      },
+      {
+        "area_name": "Surajpura",
+        "mdds_plcn": "95226"
+      },
+      {
+        "area_name": "Bheemdiyas",
+        "mdds_plcn": "95227"
+      },
+      {
+        "area_name": "Lachhmipura",
+        "mdds_plcn": "95228"
+      },
+      {
+        "area_name": "Sajjanpura",
+        "mdds_plcn": "95229"
+      },
+      {
+        "area_name": "Haripura",
+        "mdds_plcn": "95230"
+      },
+      {
+        "area_name": "Seeriyas",
+        "mdds_plcn": "95231"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "95232"
+      },
+      {
+        "area_name": "Melyas",
+        "mdds_plcn": "95233"
+      },
+      {
+        "area_name": "Langron Ka Khera @ Akshayapura",
+        "mdds_plcn": "95234"
+      },
+      {
+        "area_name": "Dhunwala (Mandal)",
+        "mdds_plcn": "95235"
+      },
+      {
+        "area_name": "Baniyans",
+        "mdds_plcn": "95236"
+      },
+      {
+        "area_name": "Nanakpura",
+        "mdds_plcn": "95237"
+      },
+      {
+        "area_name": "Bhand Ki Baori",
+        "mdds_plcn": "95238"
+      },
+      {
+        "area_name": "Neem Ka Khera",
+        "mdds_plcn": "95239"
+      },
+      {
+        "area_name": "Mali Khera",
+        "mdds_plcn": "95240"
+      },
+      {
+        "area_name": "Station Nagar",
+        "mdds_plcn": "95241"
+      },
+      {
+        "area_name": "Santokpura",
+        "mdds_plcn": "95242"
+      },
+      {
+        "area_name": "Gurha",
+        "mdds_plcn": "95243"
+      },
+      {
+        "area_name": "Keerkhera",
+        "mdds_plcn": "95244"
+      },
+      {
+        "area_name": "Mandal",
+        "mdds_plcn": "95245"
+      },
+      {
+        "area_name": "Balai Khera",
+        "mdds_plcn": "95246"
+      },
+      {
+        "area_name": "Gambheer Pura @ Harji Khera",
+        "mdds_plcn": "95247"
+      },
+      {
+        "area_name": "Danta Kalan",
+        "mdds_plcn": "95248"
+      },
+      {
+        "area_name": "Leerdiya",
+        "mdds_plcn": "95249"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "95250"
+      },
+      {
+        "area_name": "Akhepura",
+        "mdds_plcn": "95251"
+      },
+      {
+        "area_name": "Bavri",
+        "mdds_plcn": "95252"
+      },
+      {
+        "area_name": "Gokalpura",
+        "mdds_plcn": "95253"
+      },
+      {
+        "area_name": "Rajpura@Bhagatsingh Ji Ka Khera",
+        "mdds_plcn": "95254"
+      },
+      {
+        "area_name": "Thob Ka Khera",
+        "mdds_plcn": "95255"
+      },
+      {
+        "area_name": "Thabola",
+        "mdds_plcn": "95256"
+      },
+      {
+        "area_name": "Bhalri Khera",
+        "mdds_plcn": "95257"
+      },
+      {
+        "area_name": "Danta Luhariya",
+        "mdds_plcn": "95258"
+      },
+      {
+        "area_name": "Luhariya",
+        "mdds_plcn": "95259"
+      },
+      {
+        "area_name": "Gegas",
+        "mdds_plcn": "95260"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95261"
+      },
+      {
+        "area_name": "Chankher",
+        "mdds_plcn": "95262"
+      },
+      {
+        "area_name": "Keriya Khera @ Akheipura",
+        "mdds_plcn": "95263"
+      },
+      {
+        "area_name": "Naya Khera",
+        "mdds_plcn": "95264"
+      },
+      {
+        "area_name": "Bakli",
+        "mdds_plcn": "95265"
+      },
+      {
+        "area_name": "Lalri",
+        "mdds_plcn": "95266"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "95267"
+      },
+      {
+        "area_name": "Soji Ka Khera",
+        "mdds_plcn": "95268"
+      },
+      {
+        "area_name": "Chandras",
+        "mdds_plcn": "95269"
+      },
+      {
+        "area_name": "Mangalpura",
+        "mdds_plcn": "95270"
+      },
+      {
+        "area_name": "Chena Ka Khera",
+        "mdds_plcn": "95271"
+      },
+      {
+        "area_name": "Sarai",
+        "mdds_plcn": "95272"
+      },
+      {
+        "area_name": "Kapadiya Khera",
+        "mdds_plcn": "95273"
+      },
+      {
+        "area_name": "Baolas",
+        "mdds_plcn": "95274"
+      },
+      {
+        "area_name": "Khatikon Ka Khera",
+        "mdds_plcn": "95275"
+      },
+      {
+        "area_name": "Kharoliya Khera",
+        "mdds_plcn": "95276"
+      },
+      {
+        "area_name": "Leswa",
+        "mdds_plcn": "95277"
+      },
+      {
+        "area_name": "Adarsh Nagar",
+        "mdds_plcn": "95278"
+      },
+      {
+        "area_name": "Nahargarh",
+        "mdds_plcn": "95279"
+      },
+      {
+        "area_name": "Nawalpura",
+        "mdds_plcn": "95280"
+      },
+      {
+        "area_name": "Daulatpura",
+        "mdds_plcn": "95281"
+      },
+      {
+        "area_name": "Bhairoon Khera",
+        "mdds_plcn": "95282"
+      },
+      {
+        "area_name": "Beran",
+        "mdds_plcn": "95283"
+      },
+      {
+        "area_name": "Jorawarpura",
+        "mdds_plcn": "95284"
+      },
+      {
+        "area_name": "Ghoras",
+        "mdds_plcn": "95285"
+      },
+      {
+        "area_name": "Malpura",
+        "mdds_plcn": "95286"
+      },
+      {
+        "area_name": "Sarnon Ka Khera",
+        "mdds_plcn": "95287"
+      },
+      {
+        "area_name": "Karanwas",
+        "mdds_plcn": "95288"
+      },
+      {
+        "area_name": "Mankyas",
+        "mdds_plcn": "95289"
+      },
+      {
+        "area_name": "Bhaolas",
+        "mdds_plcn": "95290"
+      },
+      {
+        "area_name": "Bagor",
+        "mdds_plcn": "95291"
+      },
+      {
+        "area_name": "Amli Colony",
+        "mdds_plcn": "95292"
+      },
+      {
+        "area_name": "Bajya Ki Kheri",
+        "mdds_plcn": "95293"
+      },
+      {
+        "area_name": "Karnipura",
+        "mdds_plcn": "95294"
+      },
+      {
+        "area_name": "Madanpura",
+        "mdds_plcn": "95295"
+      },
+      {
+        "area_name": "Bagpura",
+        "mdds_plcn": "95296"
+      },
+      {
+        "area_name": "Lachhmipura",
+        "mdds_plcn": "95297"
+      },
+      {
+        "area_name": "Bhagatpuriya",
+        "mdds_plcn": "95298"
+      },
+      {
+        "area_name": "Bhojpura",
+        "mdds_plcn": "95299"
+      },
+      {
+        "area_name": "Khera Deopura",
+        "mdds_plcn": "95300"
+      },
+      {
+        "area_name": "Tahuka",
+        "mdds_plcn": "95301"
+      },
+      {
+        "area_name": "Lachhman Pura",
+        "mdds_plcn": "95302"
+      },
+      {
+        "area_name": "Bhakliya",
+        "mdds_plcn": "95303"
+      },
+      {
+        "area_name": "Bheelri",
+        "mdds_plcn": "95304"
+      },
+      {
+        "area_name": "Samrath Pura",
+        "mdds_plcn": "95305"
+      },
+      {
+        "area_name": "Lasadiya",
+        "mdds_plcn": "95306"
+      },
+      {
+        "area_name": "Chatarbhuj Pura",
+        "mdds_plcn": "95307"
+      },
+      {
+        "area_name": "Amargarh",
+        "mdds_plcn": "95308"
+      },
+      {
+        "area_name": "Peethas",
+        "mdds_plcn": "95309"
+      },
+      {
+        "area_name": "Sameliya",
+        "mdds_plcn": "95310"
+      },
+      {
+        "area_name": "Bhadoo",
+        "mdds_plcn": "95311"
+      },
+      {
+        "area_name": "Kochriya",
+        "mdds_plcn": "95312"
+      },
+      {
+        "area_name": "Kaloo Khera",
+        "mdds_plcn": "95313"
+      },
+      {
+        "area_name": "Gadri Khera",
+        "mdds_plcn": "95314"
+      },
+      {
+        "area_name": "Amarpura",
+        "mdds_plcn": "95315"
+      },
+      {
+        "area_name": "Dhedhwas",
+        "mdds_plcn": "95316"
+      },
+      {
+        "area_name": "Mejan",
+        "mdds_plcn": "95317"
+      },
+      {
+        "area_name": "Mali Khera @ Rajpura",
+        "mdds_plcn": "95318"
+      },
+      {
+        "area_name": "Suras",
+        "mdds_plcn": "95319"
+      },
+      {
+        "area_name": "Bateri",
+        "mdds_plcn": "95320"
+      },
+      {
+        "area_name": "Ralayta",
+        "mdds_plcn": "95321"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Mandalgarh",
+    "areas": [
+      {
+        "area_name": "Mandalgarh",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Chandpura",
+        "mdds_plcn": "96083"
+      },
+      {
+        "area_name": "Ampura",
+        "mdds_plcn": "96084"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "96085"
+      },
+      {
+        "area_name": "Katariyon Ka Khera",
+        "mdds_plcn": "96086"
+      },
+      {
+        "area_name": "Rajgarh",
+        "mdds_plcn": "96087"
+      },
+      {
+        "area_name": "Khakhunda",
+        "mdds_plcn": "96088"
+      },
+      {
+        "area_name": "Peethalpura",
+        "mdds_plcn": "96089"
+      },
+      {
+        "area_name": "Bagthala",
+        "mdds_plcn": "96090"
+      },
+      {
+        "area_name": "Gothra",
+        "mdds_plcn": "96091"
+      },
+      {
+        "area_name": "Laxmipura",
+        "mdds_plcn": "96092"
+      },
+      {
+        "area_name": "Thalkhurd",
+        "mdds_plcn": "96093"
+      },
+      {
+        "area_name": "Jal Ka Khera",
+        "mdds_plcn": "96094"
+      },
+      {
+        "area_name": "Thal Kalan",
+        "mdds_plcn": "96095"
+      },
+      {
+        "area_name": "Harisinghji Ka Khera@Nathawaton Ka Khera",
+        "mdds_plcn": "96096"
+      },
+      {
+        "area_name": "Beeliya",
+        "mdds_plcn": "96097"
+      },
+      {
+        "area_name": "Hindusinghji Ka Khera@ Chhur Ka Koh",
+        "mdds_plcn": "96098"
+      },
+      {
+        "area_name": "Meetha",
+        "mdds_plcn": "96099"
+      },
+      {
+        "area_name": "Dhamniya",
+        "mdds_plcn": "96100"
+      },
+      {
+        "area_name": "Nahargarh",
+        "mdds_plcn": "96101"
+      },
+      {
+        "area_name": "Jagpura",
+        "mdds_plcn": "96102"
+      },
+      {
+        "area_name": "Harpura",
+        "mdds_plcn": "96103"
+      },
+      {
+        "area_name": "Latala",
+        "mdds_plcn": "96104"
+      },
+      {
+        "area_name": "Kachhola",
+        "mdds_plcn": "96105"
+      },
+      {
+        "area_name": "Lachhmangarh",
+        "mdds_plcn": "96106"
+      },
+      {
+        "area_name": "Samthala",
+        "mdds_plcn": "96107"
+      },
+      {
+        "area_name": "Sarthala",
+        "mdds_plcn": "96108"
+      },
+      {
+        "area_name": "Madhu Puriya",
+        "mdds_plcn": "96109"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "96110"
+      },
+      {
+        "area_name": "Keeratpura",
+        "mdds_plcn": "96111"
+      },
+      {
+        "area_name": "Hindusinghji Ki Garhi",
+        "mdds_plcn": "96112"
+      },
+      {
+        "area_name": "Deopuriya",
+        "mdds_plcn": "96113"
+      },
+      {
+        "area_name": "Harjaspura",
+        "mdds_plcn": "96114"
+      },
+      {
+        "area_name": "Keriya",
+        "mdds_plcn": "96115"
+      },
+      {
+        "area_name": "Bakhatpura",
+        "mdds_plcn": "96116"
+      },
+      {
+        "area_name": "Salampura",
+        "mdds_plcn": "96117"
+      },
+      {
+        "area_name": "Chawandiya",
+        "mdds_plcn": "96118"
+      },
+      {
+        "area_name": "Amli",
+        "mdds_plcn": "96119"
+      },
+      {
+        "area_name": "Jasuji Ka Khera",
+        "mdds_plcn": "96120"
+      },
+      {
+        "area_name": "Nathji Ka Khera",
+        "mdds_plcn": "96121"
+      },
+      {
+        "area_name": "Mala Ka Khera",
+        "mdds_plcn": "96122"
+      },
+      {
+        "area_name": "Achala Ji Ka Khera",
+        "mdds_plcn": "96123"
+      },
+      {
+        "area_name": "Bharji Ka Khera",
+        "mdds_plcn": "96124"
+      },
+      {
+        "area_name": "Jhanjhola",
+        "mdds_plcn": "96125"
+      },
+      {
+        "area_name": "Rooparel",
+        "mdds_plcn": "96126"
+      },
+      {
+        "area_name": "Shaktaji Ka Khera",
+        "mdds_plcn": "96127"
+      },
+      {
+        "area_name": "Gudha",
+        "mdds_plcn": "96128"
+      },
+      {
+        "area_name": "Deopura",
+        "mdds_plcn": "96129"
+      },
+      {
+        "area_name": "Mangtala",
+        "mdds_plcn": "96130"
+      },
+      {
+        "area_name": "Deoli Ki Noon",
+        "mdds_plcn": "96131"
+      },
+      {
+        "area_name": "Beekran",
+        "mdds_plcn": "96132"
+      },
+      {
+        "area_name": "Takhatji Ka Khera",
+        "mdds_plcn": "96133"
+      },
+      {
+        "area_name": "Dudaji Ka Khera",
+        "mdds_plcn": "96134"
+      },
+      {
+        "area_name": "Jasaji Ka Khera",
+        "mdds_plcn": "96135"
+      },
+      {
+        "area_name": "Deogarh",
+        "mdds_plcn": "96136"
+      },
+      {
+        "area_name": "Danji Ka Khera",
+        "mdds_plcn": "96137"
+      },
+      {
+        "area_name": "Shreenagar",
+        "mdds_plcn": "96138"
+      },
+      {
+        "area_name": "Sangrampura",
+        "mdds_plcn": "96139"
+      },
+      {
+        "area_name": "Kacholiya Khurd",
+        "mdds_plcn": "96140"
+      },
+      {
+        "area_name": "Kacholiya Kalan",
+        "mdds_plcn": "96141"
+      },
+      {
+        "area_name": "Mahuwa",
+        "mdds_plcn": "96142"
+      },
+      {
+        "area_name": "Mukan Garh",
+        "mdds_plcn": "96143"
+      },
+      {
+        "area_name": "Manpura",
+        "mdds_plcn": "96144"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "96145"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "96146"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "96147"
+      },
+      {
+        "area_name": "Soniyana",
+        "mdds_plcn": "96148"
+      },
+      {
+        "area_name": "Padampura",
+        "mdds_plcn": "96149"
+      },
+      {
+        "area_name": "Ralayata",
+        "mdds_plcn": "96150"
+      },
+      {
+        "area_name": "Bhawani Singh Ka Khera",
+        "mdds_plcn": "96151"
+      },
+      {
+        "area_name": "Jaliya",
+        "mdds_plcn": "96152"
+      },
+      {
+        "area_name": "Mol",
+        "mdds_plcn": "96153"
+      },
+      {
+        "area_name": "Deopura",
+        "mdds_plcn": "96154"
+      },
+      {
+        "area_name": "Chainpuriya @ Theekariya",
+        "mdds_plcn": "96155"
+      },
+      {
+        "area_name": "Pratappura",
+        "mdds_plcn": "96156"
+      },
+      {
+        "area_name": "Dhool Khera",
+        "mdds_plcn": "96157"
+      },
+      {
+        "area_name": "Bigod",
+        "mdds_plcn": "96158"
+      },
+      {
+        "area_name": "Mali Khera",
+        "mdds_plcn": "96159"
+      },
+      {
+        "area_name": "Nayagaon",
+        "mdds_plcn": "96160"
+      },
+      {
+        "area_name": "Mohanpura",
+        "mdds_plcn": "96161"
+      },
+      {
+        "area_name": "Kherpura @ Meghpura",
+        "mdds_plcn": "96162"
+      },
+      {
+        "area_name": "Bharliya",
+        "mdds_plcn": "96163"
+      },
+      {
+        "area_name": "Khatwara",
+        "mdds_plcn": "96164"
+      },
+      {
+        "area_name": "Ranikhera",
+        "mdds_plcn": "96165"
+      },
+      {
+        "area_name": "Nahargarh",
+        "mdds_plcn": "96166"
+      },
+      {
+        "area_name": "Mahtaji Ka Khera",
+        "mdds_plcn": "96167"
+      },
+      {
+        "area_name": "Heengwaniya",
+        "mdds_plcn": "96168"
+      },
+      {
+        "area_name": "Devipura",
+        "mdds_plcn": "96169"
+      },
+      {
+        "area_name": "Suras",
+        "mdds_plcn": "96170"
+      },
+      {
+        "area_name": "Bilod",
+        "mdds_plcn": "96171"
+      },
+      {
+        "area_name": "Dhaman Gati",
+        "mdds_plcn": "96172"
+      },
+      {
+        "area_name": "Baroondni",
+        "mdds_plcn": "96173"
+      },
+      {
+        "area_name": "Dewaliya",
+        "mdds_plcn": "96174"
+      },
+      {
+        "area_name": "Singoli",
+        "mdds_plcn": "96175"
+      },
+      {
+        "area_name": "Dhakar Kheri",
+        "mdds_plcn": "96176"
+      },
+      {
+        "area_name": "Bageed",
+        "mdds_plcn": "96177"
+      },
+      {
+        "area_name": "Beethalpura",
+        "mdds_plcn": "96178"
+      },
+      {
+        "area_name": "Mandi Nathan",
+        "mdds_plcn": "96179"
+      },
+      {
+        "area_name": "Jojwa",
+        "mdds_plcn": "96180"
+      },
+      {
+        "area_name": "Lodhiyana",
+        "mdds_plcn": "96181"
+      },
+      {
+        "area_name": "Sand",
+        "mdds_plcn": "96182"
+      },
+      {
+        "area_name": "Hoda",
+        "mdds_plcn": "96183"
+      },
+      {
+        "area_name": "Karanpura",
+        "mdds_plcn": "96184"
+      },
+      {
+        "area_name": "Tiroli",
+        "mdds_plcn": "96185"
+      },
+      {
+        "area_name": "Phalasiyan",
+        "mdds_plcn": "96186"
+      },
+      {
+        "area_name": "Baldarkha",
+        "mdds_plcn": "96187"
+      },
+      {
+        "area_name": "Bhand Ka Khera",
+        "mdds_plcn": "96188"
+      },
+      {
+        "area_name": "Mandi Gusaiyan",
+        "mdds_plcn": "96189"
+      },
+      {
+        "area_name": "Peethaji Ka Khera",
+        "mdds_plcn": "96190"
+      },
+      {
+        "area_name": "Devi Singh Ka Khera",
+        "mdds_plcn": "96191"
+      },
+      {
+        "area_name": "Baroo Khera",
+        "mdds_plcn": "96192"
+      },
+      {
+        "area_name": "Mukund Puriya",
+        "mdds_plcn": "96193"
+      },
+      {
+        "area_name": "Neel Ki Kheri",
+        "mdds_plcn": "96194"
+      },
+      {
+        "area_name": "Beer Ka Khera",
+        "mdds_plcn": "96195"
+      },
+      {
+        "area_name": "Lalpura",
+        "mdds_plcn": "96196"
+      },
+      {
+        "area_name": "Kalyanpura @ Hadonka Khera",
+        "mdds_plcn": "96197"
+      },
+      {
+        "area_name": "Raiseengpura",
+        "mdds_plcn": "96198"
+      },
+      {
+        "area_name": "Khachrol",
+        "mdds_plcn": "96199"
+      },
+      {
+        "area_name": "Makariya",
+        "mdds_plcn": "96200"
+      },
+      {
+        "area_name": "Goth",
+        "mdds_plcn": "96201"
+      },
+      {
+        "area_name": "Surdiya",
+        "mdds_plcn": "96202"
+      },
+      {
+        "area_name": "Kasiramji Ka Khera",
+        "mdds_plcn": "96203"
+      },
+      {
+        "area_name": "Kabariya Khurd",
+        "mdds_plcn": "96204"
+      },
+      {
+        "area_name": "Kabariya Kalan",
+        "mdds_plcn": "96205"
+      },
+      {
+        "area_name": "Nawalpura",
+        "mdds_plcn": "96206"
+      },
+      {
+        "area_name": "Peepalda",
+        "mdds_plcn": "96207"
+      },
+      {
+        "area_name": "Sardarji Ka Khera",
+        "mdds_plcn": "96208"
+      },
+      {
+        "area_name": "Khakhiji Ka Khera",
+        "mdds_plcn": "96209"
+      },
+      {
+        "area_name": "Anwasa",
+        "mdds_plcn": "96210"
+      },
+      {
+        "area_name": "Neem Ka Khera",
+        "mdds_plcn": "96211"
+      },
+      {
+        "area_name": "Kundaliya",
+        "mdds_plcn": "96212"
+      },
+      {
+        "area_name": "Genoli",
+        "mdds_plcn": "96213"
+      },
+      {
+        "area_name": "Biharipura",
+        "mdds_plcn": "96214"
+      },
+      {
+        "area_name": "Dhakarkheri",
+        "mdds_plcn": "96215"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "96216"
+      },
+      {
+        "area_name": "Kishanpuriya",
+        "mdds_plcn": "96217"
+      },
+      {
+        "area_name": "Salampura @ Tinduri",
+        "mdds_plcn": "96218"
+      },
+      {
+        "area_name": "Dolpura",
+        "mdds_plcn": "96219"
+      },
+      {
+        "area_name": "Badanpura",
+        "mdds_plcn": "96220"
+      },
+      {
+        "area_name": "Saran Ka Khera",
+        "mdds_plcn": "96221"
+      },
+      {
+        "area_name": "Swarooppura",
+        "mdds_plcn": "96222"
+      },
+      {
+        "area_name": "Mohanpura",
+        "mdds_plcn": "96223"
+      },
+      {
+        "area_name": "Anando Ka Khera",
+        "mdds_plcn": "96224"
+      },
+      {
+        "area_name": "Jetpura",
+        "mdds_plcn": "96225"
+      },
+      {
+        "area_name": "Mochariyon Ka Khera",
+        "mdds_plcn": "96226"
+      },
+      {
+        "area_name": "Gulgoan",
+        "mdds_plcn": "96227"
+      },
+      {
+        "area_name": "Ajeetpura",
+        "mdds_plcn": "96228"
+      },
+      {
+        "area_name": "Rooptalai",
+        "mdds_plcn": "96229"
+      },
+      {
+        "area_name": "Kham Ka Khera",
+        "mdds_plcn": "96230"
+      },
+      {
+        "area_name": "Jalam Ki Jhonpariyan",
+        "mdds_plcn": "96231"
+      },
+      {
+        "area_name": "Bhat Kheri",
+        "mdds_plcn": "96232"
+      },
+      {
+        "area_name": "Meghpura",
+        "mdds_plcn": "96233"
+      },
+      {
+        "area_name": "Dalsingh Ji Ka Khera",
+        "mdds_plcn": "96234"
+      },
+      {
+        "area_name": "Ramchandraji Ka Khera",
+        "mdds_plcn": "96235"
+      },
+      {
+        "area_name": "Undaron Ka Khera",
+        "mdds_plcn": "96236"
+      },
+      {
+        "area_name": "Dhanwara",
+        "mdds_plcn": "96237"
+      },
+      {
+        "area_name": "Mal Ka Khera",
+        "mdds_plcn": "96238"
+      },
+      {
+        "area_name": "Hameeriya",
+        "mdds_plcn": "96239"
+      },
+      {
+        "area_name": "Shyampura",
+        "mdds_plcn": "96240"
+      },
+      {
+        "area_name": "Jujarpur",
+        "mdds_plcn": "96241"
+      },
+      {
+        "area_name": "Dhorela",
+        "mdds_plcn": "96242"
+      },
+      {
+        "area_name": "Bhopalgarh",
+        "mdds_plcn": "96243"
+      },
+      {
+        "area_name": "Fatehpura",
+        "mdds_plcn": "96244"
+      },
+      {
+        "area_name": "Gariyan",
+        "mdds_plcn": "96245"
+      },
+      {
+        "area_name": "Daulji Ka Khera",
+        "mdds_plcn": "96246"
+      },
+      {
+        "area_name": "Khokhra",
+        "mdds_plcn": "96247"
+      },
+      {
+        "area_name": "Damti",
+        "mdds_plcn": "96248"
+      },
+      {
+        "area_name": "Ladpura",
+        "mdds_plcn": "96249"
+      },
+      {
+        "area_name": "Bharenda",
+        "mdds_plcn": "96250"
+      },
+      {
+        "area_name": "Khangarji Ka Khera",
+        "mdds_plcn": "96251"
+      },
+      {
+        "area_name": "Ramthali",
+        "mdds_plcn": "96252"
+      },
+      {
+        "area_name": "Govta",
+        "mdds_plcn": "96253"
+      },
+      {
+        "area_name": "Sarana",
+        "mdds_plcn": "96254"
+      },
+      {
+        "area_name": "Motaron Ka Khera",
+        "mdds_plcn": "96255"
+      },
+      {
+        "area_name": "Manganj",
+        "mdds_plcn": "96256"
+      },
+      {
+        "area_name": "Kali Khol",
+        "mdds_plcn": "96257"
+      },
+      {
+        "area_name": "Nahargarh @ Jodhpuriya",
+        "mdds_plcn": "96258"
+      },
+      {
+        "area_name": "Kekariya",
+        "mdds_plcn": "96259"
+      },
+      {
+        "area_name": "Narsingh Sagar",
+        "mdds_plcn": "96260"
+      },
+      {
+        "area_name": "Chainpuriya",
+        "mdds_plcn": "96261"
+      },
+      {
+        "area_name": "Padampura",
+        "mdds_plcn": "96262"
+      },
+      {
+        "area_name": "Charan Kheri @ Sopura",
+        "mdds_plcn": "96263"
+      },
+      {
+        "area_name": "Amartiya",
+        "mdds_plcn": "96264"
+      },
+      {
+        "area_name": "Chitoriya",
+        "mdds_plcn": "96265"
+      },
+      {
+        "area_name": "Phoolji Ki Kheri",
+        "mdds_plcn": "96266"
+      },
+      {
+        "area_name": "Shyam Garh",
+        "mdds_plcn": "96267"
+      },
+      {
+        "area_name": "Tahla",
+        "mdds_plcn": "96268"
+      },
+      {
+        "area_name": "Madhopura",
+        "mdds_plcn": "96269"
+      },
+      {
+        "area_name": "Saipeepla",
+        "mdds_plcn": "96270"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Raipur",
+    "areas": [
+      {
+        "area_name": "Raipur",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Semlat",
+        "mdds_plcn": "95322"
+      },
+      {
+        "area_name": "Bheeta",
+        "mdds_plcn": "95323"
+      },
+      {
+        "area_name": "Jorawarpura",
+        "mdds_plcn": "95324"
+      },
+      {
+        "area_name": "Sarewari",
+        "mdds_plcn": "95325"
+      },
+      {
+        "area_name": "Bhatewar",
+        "mdds_plcn": "95326"
+      },
+      {
+        "area_name": "Roopa Ka Khera",
+        "mdds_plcn": "95327"
+      },
+      {
+        "area_name": "Thoriya Khera",
+        "mdds_plcn": "95328"
+      },
+      {
+        "area_name": "Kalal Kheri",
+        "mdds_plcn": "95329"
+      },
+      {
+        "area_name": "Bari",
+        "mdds_plcn": "95330"
+      },
+      {
+        "area_name": "Bagoliya",
+        "mdds_plcn": "95331"
+      },
+      {
+        "area_name": "Arjungarh",
+        "mdds_plcn": "95332"
+      },
+      {
+        "area_name": "Peetalpura",
+        "mdds_plcn": "95333"
+      },
+      {
+        "area_name": "Thala",
+        "mdds_plcn": "95334"
+      },
+      {
+        "area_name": "Gadri Khera",
+        "mdds_plcn": "95335"
+      },
+      {
+        "area_name": "Patiyon Ka Khera",
+        "mdds_plcn": "95336"
+      },
+      {
+        "area_name": "Bheelkheri",
+        "mdds_plcn": "95337"
+      },
+      {
+        "area_name": "Suras",
+        "mdds_plcn": "95338"
+      },
+      {
+        "area_name": "Dhool Khera",
+        "mdds_plcn": "95339"
+      },
+      {
+        "area_name": "Borana",
+        "mdds_plcn": "95340"
+      },
+      {
+        "area_name": "Ladki",
+        "mdds_plcn": "95341"
+      },
+      {
+        "area_name": "Rama",
+        "mdds_plcn": "95342"
+      },
+      {
+        "area_name": "Chhatol",
+        "mdds_plcn": "95343"
+      },
+      {
+        "area_name": "Jalamali",
+        "mdds_plcn": "95344"
+      },
+      {
+        "area_name": "Mandi",
+        "mdds_plcn": "95345"
+      },
+      {
+        "area_name": "Miyala",
+        "mdds_plcn": "95346"
+      },
+      {
+        "area_name": "Sirodi",
+        "mdds_plcn": "95347"
+      },
+      {
+        "area_name": "Bagar",
+        "mdds_plcn": "95348"
+      },
+      {
+        "area_name": "Karol",
+        "mdds_plcn": "95349"
+      },
+      {
+        "area_name": "Kot",
+        "mdds_plcn": "95350"
+      },
+      {
+        "area_name": "Peeth Ka Khera",
+        "mdds_plcn": "95351"
+      },
+      {
+        "area_name": "Mandol",
+        "mdds_plcn": "95352"
+      },
+      {
+        "area_name": "Dheekani",
+        "mdds_plcn": "95353"
+      },
+      {
+        "area_name": "Raipur",
+        "mdds_plcn": "95354"
+      },
+      {
+        "area_name": "Jagpura",
+        "mdds_plcn": "95355"
+      },
+      {
+        "area_name": "Sagreo",
+        "mdds_plcn": "95356"
+      },
+      {
+        "area_name": "Mokhampura",
+        "mdds_plcn": "95357"
+      },
+      {
+        "area_name": "Khootiya Khera",
+        "mdds_plcn": "95358"
+      },
+      {
+        "area_name": "Nathdiyas",
+        "mdds_plcn": "95359"
+      },
+      {
+        "area_name": "Panotiya",
+        "mdds_plcn": "95360"
+      },
+      {
+        "area_name": "Aspur",
+        "mdds_plcn": "95361"
+      },
+      {
+        "area_name": "Fatehpura",
+        "mdds_plcn": "95362"
+      },
+      {
+        "area_name": "Jogras",
+        "mdds_plcn": "95363"
+      },
+      {
+        "area_name": "Shivnadhpura",
+        "mdds_plcn": "95364"
+      },
+      {
+        "area_name": "Doolehpura",
+        "mdds_plcn": "95365"
+      },
+      {
+        "area_name": "Tolas",
+        "mdds_plcn": "95366"
+      },
+      {
+        "area_name": "Boriyapura",
+        "mdds_plcn": "95367"
+      },
+      {
+        "area_name": "Rewara",
+        "mdds_plcn": "95368"
+      },
+      {
+        "area_name": "Ashaholi",
+        "mdds_plcn": "95369"
+      },
+      {
+        "area_name": "Lakhaholi",
+        "mdds_plcn": "95370"
+      },
+      {
+        "area_name": "Narayan Khera",
+        "mdds_plcn": "95371"
+      },
+      {
+        "area_name": "Nahri",
+        "mdds_plcn": "95372"
+      },
+      {
+        "area_name": "Sargoo",
+        "mdds_plcn": "95373"
+      },
+      {
+        "area_name": "Tejya Kheri",
+        "mdds_plcn": "95374"
+      },
+      {
+        "area_name": "Amba Ka Khera",
+        "mdds_plcn": "95375"
+      },
+      {
+        "area_name": "Khootiya",
+        "mdds_plcn": "95376"
+      },
+      {
+        "area_name": "Parbati",
+        "mdds_plcn": "95377"
+      },
+      {
+        "area_name": "Kemooniya",
+        "mdds_plcn": "95378"
+      },
+      {
+        "area_name": "Pachataron Ka Khera",
+        "mdds_plcn": "95379"
+      },
+      {
+        "area_name": "Palran",
+        "mdds_plcn": "95380"
+      },
+      {
+        "area_name": "Merniya Khera",
+        "mdds_plcn": "95381"
+      },
+      {
+        "area_name": "Khanniya",
+        "mdds_plcn": "95382"
+      },
+      {
+        "area_name": "Thoriya Khera",
+        "mdds_plcn": "95383"
+      },
+      {
+        "area_name": "Nandura",
+        "mdds_plcn": "95384"
+      },
+      {
+        "area_name": "Khakhar Mala",
+        "mdds_plcn": "95385"
+      },
+      {
+        "area_name": "Rebariyon Ki Dhani",
+        "mdds_plcn": "95386"
+      },
+      {
+        "area_name": "Asuna",
+        "mdds_plcn": "95387"
+      },
+      {
+        "area_name": "Kishorpura",
+        "mdds_plcn": "95388"
+      },
+      {
+        "area_name": "Toongach",
+        "mdds_plcn": "95389"
+      },
+      {
+        "area_name": "Mokhunda",
+        "mdds_plcn": "95390"
+      },
+      {
+        "area_name": "Mandka Khera",
+        "mdds_plcn": "95391"
+      },
+      {
+        "area_name": "Theekariyan",
+        "mdds_plcn": "95392"
+      },
+      {
+        "area_name": "Masinghpura",
+        "mdds_plcn": "95393"
+      },
+      {
+        "area_name": "Dangri",
+        "mdds_plcn": "95394"
+      },
+      {
+        "area_name": "Dangra",
+        "mdds_plcn": "95395"
+      },
+      {
+        "area_name": "Jhadol",
+        "mdds_plcn": "95396"
+      },
+      {
+        "area_name": "Naya Khera",
+        "mdds_plcn": "95397"
+      },
+      {
+        "area_name": "Rali Khera",
+        "mdds_plcn": "95398"
+      },
+      {
+        "area_name": "Tokra",
+        "mdds_plcn": "95399"
+      },
+      {
+        "area_name": "Debriya",
+        "mdds_plcn": "95400"
+      },
+      {
+        "area_name": "Lathiya Khera",
+        "mdds_plcn": "95401"
+      },
+      {
+        "area_name": "Singhpura",
+        "mdds_plcn": "95402"
+      },
+      {
+        "area_name": "Govindpura",
+        "mdds_plcn": "95403"
+      },
+      {
+        "area_name": "Charot",
+        "mdds_plcn": "95404"
+      },
+      {
+        "area_name": "Galwa",
+        "mdds_plcn": "95405"
+      },
+      {
+        "area_name": "Khemana",
+        "mdds_plcn": "95406"
+      },
+      {
+        "area_name": "Galyawari",
+        "mdds_plcn": "95407"
+      },
+      {
+        "area_name": "Nandsa Jageer",
+        "mdds_plcn": "95408"
+      },
+      {
+        "area_name": "Bariya Khurd",
+        "mdds_plcn": "95409"
+      },
+      {
+        "area_name": "Bariya Kalan",
+        "mdds_plcn": "95410"
+      },
+      {
+        "area_name": "Diyas",
+        "mdds_plcn": "95411"
+      },
+      {
+        "area_name": "Bakan",
+        "mdds_plcn": "95412"
+      },
+      {
+        "area_name": "Ranas",
+        "mdds_plcn": "95413"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Sahara",
+    "areas": [
+      {
+        "area_name": "Sahara",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Arnota",
+        "mdds_plcn": "95414"
+      },
+      {
+        "area_name": "Koshithal",
+        "mdds_plcn": "95415"
+      },
+      {
+        "area_name": "Atawara",
+        "mdds_plcn": "95416"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "95417"
+      },
+      {
+        "area_name": "Neemkhera",
+        "mdds_plcn": "95418"
+      },
+      {
+        "area_name": "Arniya (Jageer)",
+        "mdds_plcn": "95419"
+      },
+      {
+        "area_name": "Palran",
+        "mdds_plcn": "95420"
+      },
+      {
+        "area_name": "Surat Singh Ka Khera",
+        "mdds_plcn": "95421"
+      },
+      {
+        "area_name": "Thekla",
+        "mdds_plcn": "95422"
+      },
+      {
+        "area_name": "Chawandiya",
+        "mdds_plcn": "95423"
+      },
+      {
+        "area_name": "Bhootela",
+        "mdds_plcn": "95424"
+      },
+      {
+        "area_name": "Matuniya",
+        "mdds_plcn": "95425"
+      },
+      {
+        "area_name": "Ullai",
+        "mdds_plcn": "95426"
+      },
+      {
+        "area_name": "Rooparel",
+        "mdds_plcn": "95427"
+      },
+      {
+        "area_name": "Hadiya Kheri",
+        "mdds_plcn": "95428"
+      },
+      {
+        "area_name": "Salera",
+        "mdds_plcn": "95429"
+      },
+      {
+        "area_name": "Jaisinghpura",
+        "mdds_plcn": "95430"
+      },
+      {
+        "area_name": "Bijepur",
+        "mdds_plcn": "95431"
+      },
+      {
+        "area_name": "Geerriya",
+        "mdds_plcn": "95432"
+      },
+      {
+        "area_name": "Phoonkiya",
+        "mdds_plcn": "95433"
+      },
+      {
+        "area_name": "Arjunpura",
+        "mdds_plcn": "95434"
+      },
+      {
+        "area_name": "Negarion Ka Khera",
+        "mdds_plcn": "95435"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "95436"
+      },
+      {
+        "area_name": "Gowliya",
+        "mdds_plcn": "95437"
+      },
+      {
+        "area_name": "Chhapri",
+        "mdds_plcn": "95438"
+      },
+      {
+        "area_name": "Khajooriya",
+        "mdds_plcn": "95439"
+      },
+      {
+        "area_name": "Kala Ka Khera",
+        "mdds_plcn": "95440"
+      },
+      {
+        "area_name": "Gujariya Khera",
+        "mdds_plcn": "95441"
+      },
+      {
+        "area_name": "Khankhla",
+        "mdds_plcn": "95442"
+      },
+      {
+        "area_name": "Gumanpura",
+        "mdds_plcn": "95443"
+      },
+      {
+        "area_name": "Sirohi Khera",
+        "mdds_plcn": "95444"
+      },
+      {
+        "area_name": "Gadri Khera",
+        "mdds_plcn": "95445"
+      },
+      {
+        "area_name": "Diyas",
+        "mdds_plcn": "95446"
+      },
+      {
+        "area_name": "Udliyas",
+        "mdds_plcn": "95447"
+      },
+      {
+        "area_name": "Satliyas",
+        "mdds_plcn": "95448"
+      },
+      {
+        "area_name": "Karnji Ki Kheri",
+        "mdds_plcn": "95449"
+      },
+      {
+        "area_name": "Sahara (Rural)",
+        "mdds_plcn": "95450"
+      },
+      {
+        "area_name": "Khati Khera",
+        "mdds_plcn": "95451"
+      },
+      {
+        "area_name": "Ruganathpura",
+        "mdds_plcn": "95452"
+      },
+      {
+        "area_name": "Kangani",
+        "mdds_plcn": "95453"
+      },
+      {
+        "area_name": "Haripura",
+        "mdds_plcn": "95454"
+      },
+      {
+        "area_name": "Delana (Rural)",
+        "mdds_plcn": "95455"
+      },
+      {
+        "area_name": "Kali Magari Ka Khera",
+        "mdds_plcn": "95456"
+      },
+      {
+        "area_name": "Nandsa (Khalsa)",
+        "mdds_plcn": "95457"
+      },
+      {
+        "area_name": "Jhoompura",
+        "mdds_plcn": "95458"
+      },
+      {
+        "area_name": "Cheer Khera",
+        "mdds_plcn": "95459"
+      },
+      {
+        "area_name": "Arsipura",
+        "mdds_plcn": "95460"
+      },
+      {
+        "area_name": "Santosh Nagar",
+        "mdds_plcn": "95461"
+      },
+      {
+        "area_name": "Amli",
+        "mdds_plcn": "95462"
+      },
+      {
+        "area_name": "Ramratannagar",
+        "mdds_plcn": "95463"
+      },
+      {
+        "area_name": "Balajinagar",
+        "mdds_plcn": "95464"
+      },
+      {
+        "area_name": "Paboonagar",
+        "mdds_plcn": "95465"
+      },
+      {
+        "area_name": "Mahendragarh",
+        "mdds_plcn": "95466"
+      },
+      {
+        "area_name": "Makriya",
+        "mdds_plcn": "95467"
+      },
+      {
+        "area_name": "Mangras",
+        "mdds_plcn": "95468"
+      },
+      {
+        "area_name": "Bhoonas",
+        "mdds_plcn": "95469"
+      },
+      {
+        "area_name": "Ramdeonagar",
+        "mdds_plcn": "95470"
+      },
+      {
+        "area_name": "Dhosar",
+        "mdds_plcn": "95471"
+      },
+      {
+        "area_name": "Kala Dhoondha",
+        "mdds_plcn": "95472"
+      },
+      {
+        "area_name": "Dareeba",
+        "mdds_plcn": "95473"
+      },
+      {
+        "area_name": "Satdhoodiya",
+        "mdds_plcn": "95474"
+      },
+      {
+        "area_name": "Shivrati (Rural)",
+        "mdds_plcn": "95475"
+      },
+      {
+        "area_name": "Salyawari",
+        "mdds_plcn": "95476"
+      },
+      {
+        "area_name": "Surajpura",
+        "mdds_plcn": "95477"
+      },
+      {
+        "area_name": "Ganeshpura (Jageer)(Rural)",
+        "mdds_plcn": "95478"
+      },
+      {
+        "area_name": "Galodiya",
+        "mdds_plcn": "95479"
+      },
+      {
+        "area_name": "Nathji Ka Khera",
+        "mdds_plcn": "95480"
+      },
+      {
+        "area_name": "Gayatri Nagar",
+        "mdds_plcn": "95481"
+      },
+      {
+        "area_name": "Baghera",
+        "mdds_plcn": "95482"
+      },
+      {
+        "area_name": "Gurha",
+        "mdds_plcn": "95483"
+      },
+      {
+        "area_name": "Gurha Khera",
+        "mdds_plcn": "95484"
+      },
+      {
+        "area_name": "Potlan",
+        "mdds_plcn": "95485"
+      },
+      {
+        "area_name": "Sangas",
+        "mdds_plcn": "95486"
+      },
+      {
+        "area_name": "Ganeshpur (Khalsa)",
+        "mdds_plcn": "95487"
+      },
+      {
+        "area_name": "Tapariya Kheri",
+        "mdds_plcn": "95488"
+      },
+      {
+        "area_name": "Rathaliya",
+        "mdds_plcn": "95489"
+      },
+      {
+        "area_name": "Mehandi",
+        "mdds_plcn": "95490"
+      },
+      {
+        "area_name": "Sultanpura",
+        "mdds_plcn": "95491"
+      },
+      {
+        "area_name": "Majhawas",
+        "mdds_plcn": "95492"
+      },
+      {
+        "area_name": "Rangeeli",
+        "mdds_plcn": "95493"
+      },
+      {
+        "area_name": "Dhangras",
+        "mdds_plcn": "95494"
+      },
+      {
+        "area_name": "Surawas",
+        "mdds_plcn": "95495"
+      },
+      {
+        "area_name": "Lachhmipura",
+        "mdds_plcn": "95496"
+      },
+      {
+        "area_name": "Sargaon",
+        "mdds_plcn": "95497"
+      },
+      {
+        "area_name": "Ummedpura (Khalsa)",
+        "mdds_plcn": "95498"
+      },
+      {
+        "area_name": "Mandpiya",
+        "mdds_plcn": "95499"
+      },
+      {
+        "area_name": "Todi",
+        "mdds_plcn": "95500"
+      },
+      {
+        "area_name": "Bharak",
+        "mdds_plcn": "95501"
+      },
+      {
+        "area_name": "Tiroli",
+        "mdds_plcn": "95502"
+      },
+      {
+        "area_name": "Aloli",
+        "mdds_plcn": "95503"
+      },
+      {
+        "area_name": "Beekrai",
+        "mdds_plcn": "95504"
+      },
+      {
+        "area_name": "Pichoriya Khera",
+        "mdds_plcn": "95505"
+      },
+      {
+        "area_name": "Naya Khera",
+        "mdds_plcn": "95506"
+      },
+      {
+        "area_name": "Lakhola",
+        "mdds_plcn": "95507"
+      },
+      {
+        "area_name": "Rampuriya",
+        "mdds_plcn": "95508"
+      },
+      {
+        "area_name": "Shriramnagar",
+        "mdds_plcn": "95509"
+      },
+      {
+        "area_name": "Lakhmaniyas",
+        "mdds_plcn": "95510"
+      },
+      {
+        "area_name": "Gatheela Ka Khera",
+        "mdds_plcn": "95511"
+      },
+      {
+        "area_name": "Gatheela",
+        "mdds_plcn": "95512"
+      },
+      {
+        "area_name": "Baghpura",
+        "mdds_plcn": "95513"
+      },
+      {
+        "area_name": "Sakriya",
+        "mdds_plcn": "95514"
+      },
+      {
+        "area_name": "Unchkiya",
+        "mdds_plcn": "95515"
+      },
+      {
+        "area_name": "Jabarkiya",
+        "mdds_plcn": "95516"
+      },
+      {
+        "area_name": "Rama Ka Khera",
+        "mdds_plcn": "95517"
+      },
+      {
+        "area_name": "Soniyana",
+        "mdds_plcn": "95518"
+      },
+      {
+        "area_name": "Arniya (Khalsa)",
+        "mdds_plcn": "95519"
+      },
+      {
+        "area_name": "Chhatarsinghji Ka Khera",
+        "mdds_plcn": "95520"
+      }
+    ]
+  },
+  {
+    "sub_district_name": "Shahpura",
+    "areas": [
+      {
+        "area_name": "Shahpura",
+        "mdds_plcn": "0"
+      },
+      {
+        "area_name": "Khera Palola",
+        "mdds_plcn": "94849"
+      },
+      {
+        "area_name": "Kothiya",
+        "mdds_plcn": "94850"
+      },
+      {
+        "area_name": "Araniya Chauhan",
+        "mdds_plcn": "94851"
+      },
+      {
+        "area_name": "Daulatpura",
+        "mdds_plcn": "94852"
+      },
+      {
+        "area_name": "Ranjeetpura",
+        "mdds_plcn": "94853"
+      },
+      {
+        "area_name": "Bagthala",
+        "mdds_plcn": "94854"
+      },
+      {
+        "area_name": "Baori",
+        "mdds_plcn": "94855"
+      },
+      {
+        "area_name": "Kayampura",
+        "mdds_plcn": "94856"
+      },
+      {
+        "area_name": "Itariya",
+        "mdds_plcn": "94857"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "94858"
+      },
+      {
+        "area_name": "Purani Rajyas",
+        "mdds_plcn": "94859"
+      },
+      {
+        "area_name": "Purani Arwar",
+        "mdds_plcn": "94860"
+      },
+      {
+        "area_name": "Nai Arwar",
+        "mdds_plcn": "94861"
+      },
+      {
+        "area_name": "Sardarpura",
+        "mdds_plcn": "94862"
+      },
+      {
+        "area_name": "Barla (Arwar Ka)",
+        "mdds_plcn": "94863"
+      },
+      {
+        "area_name": "Sangariya",
+        "mdds_plcn": "94864"
+      },
+      {
+        "area_name": "Khera Rajpura",
+        "mdds_plcn": "94865"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "94866"
+      },
+      {
+        "area_name": "Malik Khera @ Maganpura",
+        "mdds_plcn": "94867"
+      },
+      {
+        "area_name": "Jora Ka Khera",
+        "mdds_plcn": "94868"
+      },
+      {
+        "area_name": "Dhanop",
+        "mdds_plcn": "94869"
+      },
+      {
+        "area_name": "Uma Ka Khera",
+        "mdds_plcn": "94870"
+      },
+      {
+        "area_name": "Khera Hetam",
+        "mdds_plcn": "94871"
+      },
+      {
+        "area_name": "Ganpatiya Khera",
+        "mdds_plcn": "94872"
+      },
+      {
+        "area_name": "Sangari",
+        "mdds_plcn": "94873"
+      },
+      {
+        "area_name": "Rampura",
+        "mdds_plcn": "94874"
+      },
+      {
+        "area_name": "Chandma",
+        "mdds_plcn": "94875"
+      },
+      {
+        "area_name": "Ratanpura",
+        "mdds_plcn": "94876"
+      },
+      {
+        "area_name": "Phooliya Kalan",
+        "mdds_plcn": "94877"
+      },
+      {
+        "area_name": "Santosh Pura",
+        "mdds_plcn": "94878"
+      },
+      {
+        "area_name": "Rajpura",
+        "mdds_plcn": "94879"
+      },
+      {
+        "area_name": "Shivpura",
+        "mdds_plcn": "94880"
+      },
+      {
+        "area_name": "Hukampura",
+        "mdds_plcn": "94881"
+      },
+      {
+        "area_name": "Hanspura",
+        "mdds_plcn": "94882"
+      },
+      {
+        "area_name": "Ralayta",
+        "mdds_plcn": "94883"
+      },
+      {
+        "area_name": "Gegwa",
+        "mdds_plcn": "94884"
+      },
+      {
+        "area_name": "Deoriya",
+        "mdds_plcn": "94885"
+      },
+      {
+        "area_name": "Nai Rajyas",
+        "mdds_plcn": "94886"
+      },
+      {
+        "area_name": "Panotiya",
+        "mdds_plcn": "94887"
+      },
+      {
+        "area_name": "Nathriyas",
+        "mdds_plcn": "94888"
+      },
+      {
+        "area_name": "Diyas",
+        "mdds_plcn": "94889"
+      },
+      {
+        "area_name": "Purana Sarsoonda",
+        "mdds_plcn": "94890"
+      },
+      {
+        "area_name": "Beh Ka Khera",
+        "mdds_plcn": "94891"
+      },
+      {
+        "area_name": "Rampura",
+        "mdds_plcn": "94892"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "94893"
+      },
+      {
+        "area_name": "Gordhanpura",
+        "mdds_plcn": "94894"
+      },
+      {
+        "area_name": "Khamor",
+        "mdds_plcn": "94895"
+      },
+      {
+        "area_name": "Amli Kaloosingh",
+        "mdds_plcn": "94896"
+      },
+      {
+        "area_name": "Dhokaliya",
+        "mdds_plcn": "94897"
+      },
+      {
+        "area_name": "Kanechhan Khurd",
+        "mdds_plcn": "94898"
+      },
+      {
+        "area_name": "Naya Sarsoonda",
+        "mdds_plcn": "94899"
+      },
+      {
+        "area_name": "Kanechhan Kalan",
+        "mdds_plcn": "94900"
+      },
+      {
+        "area_name": "Peta Nahar Sagar",
+        "mdds_plcn": "94901"
+      },
+      {
+        "area_name": "Ummedpura",
+        "mdds_plcn": "94902"
+      },
+      {
+        "area_name": "Sardar Pura",
+        "mdds_plcn": "94903"
+      },
+      {
+        "area_name": "Taswariya Bansa",
+        "mdds_plcn": "94904"
+      },
+      {
+        "area_name": "Barla ( Taswariyaka)",
+        "mdds_plcn": "94905"
+      },
+      {
+        "area_name": "Kajoriya",
+        "mdds_plcn": "94906"
+      },
+      {
+        "area_name": "Bansera",
+        "mdds_plcn": "94907"
+      },
+      {
+        "area_name": "Raghunathpura (Bansra Ka)",
+        "mdds_plcn": "94908"
+      },
+      {
+        "area_name": "Deopuri",
+        "mdds_plcn": "94909"
+      },
+      {
+        "area_name": "Bachh Khera",
+        "mdds_plcn": "94910"
+      },
+      {
+        "area_name": "Moti Pura",
+        "mdds_plcn": "94911"
+      },
+      {
+        "area_name": "Bala Pura",
+        "mdds_plcn": "94912"
+      },
+      {
+        "area_name": "Nayagaon @ Malikhera",
+        "mdds_plcn": "94913"
+      },
+      {
+        "area_name": "Amli Bareth",
+        "mdds_plcn": "94914"
+      },
+      {
+        "area_name": "Kashi Puriya",
+        "mdds_plcn": "94915"
+      },
+      {
+        "area_name": "Dohariya",
+        "mdds_plcn": "94916"
+      },
+      {
+        "area_name": "Bheempura",
+        "mdds_plcn": "94917"
+      },
+      {
+        "area_name": "Shree Nagar",
+        "mdds_plcn": "94918"
+      },
+      {
+        "area_name": "Sankhliya",
+        "mdds_plcn": "94919"
+      },
+      {
+        "area_name": "Ganeshpura",
+        "mdds_plcn": "94920"
+      },
+      {
+        "area_name": "Doi Ka Khera",
+        "mdds_plcn": "94921"
+      },
+      {
+        "area_name": "Delas",
+        "mdds_plcn": "94922"
+      },
+      {
+        "area_name": "Rooppura",
+        "mdds_plcn": "94923"
+      },
+      {
+        "area_name": "Bhagwanpura",
+        "mdds_plcn": "94924"
+      },
+      {
+        "area_name": "Naya Talab",
+        "mdds_plcn": "94925"
+      },
+      {
+        "area_name": "Biliya",
+        "mdds_plcn": "94926"
+      },
+      {
+        "area_name": "Saransh",
+        "mdds_plcn": "94927"
+      },
+      {
+        "area_name": "Deori",
+        "mdds_plcn": "94928"
+      },
+      {
+        "area_name": "Sameliya",
+        "mdds_plcn": "94929"
+      },
+      {
+        "area_name": "Surajpura (Biliyaka)",
+        "mdds_plcn": "94930"
+      },
+      {
+        "area_name": "Shambhoopura",
+        "mdds_plcn": "94931"
+      },
+      {
+        "area_name": "Tahnal",
+        "mdds_plcn": "94932"
+      },
+      {
+        "area_name": "Fatehpura @ Beski",
+        "mdds_plcn": "94933"
+      },
+      {
+        "area_name": "Borda",
+        "mdds_plcn": "94934"
+      },
+      {
+        "area_name": "Nimbera",
+        "mdds_plcn": "94935"
+      },
+      {
+        "area_name": "Meoda",
+        "mdds_plcn": "94936"
+      },
+      {
+        "area_name": "Narayan Pura",
+        "mdds_plcn": "94937"
+      },
+      {
+        "area_name": "Sudarshanpura",
+        "mdds_plcn": "94938"
+      },
+      {
+        "area_name": "Arniya Ghora",
+        "mdds_plcn": "94939"
+      },
+      {
+        "area_name": "Shahpura (Rural)",
+        "mdds_plcn": "94940"
+      },
+      {
+        "area_name": "Sardarpura (Arniyaka)",
+        "mdds_plcn": "94941"
+      },
+      {
+        "area_name": "Amarpura",
+        "mdds_plcn": "94942"
+      },
+      {
+        "area_name": "Santokpura",
+        "mdds_plcn": "94943"
+      },
+      {
+        "area_name": "Topa @ Nayagaon",
+        "mdds_plcn": "94944"
+      },
+      {
+        "area_name": "Rahar",
+        "mdds_plcn": "94945"
+      },
+      {
+        "area_name": "Bhagwan Pura",
+        "mdds_plcn": "94946"
+      },
+      {
+        "area_name": "Mal Khera",
+        "mdds_plcn": "94947"
+      },
+      {
+        "area_name": "Guruji Ka Khera",
+        "mdds_plcn": "94948"
+      },
+      {
+        "area_name": "Antoli",
+        "mdds_plcn": "94949"
+      },
+      {
+        "area_name": "Dabla Chanda",
+        "mdds_plcn": "94950"
+      },
+      {
+        "area_name": "Kotri Meena",
+        "mdds_plcn": "94951"
+      },
+      {
+        "area_name": "Lasariya",
+        "mdds_plcn": "94952"
+      },
+      {
+        "area_name": "Muhala",
+        "mdds_plcn": "94953"
+      },
+      {
+        "area_name": "Baland",
+        "mdds_plcn": "94954"
+      },
+      {
+        "area_name": "Moti Nagar",
+        "mdds_plcn": "94955"
+      },
+      {
+        "area_name": "Amli Kalal",
+        "mdds_plcn": "94956"
+      },
+      {
+        "area_name": "Nasarda",
+        "mdds_plcn": "94957"
+      },
+      {
+        "area_name": "Kadi Sahna",
+        "mdds_plcn": "94958"
+      },
+      {
+        "area_name": "Balapura",
+        "mdds_plcn": "94959"
+      },
+      {
+        "area_name": "Laxmipura",
+        "mdds_plcn": "94960"
+      },
+      {
+        "area_name": "Mataji Ka Khera",
+        "mdds_plcn": "94961"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "94962"
+      },
+      {
+        "area_name": "Surajpura (Kadi Sahna)",
+        "mdds_plcn": "94963"
+      },
+      {
+        "area_name": "Deo Khera",
+        "mdds_plcn": "94964"
+      },
+      {
+        "area_name": "Pondrikji Ka Khera",
+        "mdds_plcn": "94965"
+      },
+      {
+        "area_name": "Kalinjari",
+        "mdds_plcn": "94966"
+      },
+      {
+        "area_name": "Dhani Bhavsagar",
+        "mdds_plcn": "94967"
+      },
+      {
+        "area_name": "Kheri Jeevrajpura",
+        "mdds_plcn": "94968"
+      },
+      {
+        "area_name": "Dabla Kachra",
+        "mdds_plcn": "94969"
+      },
+      {
+        "area_name": "Gopalpura",
+        "mdds_plcn": "94970"
+      },
+      {
+        "area_name": "Arni",
+        "mdds_plcn": "94971"
+      },
+      {
+        "area_name": "Shambhoopura",
+        "mdds_plcn": "94972"
+      },
+      {
+        "area_name": "Arniya Rasan",
+        "mdds_plcn": "94973"
+      },
+      {
+        "area_name": "Amarpura Madanpura",
+        "mdds_plcn": "94974"
+      },
+      {
+        "area_name": "Sewni @ Surajpura@Gopalpura",
+        "mdds_plcn": "94975"
+      },
+      {
+        "area_name": "Shivpura",
+        "mdds_plcn": "94976"
+      },
+      {
+        "area_name": "Mathuranath Pura",
+        "mdds_plcn": "94977"
+      },
+      {
+        "area_name": "Sola Ka Khera",
+        "mdds_plcn": "94978"
+      },
+      {
+        "area_name": "Juwara Ka Khera",
+        "mdds_plcn": "94979"
+      },
+      {
+        "area_name": "Naya Khera",
+        "mdds_plcn": "94980"
+      },
+      {
+        "area_name": "Pratappura",
+        "mdds_plcn": "94981"
+      },
+      {
+        "area_name": "Raipura",
+        "mdds_plcn": "94982"
+      },
+      {
+        "area_name": "Daulatpura",
+        "mdds_plcn": "94983"
+      },
+      {
+        "area_name": "Raghurajpura",
+        "mdds_plcn": "94984"
+      },
+      {
+        "area_name": "Petaummaidsagar",
+        "mdds_plcn": "94985"
+      },
+      {
+        "area_name": "Raghunathpura",
+        "mdds_plcn": "94986"
+      },
+      {
+        "area_name": "Bheemnagar",
+        "mdds_plcn": "94987"
+      },
+      {
+        "area_name": "Ragaspuriya",
+        "mdds_plcn": "94988"
+      },
+      {
+        "area_name": "Dheekola",
+        "mdds_plcn": "94989"
+      },
+      {
+        "area_name": "Kalyanpura",
+        "mdds_plcn": "94990"
+      },
+      {
+        "area_name": "Baresara",
+        "mdds_plcn": "94991"
+      },
+      {
+        "area_name": "Phooliya Khurd",
+        "mdds_plcn": "94992"
+      },
+      {
+        "area_name": "Khera Rajpura @ Suratsingh Ka Khera",
+        "mdds_plcn": "94993"
+      },
+      {
+        "area_name": "Taswariya Khurd",
+        "mdds_plcn": "94994"
+      },
+      {
+        "area_name": "Intmariya",
+        "mdds_plcn": "94995"
+      },
+      {
+        "area_name": "Kashiramji Ka Khera",
+        "mdds_plcn": "94996"
+      },
+      {
+        "area_name": "Nahargarh",
+        "mdds_plcn": "94997"
+      },
+      {
+        "area_name": "Ummaidnagar",
+        "mdds_plcn": "94998"
+      },
+      {
+        "area_name": "Karamdas",
+        "mdds_plcn": "94999"
+      },
+      {
+        "area_name": "Nogawan",
+        "mdds_plcn": "95000"
+      },
+      {
+        "area_name": "Chalaniya",
+        "mdds_plcn": "95001"
+      },
+      {
+        "area_name": "Mindoliya",
+        "mdds_plcn": "95002"
+      },
+      {
+        "area_name": "Girdiya",
+        "mdds_plcn": "95003"
+      },
+      {
+        "area_name": "Lulas",
+        "mdds_plcn": "95004"
+      },
+      {
+        "area_name": "Rampura Naya",
+        "mdds_plcn": "95005"
+      },
+      {
+        "area_name": "Palsa",
+        "mdds_plcn": "95006"
+      },
+      {
+        "area_name": "Narsingh Pura",
+        "mdds_plcn": "95007"
+      },
+      {
+        "area_name": "Kagson Ka Khera",
+        "mdds_plcn": "95008"
+      },
+      {
+        "area_name": "Mundeti",
+        "mdds_plcn": "95009"
+      },
+      {
+        "area_name": "Mundeta",
+        "mdds_plcn": "95010"
+      },
+      {
+        "area_name": "Bhojpur",
+        "mdds_plcn": "95011"
+      },
+      {
+        "area_name": "Mali Khera",
+        "mdds_plcn": "95012"
+      },
+      {
+        "area_name": "Salariya Khurd",
+        "mdds_plcn": "95013"
+      },
+      {
+        "area_name": "Kheri Khurd",
+        "mdds_plcn": "95014"
+      }
+    ]
+  }
+]
