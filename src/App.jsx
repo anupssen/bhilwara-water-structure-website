@@ -1,7 +1,35 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import './App.css';
 import useSubdistricts from './hooks/useSubdistricts';
+
+// Fix Leaflet's default icon paths when bundlers don't copy asset images automatically
+// (This uses require which works with most bundlers used in React apps)
+try {
+  delete L.Icon.Default.prototype._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+    iconUrl: require('leaflet/dist/images/marker-icon.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+  });
+} catch (e) {
+  // ignore in environments that don't support require for images
+}
+
+function Recenter({ lat, lng }) {
+  const map = useMap();
+  useEffect(() => {
+    const nLat = Number(lat);
+    const nLng = Number(lng);
+    if (!isNaN(nLat) && !isNaN(nLng)) {
+      map.setView([nLat, nLng], map.getZoom());
+    }
+  }, [lat, lng, map]);
+  return null;
+}
 
 
 
@@ -35,7 +63,60 @@ function App() {
   const [message, setMessage] = useState('');
   const [area, setSelectedArea] = useState("");
 
+  // timer ref for auto-dismissing toast messages
+  const messageTimerRef = React.useRef(null);
+
+  const showMessage = (msg, duration = 2000) => {
+    setMessage(msg);
+    if (messageTimerRef.current) {
+      clearTimeout(messageTimerRef.current);
+    }
+    messageTimerRef.current = setTimeout(() => {
+      setMessage('');
+      messageTimerRef.current = null;
+    }, duration);
+  };
+
+  // clear pending timer on unmount
+  useEffect(() => {
+    return () => {
+      if (messageTimerRef.current) {
+        clearTimeout(messageTimerRef.current);
+        messageTimerRef.current = null;
+      }
+    };
+  }, []);
+
   const result = DATA[district]?.[subdistrict] || DATA.Bhilwara.Shahpura;
+  const [locating, setLocating] = useState(false);
+
+  const handleAreaSelect = async (areaName) => {
+    setSelectedArea(areaName);
+    if (!areaName) return;
+
+    // try to geocode area to lat/lng using Nominatim
+    try {
+      setLocating(true);
+      showMessage('Locating area...', 3000);
+      const q = encodeURIComponent(`${areaName}, ${subdistrict}, Bhilwara, Rajasthan, India`);
+      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${q}&limit=1`;
+      const resp = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      const json = await resp.json();
+      if (json && json.length > 0) {
+        const { lat: glat, lon: glon } = json[0];
+        setLat(Number(glat).toFixed(4));
+        setLng(Number(glon).toFixed(4));
+        showMessage('Area located on map.', 2200);
+      } else {
+        showMessage('Could not locate the selected area.', 3000);
+      }
+    } catch (e) {
+      console.error('Geocode error', e);
+      showMessage('Error locating area. Try again later.', 3000);
+    } finally {
+      setLocating(false);
+    }
+  };
 
   const districtData = useSubdistricts();
   console.log(districtData.records);
@@ -65,8 +146,7 @@ function App() {
     const item = DATA[district][name];
     setLat(String(item.lat));
     setLng(String(item.lng));
-    setMessage(`Loaded demo data for ${name}`);
-    setTimeout(() => setMessage(''), 1800);
+    showMessage(`Loaded demo data for ${name}`, 1800);
   };
 
   const useCurrentLocation = () => {
@@ -78,7 +158,8 @@ function App() {
       ({ coords }) => {
         setLat(coords.latitude.toFixed(4));
         setLng(coords.longitude.toFixed(4));
-        setMessage('Current browser location loaded.');
+        // auto-dismiss this confirmation after 2.5 seconds
+        showMessage('Current browser location loaded.', 2500);
       },
       () => setMessage('Location permission was not available. Demo coordinates remain active.')
     );
@@ -92,7 +173,7 @@ function App() {
       <header className="topbar">
         <div className="brand">
           <div className="brand-icon">{ICONS.droplet}</div>
-          <div><h1>Water Structure Recommendation System</h1><p>Bhilwara District, Rajasthan</p></div>
+          <div><h1 className='text-amber-300'>Water Structure Recommendation System</h1><p>Bhilwara District, Rajasthan</p></div>
         </div>
         <nav><button className="nav-btn active">{ICONS.home}<span>Home</span></button><button className="nav-btn">{ICONS.info}<span>About</span></button></nav>
       </header>
@@ -120,8 +201,10 @@ function App() {
           <select
             value={subdistrict}
             onChange={(e) => {
-              setSubdistrict(e.target.value);
+              // when a subdistrict is selected, load its demo coordinates (if available)
+              const name = e.target.value;
               setSelectedArea("");
+              loadSubdistrict(name);
             }}
           >
             <option value="">Select Subdistrict</option>
@@ -142,8 +225,8 @@ function App() {
 
           <select
             value={area}
-            disabled={!subdistrict}
-            onChange={(e) => setSelectedArea(e.target.value)}
+            disabled={!subdistrict || locating}
+            onChange={(e) => handleAreaSelect(e.target.value)}
           >
             <option value="">Select Area</option>
 
@@ -171,15 +254,27 @@ function App() {
         </section>
 
         <section className={`panel map-panel ${fullscreen ? 'map-fullscreen' : ''}`}>
-          <PanelTitle icon={ICONS.globe} title="Selected Area Boundary (Google Earth)" />
+          <PanelTitle icon={ICONS.globe} title="Selected Area Boundary (Leaflet Map)" />
           <div className={`map ${mapMode.toLowerCase()}`}>
             <div className="map-toggle"><button className={mapMode === 'Map' ? 'selected' : ''} onClick={() => setMapMode('Map')}>Map</button><button className={mapMode === 'Satellite' ? 'selected' : ''} onClick={() => setMapMode('Satellite')}>Satellite</button></div>
             <button className="map-control fullscreen" onClick={() => setFullscreen(v => !v)}>{ICONS.maximize}</button>
-            <div className="terrain-label label-a">Aravalli</div><div className="terrain-label label-b">Shahpura</div><div className="terrain-label label-c">Bhilwara</div>
-            <svg className="boundary" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon points={polygonPoints} /></svg>
-            <div className="location-ring"><div className="marker">{ICONS.pin}</div><div className="coord-bubble">{Number(lat).toFixed(4)}, {Number(lng).toFixed(4)}</div></div>
-            <div className="map-controls"><button>{ICONS.plus}</button><button>{ICONS.minus}</button></div><div className="peg">{ICONS.user}</div>
-            <div className="map-credit">Demo map preview · Replace with Google Maps / Google Earth integration</div>
+
+            <MapContainer center={[Number(lat), Number(lng)]} zoom={13} style={{ height: '100%', width: '100%' }}>
+              <TileLayer
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              />
+
+              <Marker key={`marker-${lat}-${lng}`} position={[Number(lat), Number(lng)]}>
+                <Popup>
+                  {area || subdistrict || 'Selected location'}<br />{Number(lat).toFixed(4)}, {Number(lng).toFixed(4)}
+                </Popup>
+              </Marker>
+
+              <Recenter lat={Number(lat)} lng={Number(lng)} />
+            </MapContainer>
+
+            <div className="map-credit">OpenStreetMap (Leaflet) — interactive map</div>
           </div>
           <div className="map-stats"><Stat icon="⌖" label="Area (Approx.)" value={`${result.area} km²`} tone="purple" /><Stat icon="▣" label="Location" value={`${subdistrict}, Bhilwara`} tone="green" /><Stat icon="⌾" label="Coordinates" value={`${Number(lat).toFixed(4)}, ${Number(lng).toFixed(4)}`} tone="blue" /></div>
         </section>
@@ -192,7 +287,7 @@ function App() {
           <div className="info-note"><span>{ICONS.info}</span>Recommendation is based on GIS analysis, environmental factors, and suitability criteria.</div>
         </section>
       </main>
-      <footer>© 2024 Water Structure Recommendation System | Bhilwara District, Rajasthan <span>Water Structure Recommendation System · Demo Frontend</span></footer>
+      <footer>© 2026 Water Structure Recommendation System | Bhilwara District, Rajasthan <span>Water Structure Recommendation System</span></footer>
       {message && <div className="toast">{message}</div>}
     </div>
   );
