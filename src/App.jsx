@@ -1,15 +1,14 @@
 import React, { useMemo, useState, useEffect } from "react";
-import Footer from "./components/Footer";
 import { createRoot } from "react-dom/client";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-import { NavLink } from "react-router-dom";
 import "./App.css";
 import useSubdistricts from "./hooks/useSubdistricts";
 
 // Fix Leaflet's default icon paths when bundlers don't copy asset images automatically
 // (This uses require which works with most bundlers used in React apps)
+
 try {
   delete L.Icon.Default.prototype._getIconUrl;
   L.Icon.Default.mergeOptions({
@@ -179,7 +178,6 @@ function App() {
   };
 
   const districtData = useSubdistricts();
-  console.log(districtData.records);
 
   const groupedData = Object.values(
     (districtData.records || []).reduce((acc, item) => {
@@ -234,15 +232,13 @@ function App() {
       : result.score >= 65
         ? "Moderate Suitability"
         : "Low Suitability";
-  const polygonPoints = useMemo(
-    () =>
-      "12,25 23,20 35,27 47,18 58,24 70,18 83,29 91,42 84,51 90,63 77,67 71,81 58,73 48,88 37,77 24,82 20,68 8,61 13,48 5,37",
-    [],
-  );
+  
 
   return (
     <div className="app-shell">
       <main className="dashboard">
+
+        
         <section className="panel selection-panel">
           <PanelTitle icon={ICONS.pin} title="Location & Area Selection" />
           <h3>1. Location (Latitude & Longitude)</h3>
@@ -331,6 +327,7 @@ function App() {
           </div>
         </section>
 
+        
         <section
           className={`panel map-panel ${fullscreen ? "map-fullscreen" : ""}`}
         >
@@ -410,6 +407,7 @@ function App() {
           </div>
         </section>
 
+        
         <section className="panel result-panel">
           <PanelTitle icon={ICONS.chart} title="Recommendation Result" />
           <div className="recommend-card">
