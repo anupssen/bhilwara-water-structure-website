@@ -2,23 +2,18 @@ import React, { useMemo, useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON, useMap } from "react-leaflet";
 import "./App.css";
 import useSubdistricts from "./hooks/useSubdistricts";
 
-// Fix Leaflet's default icon paths when bundlers don't copy asset images automatically
-// (This uses require which works with most bundlers used in React apps)
-
-try {
-  delete L.Icon.Default.prototype._getIconUrl;
-  L.Icon.Default.mergeOptions({
-    iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-    iconUrl: require("leaflet/dist/images/marker-icon.png"),
-    shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
-  });
-} catch (e) {
-  // ignore in environments that don't support require for images
-}
+// Custom map marker: a themed circle instead of Leaflet's default PNG pin.
+const appMarkerIcon = L.divIcon({
+  className: "",
+  iconSize: [26, 26],
+  iconAnchor: [13, 13],
+  popupAnchor: [0, -16],
+  html: '<div class="app-marker"></div>',
+});
 
 function Recenter({ lat, lng }) {
   const map = useMap();
@@ -29,6 +24,21 @@ function Recenter({ lat, lng }) {
       map.setView([nLat, nLng], map.getZoom());
     }
   }, [lat, lng, map]);
+  return null;
+}
+
+function FitToGeoJSON({ geo, name }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!geo || !name) return;
+    const feature = geo.features?.find((f) => f.properties.name === name);
+    if (!feature) return;
+    const layer = L.geoJSON(feature);
+    const bounds = layer.getBounds();
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [28, 28] });
+    }
+  }, [geo, name, map]);
   return null;
 }
 
@@ -108,15 +118,38 @@ const ICONS = {
   user: "♙",
 };
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+
 function App() {
   const [district, setDistrict] = useState("Bhilwara");
-  const [subdistrict, setSubdistrict] = useState("Shahpura");
-  const [lat, setLat] = useState(String(DATA.Bhilwara.Shahpura.lat));
-  const [lng, setLng] = useState(String(DATA.Bhilwara.Shahpura.lng));
+  const [subdistrict, setSubdistrict] = useState("");
+  const [lat, setLat] = useState("25.3345");
+  const [lng, setLng] = useState("74.6166");
   const [mapMode, setMapMode] = useState("Satellite");
   const [fullscreen, setFullscreen] = useState(false);
   const [message, setMessage] = useState("");
-  const [area, setSelectedArea] = useState("");
+  const [recommendation, setRecommendation] = useState(null);
+  const [analysisLoading, setAnalysisLoading] = useState(false);
+  const [analysisError, setAnalysisError] = useState("");
+  const [subdistrictGeo, setSubdistrictGeo] = useState(null);
+
+  // fetch the subdistrict boundary GeoJSON from the backend once
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const resp = await fetch(`${API_BASE_URL}/api/subdistricts`);
+        if (!resp.ok) throw new Error(`Server returned ${resp.status}`);
+        const data = await resp.json();
+        if (!cancelled) setSubdistrictGeo(data);
+      } catch (err) {
+        console.error("Failed to load subdistrict boundaries", err);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   // timer ref for auto-dismissing toast messages
   const messageTimerRef = React.useRef(null);
@@ -142,69 +175,31 @@ function App() {
     };
   }, []);
 
-  const result = DATA[district]?.[subdistrict] || DATA.Bhilwara.Shahpura;
-  const [locating, setLocating] = useState(false);
-
-  const handleAreaSelect = async (areaName) => {
-    setSelectedArea(areaName);
-    if (!areaName) return;
-
-    // try to geocode area to lat/lng using Nominatim
-    try {
-      setLocating(true);
-      showMessage("Locating area...", 3000);
-      const q = encodeURIComponent(
-        `${areaName}, ${subdistrict}, Bhilwara, Rajasthan, India`,
-      );
-      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${q}&limit=1`;
-      const resp = await fetch(url, {
-        headers: { Accept: "application/json" },
-      });
-      const json = await resp.json();
-      if (json && json.length > 0) {
-        const { lat: glat, lon: glon } = json[0];
-        setLat(Number(glat).toFixed(4));
-        setLng(Number(glon).toFixed(4));
-        showMessage("Area located on map.", 2200);
-      } else {
-        showMessage("Could not locate the selected area.", 3000);
-      }
-    } catch (e) {
-      console.error("Geocode error", e);
-      showMessage("Error locating area. Try again later.", 3000);
-    } finally {
-      setLocating(false);
-    }
-  };
-
   const districtData = useSubdistricts();
 
-  const groupedData = Object.values(
-    (districtData.records || []).reduce((acc, item) => {
-      const subDistrict = item.sub_district_name;
-
-      if (!acc[subDistrict]) {
-        acc[subDistrict] = {
-          sub_district_name: subDistrict,
-          areas: [],
-        };
-      }
-
-      acc[subDistrict].areas.push({
-        area_name: item.area_name,
-        mdds_plcn: item.mdds_plcn,
-      });
-
-      return acc;
-    }, {}),
+  const selectedRecord = (districtData.records || []).find(
+    (r) => r.subdistrict === subdistrict,
   );
 
   const loadSubdistrict = (name) => {
     setSubdistrict(name);
-    const item = DATA[district][name];
-    setLat(String(item.lat));
-    setLng(String(item.lng));
-    showMessage(`Loaded demo data for ${name}`, 1800);
+    const record = (districtData.records || []).find((r) => r.subdistrict === name);
+    if (record) {
+      setLat(String(record.latitude));
+      setLng(String(record.longitude));
+      showMessage(`Loaded ${name}`, 1800);
+    } else {
+      const item = DATA[district]?.[name];
+      if (item) {
+        setLat(String(item.lat));
+        setLng(String(item.lng));
+        showMessage(`Loaded demo data for ${name}`, 1800);
+      } else {
+        showMessage(`Selected subdistrict: ${name}`, 1800);
+      }
+    }
+    setRecommendation(null);
+    setAnalysisError("");
   };
 
   const useCurrentLocation = () => {
@@ -226,13 +221,90 @@ function App() {
     );
   };
 
+  const getRecommendation = async () => {
+    const latNum = Number(lat);
+    const lngNum = Number(lng);
+
+    if (isNaN(latNum) || latNum < -90 || latNum > 90) {
+      const msg = "Latitude must be a number between -90 and 90.";
+      setAnalysisError(msg);
+      showMessage(msg, 3500);
+      return;
+    }
+    if (isNaN(lngNum) || lngNum < -180 || lngNum > 180) {
+      const msg = "Longitude must be a number between -180 and 180.";
+      setAnalysisError(msg);
+      showMessage(msg, 3500);
+      return;
+    }
+    if (!subdistrict) {
+      const msg = "Please select a subdistrict.";
+      setAnalysisError(msg);
+      showMessage(msg, 3500);
+      return;
+    }
+
+    setAnalysisLoading(true);
+    setAnalysisError("");
+    setRecommendation(null);
+
+    try {
+      const resp = await fetch(`${API_BASE_URL}/api/recommendation`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          latitude: latNum,
+          longitude: lngNum,
+          subdistrict,
+        }),
+      });
+
+      if (!resp.ok) {
+        throw new Error(`Server returned ${resp.status}`);
+      }
+
+      const data = await resp.json();
+      setRecommendation(data);
+      showMessage("Recommendation received from backend.", 2200);
+    } catch (err) {
+      console.error("Recommendation API error", err);
+      const msg =
+        "Could not reach the backend. Make sure it is running on http://localhost:8000.";
+      setAnalysisError(msg);
+      showMessage(msg, 4000);
+    } finally {
+      setAnalysisLoading(false);
+    }
+  };
+
   const scoreLabel =
-    result.score >= 80
-      ? "High Suitability"
-      : result.score >= 65
-        ? "Moderate Suitability"
-        : "Low Suitability";
+    recommendation && typeof recommendation.score === "number"
+      ? recommendation.score >= 80
+        ? "High Suitability"
+        : recommendation.score >= 65
+          ? "Moderate Suitability"
+          : "Low Suitability"
+      : "";
   
+  // boundary highlighting: detected subdistrict (from the backend) wins,
+  // otherwise the one selected in the dropdown
+  const highlightName = recommendation?.subdistrict || subdistrict;
+
+  const boundaryStyle = (feature) => {
+    const active = feature.properties.name === highlightName;
+    return {
+      color: active ? "#ea580c" : "#1d4ed8",
+      weight: active ? 4 : 1.5,
+      fillColor: active ? "#f59e0b" : "#93c5fd",
+      fillOpacity: active ? 0.4 : 0.1,
+    };
+  };
+
+  const onEachBoundary = (feature, layer) => {
+    layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+    layer.on({ click: () => loadSubdistrict(feature.properties.name) });
+  };
+
 
   return (
     <div className="app-shell">
@@ -276,55 +348,59 @@ function App() {
 
           <select
             value={subdistrict}
-            onChange={(e) => {
-              // when a subdistrict is selected, load its demo coordinates (if available)
-              const name = e.target.value;
-              setSelectedArea("");
-              loadSubdistrict(name);
-            }}
+            onChange={(e) => loadSubdistrict(e.target.value)}
           >
             <option value="">Select Subdistrict</option>
 
-            {groupedData.map((item) => (
-              <option
-                key={item.sub_district_name}
-                value={item.sub_district_name}
-              >
-                {item.sub_district_name}
+            {(districtData.records || []).map((item) => (
+              <option key={item.subdistrict} value={item.subdistrict}>
+                {item.subdistrict}
               </option>
             ))}
           </select>
 
-          <h3>4. Area</h3>
-
-          <label className="field-label">Select Area</label>
-
-          <select
-            value={area}
-            disabled={!subdistrict || locating}
-            onChange={(e) => handleAreaSelect(e.target.value)}
-          >
-            <option value="">Select Area</option>
-
-            {groupedData
-              .find((item) => item.sub_district_name === subdistrict)
-              ?.areas.map((item) => (
-                <option key={item.mdds_plcn} value={item.area_name}>
-                  {item.area_name}
-                </option>
-              ))}
-          </select>
+          {districtData.error && (
+            <div className="error-note">
+              <span>{ICONS.info}</span>
+              <div>
+                Could not load subdistricts from the backend ({districtData.error}).
+              </div>
+            </div>
+          )}
 
           <div className="details-card">
-            <h4>Selected Area Details</h4>
+            <h4>Selected Subdistrict Details</h4>
             <Detail icon="◉" label="District" value={district} />
             <Detail icon="⌖" label="Subdistrict" value={subdistrict} />
+            <Detail
+              icon="▣"
+              label="Area (Shapefile)"
+              value={selectedRecord ? `${selectedRecord.area_km2} km²` : "—"}
+            />
             <Detail
               icon="⌾"
               label="Coordinates"
               value={`${Number(lat).toFixed(4)}, ${Number(lng).toFixed(4)}`}
             />
           </div>
+
+          <button
+            className="btn-primary"
+            onClick={getRecommendation}
+            disabled={analysisLoading}
+          >
+            {analysisLoading ? (
+              <>
+                <span className="spinner" />
+                <span>Analyzing...</span>
+              </>
+            ) : (
+              <>
+                <span>{ICONS.chart}</span>
+                <span>Get Recommendation</span>
+              </>
+            )}
+          </button>
         </section>
 
         
@@ -367,18 +443,29 @@ function App() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               />
 
+              {subdistrictGeo && (
+                <GeoJSON
+                  key={highlightName || "all"}
+                  data={subdistrictGeo}
+                  style={boundaryStyle}
+                  onEachFeature={onEachBoundary}
+                />
+              )}
+
               <Marker
                 key={`marker-${lat}-${lng}`}
                 position={[Number(lat), Number(lng)]}
+                icon={appMarkerIcon}
               >
                 <Popup>
-                  {area || subdistrict || "Selected location"}
+                  {subdistrict || "Selected location"}
                   <br />
                   {Number(lat).toFixed(4)}, {Number(lng).toFixed(4)}
                 </Popup>
               </Marker>
 
               <Recenter lat={Number(lat)} lng={Number(lng)} />
+              <FitToGeoJSON geo={subdistrictGeo} name={highlightName} />
             </MapContainer>
 
             <div className="map-credit">
@@ -389,7 +476,7 @@ function App() {
             <Stat
               icon="⌖"
               label="Area (Approx.)"
-              value={`${result.area} km²`}
+              value={`${recommendation?.area_km2 || selectedRecord?.area_km2 || "—"} km²`}
               tone="purple"
             />
             <Stat
@@ -410,38 +497,79 @@ function App() {
         
         <section className="panel result-panel">
           <PanelTitle icon={ICONS.chart} title="Recommendation Result" />
-          <div className="recommend-card">
-            <div className="recommend-icon">≋</div>
-            <div>
-              <p>Recommended Water Structure</p>
-              <h2>{result.structure}</h2>
-              <div className="thin-line" />
-              <p className="score-label">Suitability Score</p>
-              <strong>{result.score}%</strong>
-              <div className="progress">
-                <span style={{ width: `${result.score}%` }} />
-              </div>
-              <p className="high">{scoreLabel}</p>
+
+          {analysisError && (
+            <div className="error-note">
+              <span>{ICONS.info}</span>
+              <div>{analysisError}</div>
             </div>
-          </div>
-          <h3 className="why-title">Why this structure?</h3>
-          <ul className="reasons">
-            {result.reasons.map((reason) => (
-              <li key={reason}>
-                <span>{ICONS.check}</span>
-                {reason}
-              </li>
-            ))}
-          </ul>
-          <div className="alternatives">
-            <h3>Other Suitable Options</h3>
-            {result.alternatives.map(([name, score]) => (
-              <div className="alt-row" key={name}>
-                <span>{name}</span>
-                <b className={score >= 70 ? "good" : "warn"}>{score}%</b>
+          )}
+
+          {analysisLoading ? (
+            <div className="loading-note">
+              Analyzing the selected location...
+            </div>
+          ) : recommendation ? (
+            <>
+              <div className="recommend-card">
+                <div className="recommend-icon">≋</div>
+                <div>
+                  <p>Recommended Water Structure</p>
+                  <h2>{recommendation.recommendation}</h2>
+                  {recommendation.message && (
+                    <p className="api-message">
+                      {recommendation.message}
+                    </p>
+                  )}
+                  {typeof recommendation.score === "number" && (
+                    <>
+                      <div className="thin-line" />
+                      <p className="score-label">Suitability Score</p>
+                      <strong>{recommendation.score}%</strong>
+                      <div className="progress">
+                        <span style={{ width: `${recommendation.score}%` }} />
+                      </div>
+                      <p className="high">{scoreLabel}</p>
+                    </>
+                  )}
+                </div>
               </div>
-            ))}
-          </div>
+
+              {recommendation.reasons?.length > 0 && (
+                <>
+                  <h3 className="why-title">Why this structure?</h3>
+                  <ul className="reasons">
+                    {recommendation.reasons.map((reason) => (
+                      <li key={reason}>
+                        <span>{ICONS.check}</span>
+                        {reason}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {recommendation.alternatives?.length > 0 && (
+                <div className="alternatives">
+                  <h3>Other Suitable Options</h3>
+                  {recommendation.alternatives.map((alt) => (
+                    <div className="alt-row" key={alt.name}>
+                      <span>{alt.name}</span>
+                      <b className={alt.score >= 70 ? "good" : "warn"}>
+                        {alt.score}%
+                      </b>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="empty-note">
+              Select a location and click “Get Recommendation” to see the
+              suggested water structure.
+            </div>
+          )}
+
           <div className="info-note">
             <span>{ICONS.info}</span>Recommendation is based on GIS analysis,
             environmental factors, and suitability criteria.

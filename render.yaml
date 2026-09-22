@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bhilwara-water-structure-website
+    env: static
+    staticPublishPath: dist
+    buildCommand: npm ci && npm run build
+    envVars:
+      # URL of the deployed backend, e.g. https://bhilwara-water-structure-api.onrender.com
+      - key: VITE_API_BASE_URL
+        sync: false
