@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo, useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -15,17 +15,140 @@ const appMarkerIcon = L.divIcon({
   html: '<div class="app-marker"></div>',
 });
 
+// Pans to the location only when it is off screen, so picking a point on the
+// map does not move the map under the cursor.
 function Recenter({ lat, lng }) {
   const map = useMap();
   useEffect(() => {
     const nLat = Number(lat);
     const nLng = Number(lng);
-    if (!isNaN(nLat) && !isNaN(nLng)) {
+    if (!isNaN(nLat) && !isNaN(nLng) && !map.getBounds().contains([nLat, nLng])) {
       map.setView([nLat, nLng], map.getZoom());
     }
   }, [lat, lng, map]);
   return null;
 }
+
+// How long a touch must be held on the map to pick a location.
+const LONG_PRESS_MS = 1000;
+// Finger movement (px) that turns a hold into a pan and cancels it.
+const LONG_PRESS_MOVE_TOLERANCE = 10;
+// Clicks this soon after a touch are the browser's synthetic tap clicks.
+const TOUCH_CLICK_WINDOW_MS = 1500;
+
+// Picks a location from the map: a mouse click on desktop, a long press on
+// touch screens (a plain tap does nothing, so panning and tapping popups
+// never move the location by accident).
+function MapLocationPicker({ onPick }) {
+  const map = useMap();
+  const onPickRef = useRef(onPick);
+
+  useEffect(() => {
+    onPickRef.current = onPick;
+  });
+
+  useEffect(() => {
+    const container = map.getContainer();
+    let timer = null;
+    let start = null;
+    let lastTouchAt = 0;
+    let swallowClickUntil = 0;
+
+    const cancel = () => {
+      clearTimeout(timer);
+      timer = null;
+    };
+
+    const onTouchStart = (e) => {
+      lastTouchAt = Date.now();
+      cancel();
+      if (e.touches.length !== 1) return; // pinch zoom
+      const touch = e.touches[0];
+      start = { clientX: touch.clientX, clientY: touch.clientY };
+      timer = setTimeout(() => {
+        timer = null;
+        swallowClickUntil = Date.now() + TOUCH_CLICK_WINDOW_MS;
+        onPickRef.current(map.mouseEventToLatLng(start));
+      }, LONG_PRESS_MS);
+    };
+
+    const onTouchMove = (e) => {
+      if (!timer) return;
+      const touch = e.touches[0];
+      const moved = Math.hypot(touch.clientX - start.clientX, touch.clientY - start.clientY);
+      if (e.touches.length !== 1 || moved > LONG_PRESS_MOVE_TOLERANCE) cancel();
+    };
+
+    const onTouchEnd = () => {
+      lastTouchAt = Date.now();
+      cancel();
+    };
+
+    const onClick = (e) => {
+      if (Date.now() - lastTouchAt < TOUCH_CLICK_WINDOW_MS) return;
+      onPickRef.current(e.latlng);
+    };
+
+    // The marker moves under the finger on a long press, so the tap click sent
+    // when the finger lifts would open its popup; drop that one click.
+    const onClickCapture = (e) => {
+      if (Date.now() < swallowClickUntil) {
+        swallowClickUntil = 0;
+        e.stopPropagation();
+        e.preventDefault();
+      }
+    };
+
+    // A contextmenu listener makes Leaflet suppress the browser's long-press menu.
+    const onContextMenu = () => {};
+
+    container.addEventListener("touchstart", onTouchStart, { passive: true });
+    container.addEventListener("touchmove", onTouchMove, { passive: true });
+    container.addEventListener("touchend", onTouchEnd);
+    container.addEventListener("touchcancel", onTouchEnd);
+    container.addEventListener("click", onClickCapture, true);
+    map.on("click", onClick);
+    map.on("contextmenu", onContextMenu);
+    return () => {
+      cancel();
+      container.removeEventListener("touchstart", onTouchStart);
+      container.removeEventListener("touchmove", onTouchMove);
+      container.removeEventListener("touchend", onTouchEnd);
+      container.removeEventListener("touchcancel", onTouchEnd);
+      container.removeEventListener("click", onClickCapture, true);
+      map.off("click", onClick);
+      map.off("contextmenu", onContextMenu);
+    };
+  }, [map]);
+
+  return null;
+}
+
+// Ray-casting test of a [lng, lat] point against one GeoJSON linear ring.
+const pointInRing = ([x, y], ring) => {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) {
+      inside = !inside;
+    }
+  }
+  return inside;
+};
+
+// Inside the outer ring and outside every hole.
+const pointInPolygon = (point, rings) =>
+  pointInRing(point, rings[0]) && !rings.slice(1).some((hole) => pointInRing(point, hole));
+
+const subdistrictAt = (geo, lat, lng) => {
+  const feature = geo?.features?.find(({ geometry }) =>
+    geometry.type === "Polygon"
+      ? pointInPolygon([lng, lat], geometry.coordinates)
+      : geometry.coordinates.some((rings) => pointInPolygon([lng, lat], rings)),
+  );
+  return feature ? feature.properties.name : "";
+};
 
 function FitToGeoJSON({ geo, name }) {
   const map = useMap();
@@ -41,6 +164,7 @@ function FitToGeoJSON({ geo, name }) {
   }, [geo, name, map]);
   return null;
 }
+
 
 const DATA = {
   Bhilwara: {
@@ -132,20 +256,25 @@ function App() {
   const [analysisLoading, setAnalysisLoading] = useState(false);
   const [analysisError, setAnalysisError] = useState("");
   const [subdistrictGeo, setSubdistrictGeo] = useState(null);
+  // Subdistrict the map zooms to; only set from the dropdown, so picking a
+  // point on the map never zooms the map out.
+  const [fitName, setFitName] = useState("");
 
-  // fetch the subdistrict boundary GeoJSON from the backend once
+  // fetch the subdistrict boundary GeoJSON from the backend once.
+  // Water bodies are not drawn; the backend detects them for a location.
   useEffect(() => {
     let cancelled = false;
-    (async () => {
+    const load = async (path, setter, label) => {
       try {
-        const resp = await fetch(`${API_BASE_URL}/api/subdistricts`);
+        const resp = await fetch(`${API_BASE_URL}${path}`);
         if (!resp.ok) throw new Error(`Server returned ${resp.status}`);
         const data = await resp.json();
-        if (!cancelled) setSubdistrictGeo(data);
+        if (!cancelled) setter(data);
       } catch (err) {
-        console.error("Failed to load subdistrict boundaries", err);
+        console.error(`Failed to load ${label}`, err);
       }
-    })();
+    };
+    load("/api/subdistricts", setSubdistrictGeo, "subdistrict boundaries");
     return () => {
       cancelled = true;
     };
@@ -183,6 +312,7 @@ function App() {
 
   const loadSubdistrict = (name) => {
     setSubdistrict(name);
+    setFitName(name);
     const record = (districtData.records || []).find((r) => r.subdistrict === name);
     if (record) {
       setLat(String(record.latitude));
@@ -200,6 +330,22 @@ function App() {
     }
     setRecommendation(null);
     setAnalysisError("");
+  };
+
+  // A point picked on the map: set the coordinates and the subdistrict under it.
+  const pickLocation = (latlng) => {
+    const name = subdistrictAt(subdistrictGeo, latlng.lat, latlng.lng);
+    setLat(latlng.lat.toFixed(5));
+    setLng(latlng.lng.toFixed(5));
+    setSubdistrict(name);
+    setRecommendation(null);
+    setAnalysisError("");
+    showMessage(
+      name
+        ? `Location set in ${name}`
+        : "Location set outside the Bhilwara subdistricts",
+      2200,
+    );
   };
 
   const useCurrentLocation = () => {
@@ -220,6 +366,10 @@ function App() {
         ),
     );
   };
+
+  // Last structure shown, sent back so the (random, mock) recommendation
+  // shows a different name on every click.
+  const lastStructureRef = useRef(null);
 
   const getRecommendation = async () => {
     const latNum = Number(lat);
@@ -256,6 +406,7 @@ function App() {
           latitude: latNum,
           longitude: lngNum,
           subdistrict,
+          previous_recommendation: lastStructureRef.current,
         }),
       });
 
@@ -264,6 +415,7 @@ function App() {
       }
 
       const data = await resp.json();
+      if (!data.water_body) lastStructureRef.current = data.recommendation;
       setRecommendation(data);
       showMessage("Recommendation received from backend.", 2200);
     } catch (err) {
@@ -298,11 +450,6 @@ function App() {
       fillColor: active ? "#f59e0b" : "#93c5fd",
       fillOpacity: active ? 0.4 : 0.1,
     };
-  };
-
-  const onEachBoundary = (feature, layer) => {
-    layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
-    layer.on({ click: () => loadSubdistrict(feature.properties.name) });
   };
 
 
@@ -448,7 +595,7 @@ function App() {
                   key={highlightName || "all"}
                   data={subdistrictGeo}
                   style={boundaryStyle}
-                  onEachFeature={onEachBoundary}
+                  interactive={false}
                 />
               )}
 
@@ -465,7 +612,8 @@ function App() {
               </Marker>
 
               <Recenter lat={Number(lat)} lng={Number(lng)} />
-              <FitToGeoJSON geo={subdistrictGeo} name={highlightName} />
+              <FitToGeoJSON geo={subdistrictGeo} name={fitName} />
+              <MapLocationPicker onPick={pickLocation} />
             </MapContainer>
 
             <div className="map-credit">
@@ -509,6 +657,8 @@ function App() {
             <div className="loading-note">
               Analyzing the selected location...
             </div>
+          ) : recommendation?.water_body ? (
+            <WaterBodyDetails body={recommendation.water_body} />
           ) : recommendation ? (
             <>
               <div className="recommend-card">
@@ -566,7 +716,8 @@ function App() {
           ) : (
             <div className="empty-note">
               Select a location and click “Get Recommendation” to see the
-              suggested water structure.
+              suggested water structure, or the details of an existing water
+              body at that location.
             </div>
           )}
 
@@ -578,6 +729,60 @@ function App() {
       </main>
       {message && <div className="toast">{message}</div>}
     </div>
+  );
+}
+
+// Details of the existing water body at the selected location. Its data comes
+// from the structure point on it, or the nearest one when none lies on it.
+function WaterBodyDetails({ body }) {
+  const rows = [
+    ["Work name", body.work_name],
+    ["Village", body.village],
+    ["Gram Panchayat", body.gram_panchayat],
+    ["Panchayat", body.panchayat],
+    ["Ar", body.ar],
+    ["Length", body.length],
+    ["Depth", body.depth],
+    ["Structure Sr. no", body.sr_no],
+  ];
+  const source =
+    body.match_type === "inside"
+      ? `From the structure point on this water body (${body.points_on_body} point${body.points_on_body > 1 ? "s" : ""} on it).`
+      : `No structure point lies on this water body; showing the nearest one, ${Math.round(body.point_distance_m)} m away.`;
+
+  return (
+    <>
+      <div className="recommend-card">
+        <div className="recommend-icon">≋</div>
+        <div>
+          <p>Existing Water Body</p>
+          <h2>{body.activity || "Water body"}</h2>
+          <p className="api-message">
+            This location is on an existing water body, so no new structure is
+            recommended here.
+          </p>
+          <div className="thin-line" />
+          <p className="score-label">Water Body Area</p>
+          <strong>{(body.area_m2 / 10000).toFixed(2)} ha</strong>
+          <p>{Math.round(body.area_m2).toLocaleString("en-IN")} m²</p>
+        </div>
+      </div>
+
+      <div className="alternatives">
+        <h3>Water Body Details</h3>
+        {rows.map(([label, value]) => (
+          <div className="alt-row" key={label}>
+            <span>{label}</span>
+            <span>{value ?? "Not recorded"}</span>
+          </div>
+        ))}
+      </div>
+
+      <div className="info-note">
+        <span>{ICONS.info}</span>
+        {source}
+      </div>
+    </>
   );
 }
 

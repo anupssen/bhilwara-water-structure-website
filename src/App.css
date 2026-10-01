@@ -365,7 +365,10 @@ body {
   background: #9bc6df;
   transform: rotate(12deg);
   opacity: .8;
-  box-shadow: 0 32px 0 #a5cde4
+  box-shadow: 0 32px 0 #a5cde4;
+  /* Hidden under the map tiles but still on top for hit-testing: without
+     this it swallows clicks and drags along a diagonal band of the map. */
+  pointer-events: none
 }
 
 .map-toggle {
@@ -537,7 +540,10 @@ body {
   background: #fffdf5cc;
   font-size: 11px;
   color: #5c6370;
-  z-index: 5
+  z-index: 5;
+  /* Sits below the Leaflet tile pane (z-index 200), so it is not visible, but
+     it would still swallow clicks and drags along the bottom of the map. */
+  pointer-events: none
 }
 
 .app-marker {
@@ -549,6 +555,18 @@ body {
   box-shadow: 0 2px 8px rgba(7, 27, 64, 0.45);
   box-sizing: border-box;
   pointer-events: none
+}
+
+/* Long-press picks a location on touch screens: no callout or text selection. */
+.map .leaflet-container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+
+.map .leaflet-popup-content {
+  -webkit-user-select: text;
+  user-select: text
 }
 
 .map-stats {
