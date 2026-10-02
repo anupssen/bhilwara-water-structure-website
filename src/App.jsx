@@ -15,8 +15,8 @@ const appMarkerIcon = L.divIcon({
   html: '<div class="app-marker"></div>',
 });
 
-// Pans to the location only when it is off screen, so picking a point on the
-// map does not move the map under the cursor.
+// Pans to the location only when it is off screen (e.g. typed coordinates);
+// points picked on the map are handled by ZoomToPoint.
 function Recenter({ lat, lng }) {
   const map = useMap();
   useEffect(() => {
@@ -150,18 +150,33 @@ const subdistrictAt = (geo, lat, lng) => {
   return feature ? feature.properties.name : "";
 };
 
-function FitToGeoJSON({ geo, name }) {
+// Zooms to target.name whenever a new target object is set, so the same
+// subdistrict can be zoomed to again.
+function FitToGeoJSON({ geo, target }) {
   const map = useMap();
   useEffect(() => {
-    if (!geo || !name) return;
-    const feature = geo.features?.find((f) => f.properties.name === name);
+    if (!geo || !target?.name) return;
+    const feature = geo.features?.find((f) => f.properties.name === target.name);
     if (!feature) return;
     const layer = L.geoJSON(feature);
     const bounds = layer.getBounds();
     if (bounds.isValid()) {
       map.fitBounds(bounds, { padding: [28, 28] });
     }
-  }, [geo, name, map]);
+  }, [geo, target, map]);
+  return null;
+}
+
+// Zoom used when a location is picked on the map (about 1:8,000 here; the
+// tile layer goes up to 18, about 1:2,000).
+const PICK_ZOOM = 16;
+
+// Centres on target and zooms in close whenever a new target object is set.
+function ZoomToPoint({ target }) {
+  const map = useMap();
+  useEffect(() => {
+    if (target) map.setView([target.lat, target.lng], PICK_ZOOM);
+  }, [target, map]);
   return null;
 }
 
@@ -256,9 +271,10 @@ function App() {
   const [analysisLoading, setAnalysisLoading] = useState(false);
   const [analysisError, setAnalysisError] = useState("");
   const [subdistrictGeo, setSubdistrictGeo] = useState(null);
-  // Subdistrict the map zooms to; only set from the dropdown, so picking a
-  // point on the map never zooms the map out.
-  const [fitName, setFitName] = useState("");
+  // Subdistrict the map fits to; set from the dropdown.
+  const [fitTarget, setFitTarget] = useState(null);
+  // Point the map zooms in to; set when a location is picked on the map.
+  const [zoomTarget, setZoomTarget] = useState(null);
 
   // fetch the subdistrict boundary GeoJSON from the backend once.
   // Water bodies are not drawn; the backend detects them for a location.
@@ -312,7 +328,7 @@ function App() {
 
   const loadSubdistrict = (name) => {
     setSubdistrict(name);
-    setFitName(name);
+    setFitTarget({ name });
     const record = (districtData.records || []).find((r) => r.subdistrict === name);
     if (record) {
       setLat(String(record.latitude));
@@ -337,6 +353,7 @@ function App() {
     const name = subdistrictAt(subdistrictGeo, latlng.lat, latlng.lng);
     setLat(latlng.lat.toFixed(5));
     setLng(latlng.lng.toFixed(5));
+    setZoomTarget({ lat: latlng.lat, lng: latlng.lng });
     setSubdistrict(name);
     setRecommendation(null);
     setAnalysisError("");
@@ -421,7 +438,7 @@ function App() {
     } catch (err) {
       console.error("Recommendation API error", err);
       const msg =
-        "Could not reach the backend. Make sure it is running on http://localhost:8000.";
+        `Could not reach the backend at ${API_BASE_URL}. If it was idle it may be starting up; try again in a minute.`;
       setAnalysisError(msg);
       showMessage(msg, 4000);
     } finally {
@@ -437,21 +454,14 @@ function App() {
           ? "Moderate Suitability"
           : "Low Suitability"
       : "";
-  
-  // boundary highlighting: detected subdistrict (from the backend) wins,
-  // otherwise the one selected in the dropdown
-  const highlightName = recommendation?.subdistrict || subdistrict;
 
-  const boundaryStyle = (feature) => {
-    const active = feature.properties.name === highlightName;
-    return {
-      color: active ? "#ea580c" : "#1d4ed8",
-      weight: active ? 4 : 1.5,
-      fillColor: active ? "#f59e0b" : "#93c5fd",
-      fillOpacity: active ? 0.4 : 0.1,
-    };
+  // Every subdistrict boundary looks the same; the selected one is not highlighted.
+  const boundaryStyle = {
+    color: "#1d4ed8",
+    weight: 1.5,
+    fillColor: "#93c5fd",
+    fillOpacity: 0.1,
   };
-
 
   return (
     <div className="app-shell">
@@ -592,7 +602,6 @@ function App() {
 
               {subdistrictGeo && (
                 <GeoJSON
-                  key={highlightName || "all"}
                   data={subdistrictGeo}
                   style={boundaryStyle}
                   interactive={false}
@@ -612,7 +621,8 @@ function App() {
               </Marker>
 
               <Recenter lat={Number(lat)} lng={Number(lng)} />
-              <FitToGeoJSON geo={subdistrictGeo} name={fitName} />
+              <FitToGeoJSON geo={subdistrictGeo} target={fitTarget} />
+              <ZoomToPoint target={zoomTarget} />
               <MapLocationPicker onPick={pickLocation} />
             </MapContainer>
 
