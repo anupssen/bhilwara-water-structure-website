@@ -1,0 +1,5 @@
+# Built on Vercel from source; the local .env points at localhost and the
+# production API URL comes from the project's VITE_API_BASE_URL variable.
+node_modules/
+dist/
+.env
