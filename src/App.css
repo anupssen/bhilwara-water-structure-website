@@ -574,8 +574,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 22px 12px 0;
   border: 1px solid #e5e9ee;
-  border-radius: 8px;
-  overflow: hidden
+  border-radius: 8px
 }
 
 .stat {
@@ -998,5 +997,53 @@ footer {
     gap: 10px;
     align-items: flex-start;
     flex-direction: column
+  }
+}
+/* Hover zoom: buttons, form fields and text blocks grow slightly under the
+   mouse. Mouse devices only (no effect on touch screens) and skipped when
+   the user prefers reduced motion. Applied to leaf elements only, so nothing
+   zooms twice. The map itself is left out; it has its own zoom. */
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .btn-primary,
+  .outline-green,
+  .map-toggle button,
+  .map-control,
+  select,
+  .input-wrap,
+  .detail,
+  .stat,
+  .recommend-card,
+  .alt-row,
+  .reasons li,
+  .info-note,
+  .error-note,
+  .empty-note,
+  .about-card,
+  .impact-item {
+    transition: transform 0.18s ease
+  }
+
+  .btn-primary:not(:disabled):hover,
+  .outline-green:hover,
+  .map-toggle button:hover,
+  .map-control:hover,
+  select:hover,
+  .input-wrap:hover,
+  .detail:hover,
+  .stat:hover,
+  .recommend-card:hover,
+  .alt-row:hover,
+  .reasons li:hover,
+  .info-note:hover,
+  .error-note:hover,
+  .empty-note:hover,
+  .about-card:hover,
+  .impact-item:hover {
+    transform: scale(1.06)
+  }
+
+  /* Keeps the existing lift on the header buttons. */
+  .nav-btn:hover {
+    transform: translateY(-1px) scale(1.06)
   }
 }
